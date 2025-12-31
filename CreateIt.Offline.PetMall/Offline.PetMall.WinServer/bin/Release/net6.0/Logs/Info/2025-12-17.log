@@ -1,0 +1,75 @@
+2025-12-17 15:58:26,675：SpiderPolingWorker starting at: 12/17/2025 15:58:26 +08:00
+2025-12-17 15:58:26,742：SpiderPolingWorker execute at: 12/17/2025 15:58:26 +08:00
+2025-12-17 15:58:43,761：Application started. Press Ctrl+C to shut down.
+2025-12-17 15:58:43,764：Hosting environment: Production
+2025-12-17 15:58:43,768：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-12-17 15:58:46,085：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 15:58:46,094：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 15:59:56,970：SpiderPolingWorker starting at: 12/17/2025 15:59:56 +08:00
+2025-12-17 15:59:57,040：SpiderPolingWorker execute at: 12/17/2025 15:59:57 +08:00
+2025-12-17 15:59:59,756：Application started. Press Ctrl+C to shut down.
+2025-12-17 15:59:59,760：Hosting environment: Production
+2025-12-17 15:59:59,764：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-12-17 16:00:02,046：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 16:00:02,054：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 16:00:36,002：SpiderPolingWorker starting at: 12/17/2025 16:00:35 +08:00
+2025-12-17 16:00:36,065：SpiderPolingWorker execute at: 12/17/2025 16:00:36 +08:00
+2025-12-17 16:00:41,904：Application started. Press Ctrl+C to shut down.
+2025-12-17 16:00:41,907：Hosting environment: Production
+2025-12-17 16:00:41,921：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-12-17 16:00:44,197：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 16:00:44,206：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 16:01:26,886：SpiderPolingWorker starting at: 12/17/2025 16:01:26 +08:00
+2025-12-17 16:01:26,947：SpiderPolingWorker execute at: 12/17/2025 16:01:26 +08:00
+2025-12-17 16:01:36,268：Application started. Press Ctrl+C to shut down.
+2025-12-17 16:01:36,282：Hosting environment: Production
+2025-12-17 16:01:36,285：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-12-17 16:01:38,398：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 16:01:38,408：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 16:05:57,748：SpiderPolingWorker starting at: 12/17/2025 16:05:57 +08:00
+2025-12-17 16:05:57,810：SpiderPolingWorker execute at: 12/17/2025 16:05:57 +08:00
+2025-12-17 16:06:03,905：Application started. Press Ctrl+C to shut down.
+2025-12-17 16:06:03,908：Hosting environment: Production
+2025-12-17 16:06:03,910：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-12-17 16:06:06,201：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 16:06:06,220：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 16:06:35,432：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 16:06:35,435：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 16:06:53,412：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=52156&feed_id=19&olanguage_id=8
+2025-12-17 16:06:53,420：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=52156&feed_id=19&olanguage_id=8
+2025-12-17 16:06:59,433：Received HTTP response headers after 6004.3948ms - 200
+2025-12-17 16:06:59,438：End processing HTTP request after 6033.3818ms - 200
+2025-12-17 16:07:11,949：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=32276090&feed_id=19&olanguage_id=8
+2025-12-17 16:07:11,960：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=32276090&feed_id=19&olanguage_id=8
+2025-12-17 16:07:14,125：Received HTTP response headers after 2159.7992ms - 200
+2025-12-17 16:07:14,129：End processing HTTP request after 2183.6781ms - 200
+2025-12-17 16:07:20,681：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=7312&feed_id=19&olanguage_id=8
+2025-12-17 16:07:20,686：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=7312&feed_id=19&olanguage_id=8
+2025-12-17 16:07:21,414：Received HTTP response headers after 723.809ms - 200
+2025-12-17 16:07:21,417：End processing HTTP request after 737.1649ms - 200
+2025-12-17 16:07:47,015：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 16:07:47,019：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 16:07:47,035：Start processing HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:07:47,046：Sending HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:07:50,955：Start processing HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:07:50,958：Sending HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:07:54,855：Start processing HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:07:54,858：Sending HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:07:58,756：Start processing HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:07:58,761：Sending HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:08:09,238：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 16:08:09,241：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 16:08:09,245：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=2430159&feed_id=19&olanguage_id=8
+2025-12-17 16:08:09,250：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=2430159&feed_id=19&olanguage_id=8
+2025-12-17 16:08:10,297：Received HTTP response headers after 1043.5168ms - 200
+2025-12-17 16:08:10,300：End processing HTTP request after 1055.6252ms - 200
+2025-12-17 16:08:17,502：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-12-17 16:08:17,505：切换代理节点-->新代理节点为空-->切换失败
+2025-12-17 16:08:17,509：Start processing HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:08:17,513：Sending HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:08:21,399：Start processing HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:08:21,403：Sending HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:08:25,301：Start processing HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:08:25,304：Sending HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:08:29,204：Start processing HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking
+2025-12-17 16:08:29,208：Sending HTTP request POST http://223.6.253.57:9300/agoda/hotel/booking

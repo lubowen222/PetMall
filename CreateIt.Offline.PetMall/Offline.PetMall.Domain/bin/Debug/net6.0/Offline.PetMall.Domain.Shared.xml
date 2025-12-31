@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Offline.PetMall.Domain.Shared</name>
+    </assembly>
+    <members>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductEntity.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductEntity.ProductId">
+            <summary>
+            商品Id
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductEntity.ProductName">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductSkuEntity.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductSkuEntity.Pid">
+            <summary>
+            商品主表ID
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductSkuEntity.SkuCode">
+            <summary>
+            规格编码
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductSkuEntity.OriginSkuName">
+            <summary>
+            原始规格名称
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductSkuEntity.SkuName">
+            <summary>
+            规格名称
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.DataProductSkuEntity.StockNum">
+            <summary>
+            库存数量
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductEntity.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductEntity.JDName">
+            <summary>
+            京东商品名称
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductEntity.JDUrl">
+            <summary>
+            京东商品链接
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductEntity.ModifiedTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Offline.PetMall.Domain.Shared.Entities.JDProductImgEntity">
+            <summary>
+            京东商品图片实体
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductImgEntity.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductImgEntity.JDId">
+            <summary>
+            京东商品Id
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductImgEntity.ImgType">
+            <summary>
+            图片类型
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductImgEntity.ImgUrl">
+            <summary>
+            图片Url
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductImgEntity.SavePath">
+            <summary>
+            保存路径
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductImgEntity.CreatTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.PetMall.Domain.Shared.Entities.JDProductSkuEntity">
+            <summary>
+            京东商品规格实体
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductSkuEntity.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductSkuEntity.JDId">
+            <summary>
+            京东商品Id
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductSkuEntity.SkuName">
+            <summary>
+            规格名称
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Domain.Shared.Entities.JDProductSkuEntity.SalePrice">
+            <summary>
+            销售价格
+            </summary>
+        </member>
+    </members>
+</doc>

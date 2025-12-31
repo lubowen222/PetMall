@@ -1,0 +1,24 @@
+2025-11-18 10:29:31,669：SpiderPolingWorker starting at: 11/18/2025 10:29:31 +08:00
+2025-11-18 10:29:31,746：SpiderPolingWorker execute at: 11/18/2025 10:29:31 +08:00
+2025-11-18 10:29:37,240：Application started. Press Ctrl+C to shut down.
+2025-11-18 10:29:37,244：Hosting environment: Production
+2025-11-18 10:29:37,246：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-11-18 10:29:39,576：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-18 10:29:39,584：切换代理节点-->新代理节点为空-->切换失败
+2025-11-18 11:58:30,975：SpiderPolingWorker starting at: 11/18/2025 11:58:30 +08:00
+2025-11-18 11:58:31,040：SpiderPolingWorker execute at: 11/18/2025 11:58:31 +08:00
+2025-11-18 11:58:34,671：Application started. Press Ctrl+C to shut down.
+2025-11-18 11:58:34,673：Hosting environment: Production
+2025-11-18 11:58:34,676：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-11-18 11:58:37,017：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-18 11:58:37,027：切换代理节点-->新代理节点为空-->切换失败
+2025-11-18 11:59:55,093：未获取到刷价数据
+2025-11-18 12:00:00,404：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-18 12:00:07,205：切换代理节点-->新代理节点为空-->切换失败
+2025-11-18 12:02:17,409：SpiderPolingWorker starting at: 11/18/2025 12:02:17 +08:00
+2025-11-18 12:02:17,474：SpiderPolingWorker execute at: 11/18/2025 12:02:17 +08:00
+2025-11-18 12:02:20,882：Application started. Press Ctrl+C to shut down.
+2025-11-18 12:02:20,895：Hosting environment: Production
+2025-11-18 12:02:20,898：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-11-18 12:02:23,215：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-18 12:02:23,223：切换代理节点-->新代理节点为空-->切换失败

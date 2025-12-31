@@ -1,0 +1,907 @@
+2025-05-12 09:58:31,414：SpiderPolingWorker starting at: 05/12/2025 09:58:31 +08:00
+2025-05-12 09:58:31,467：SpiderPolingWorker execute at: 05/12/2025 09:58:31 +08:00
+2025-05-12 09:58:31,869：Application started. Press Ctrl+C to shut down.
+2025-05-12 09:58:31,871：Hosting environment: Production
+2025-05-12 09:58:31,874：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 09:58:45,304：达到次数:13,切换代理节点
+2025-05-12 10:02:03,731：SpiderPolingWorker starting at: 05/12/2025 10:02:03 +08:00
+2025-05-12 10:02:03,781：SpiderPolingWorker execute at: 05/12/2025 10:02:03 +08:00
+2025-05-12 10:02:04,210：Application started. Press Ctrl+C to shut down.
+2025-05-12 10:02:04,212：Hosting environment: Production
+2025-05-12 10:02:04,215：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 10:02:29,985：达到次数:18,切换代理节点
+2025-05-12 10:02:30,013：达到次数:10,切换代理节点
+2025-05-12 10:02:30,014：达到次数:15,切换代理节点
+2025-05-12 10:02:47,867：SpiderHotelCheckPrice Task execution completed
+2025-05-12 10:03:16,817：达到次数:13,切换代理节点
+2025-05-12 10:03:35,260：SpiderPolingHotelPrice Task execution completed
+2025-05-12 10:04:21,547：达到次数:14,切换代理节点
+2025-05-12 10:04:56,961：SpiderPolingHotelPrice Task execution completed
+2025-05-12 10:05:27,487：达到次数:18,切换代理节点
+2025-05-12 10:06:45,111：达到次数:14,切换代理节点
+2025-05-12 10:07:54,675：达到次数:14,切换代理节点
+2025-05-12 10:08:56,419：SpiderPolingHotelPrice Task execution completed
+2025-05-12 10:09:28,139：达到次数:17,切换代理节点
+2025-05-12 10:11:46,160：达到次数:11,切换代理节点
+2025-05-12 10:12:51,449：达到次数:18,切换代理节点
+2025-05-12 10:14:14,725：达到次数:15,切换代理节点
+2025-05-12 10:14:19,268：SpiderPolingHotelPrice Task execution completed
+2025-05-12 10:14:52,236：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 10:14:52,243：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 10:14:53,020：Received HTTP response headers after 768.3191ms - 200
+2025-05-12 10:14:53,024：End processing HTTP request after 795.3582ms - 200
+2025-05-12 10:15:11,192：达到次数:17,切换代理节点
+2025-05-12 10:16:21,236：达到次数:13,切换代理节点
+2025-05-12 10:17:04,614：达到次数:12,切换代理节点
+2025-05-12 10:17:54,661：达到次数:16,切换代理节点
+2025-05-12 10:18:55,161：达到次数:12,切换代理节点
+2025-05-12 10:19:19,750：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 10:19:19,754：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 10:19:20,812：Received HTTP response headers after 1054.5824ms - 200
+2025-05-12 10:19:20,815：End processing HTTP request after 1065.4417ms - 200
+2025-05-12 10:19:40,976：达到次数:16,切换代理节点
+2025-05-12 10:20:41,979：达到次数:17,切换代理节点
+2025-05-12 10:22:01,562：达到次数:11,切换代理节点
+2025-05-12 11:15:08,863：SpiderPolingWorker starting at: 05/12/2025 11:15:08 +08:00
+2025-05-12 11:15:08,910：SpiderPolingWorker execute at: 05/12/2025 11:15:08 +08:00
+2025-05-12 11:15:10,424：Application started. Press Ctrl+C to shut down.
+2025-05-12 11:15:10,426：Hosting environment: Production
+2025-05-12 11:15:10,428：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 11:15:28,453：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 11:15:28,468：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 11:15:29,684：Received HTTP response headers after 1207.7592ms - 200
+2025-05-12 11:15:29,688：End processing HTTP request after 1242.1223ms - 200
+2025-05-12 11:15:30,706：达到次数:14,切换代理节点
+2025-05-12 11:19:21,011：SpiderPolingWorker starting at: 05/12/2025 11:19:21 +08:00
+2025-05-12 11:19:21,055：SpiderPolingWorker execute at: 05/12/2025 11:19:21 +08:00
+2025-05-12 11:20:43,681：SpiderPolingWorker starting at: 05/12/2025 11:20:43 +08:00
+2025-05-12 11:20:43,726：SpiderPolingWorker execute at: 05/12/2025 11:20:43 +08:00
+2025-05-12 11:20:45,752：Application started. Press Ctrl+C to shut down.
+2025-05-12 11:20:45,754：Hosting environment: Production
+2025-05-12 11:20:45,756：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 11:21:29,532：SpiderHotelUrl Task execution completed
+2025-05-12 11:22:03,138：SpiderPolingWorker starting at: 05/12/2025 11:22:03 +08:00
+2025-05-12 11:22:03,179：SpiderPolingWorker execute at: 05/12/2025 11:22:03 +08:00
+2025-05-12 11:22:05,313：Application started. Press Ctrl+C to shut down.
+2025-05-12 11:22:05,326：Hosting environment: Production
+2025-05-12 11:22:05,328：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 11:22:36,202：SpiderPolingWorker starting at: 05/12/2025 11:22:36 +08:00
+2025-05-12 11:22:36,247：SpiderPolingWorker execute at: 05/12/2025 11:22:36 +08:00
+2025-05-12 11:22:39,586：Application started. Press Ctrl+C to shut down.
+2025-05-12 11:22:39,588：Hosting environment: Production
+2025-05-12 11:22:39,591：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 11:23:46,025：SpiderPolingWorker starting at: 05/12/2025 11:23:46 +08:00
+2025-05-12 11:23:46,070：SpiderPolingWorker execute at: 05/12/2025 11:23:46 +08:00
+2025-05-12 11:23:58,647：Application started. Press Ctrl+C to shut down.
+2025-05-12 11:23:58,649：Hosting environment: Production
+2025-05-12 11:23:58,652：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 11:24:58,178：SpiderPolingWorker starting at: 05/12/2025 11:24:58 +08:00
+2025-05-12 11:24:58,228：SpiderPolingWorker execute at: 05/12/2025 11:24:58 +08:00
+2025-05-12 11:25:10,231：Application started. Press Ctrl+C to shut down.
+2025-05-12 11:25:10,234：Hosting environment: Production
+2025-05-12 11:25:10,236：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 11:26:32,194：SpiderPolingWorker starting at: 05/12/2025 11:26:32 +08:00
+2025-05-12 11:26:32,239：SpiderPolingWorker execute at: 05/12/2025 11:26:32 +08:00
+2025-05-12 11:26:35,467：Application started. Press Ctrl+C to shut down.
+2025-05-12 11:26:35,470：Hosting environment: Production
+2025-05-12 11:26:35,473：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 11:27:24,494：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 11:27:24,509：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 11:27:25,020：Received HTTP response headers after 501.0697ms - 200
+2025-05-12 11:27:25,026：End processing HTTP request after 538.9254ms - 200
+2025-05-12 11:27:25,832：达到次数:13,切换代理节点
+2025-05-12 11:27:52,130：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 11:27:52,134：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 11:27:52,820：Received HTTP response headers after 682.5434ms - 200
+2025-05-12 11:27:52,823：End processing HTTP request after 693.0815ms - 200
+2025-05-12 11:28:06,784：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 11:28:06,789：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 11:28:07,070：Received HTTP response headers after 276.5254ms - 200
+2025-05-12 11:28:07,073：End processing HTTP request after 290.2134ms - 200
+2025-05-12 13:57:47,722：正在关闭残留的浏览器进程: msedgewebview2 (PID: 41656)
+2025-05-12 13:57:48,332：正在关闭残留的浏览器进程: msedgewebview2 (PID: 35240)
+2025-05-12 13:57:48,378：正在关闭残留的浏览器进程: msedgewebview2 (PID: 44824)
+2025-05-12 13:57:48,426：正在关闭残留的浏览器进程: msedgewebview2 (PID: 35892)
+2025-05-12 13:57:48,478：正在关闭残留的浏览器进程: msedgewebview2 (PID: 7904)
+2025-05-12 13:57:48,526：正在关闭残留的浏览器进程: msedgewebview2 (PID: 48348)
+2025-05-12 13:57:48,571：正在关闭残留的浏览器进程: msedgewebview2 (PID: 44796)
+2025-05-12 13:57:48,619：正在关闭残留的浏览器进程: msedgewebview2 (PID: 15624)
+2025-05-12 13:57:48,667：正在关闭残留的浏览器进程: msedgewebview2 (PID: 39464)
+2025-05-12 13:57:48,719：正在关闭残留的浏览器进程: msedge (PID: 31952)
+2025-05-12 13:57:49,042：正在关闭残留的浏览器进程: msedge (PID: 22032)
+2025-05-12 13:57:49,095：正在关闭残留的浏览器进程: msedge (PID: 36372)
+2025-05-12 13:57:49,146：正在关闭残留的浏览器进程: msedge (PID: 44568)
+2025-05-12 13:57:49,203：正在关闭残留的浏览器进程: msedge (PID: 48240)
+2025-05-12 13:57:49,250：正在关闭残留的浏览器进程: chrome (PID: 12136)
+2025-05-12 13:57:50,793：正在关闭残留的浏览器进程: chrome (PID: 15844)
+2025-05-12 13:57:50,839：正在关闭残留的浏览器进程: chrome (PID: 27156)
+2025-05-12 13:57:50,889：正在关闭残留的浏览器进程: chrome (PID: 17700)
+2025-05-12 13:57:50,935：正在关闭残留的浏览器进程: chrome (PID: 19720)
+2025-05-12 13:57:50,982：正在关闭残留的浏览器进程: chrome (PID: 9740)
+2025-05-12 13:57:51,026：正在关闭残留的浏览器进程: chrome (PID: 19448)
+2025-05-12 13:57:51,072：正在关闭残留的浏览器进程: chrome (PID: 30020)
+2025-05-12 13:57:51,119：正在关闭残留的浏览器进程: chrome (PID: 24732)
+2025-05-12 13:57:51,163：正在关闭残留的浏览器进程: chrome (PID: 6408)
+2025-05-12 13:57:51,210：正在关闭残留的浏览器进程: chrome (PID: 51780)
+2025-05-12 13:57:51,255：正在关闭残留的浏览器进程: chrome (PID: 28008)
+2025-05-12 13:57:51,303：正在关闭残留的浏览器进程: chrome (PID: 10616)
+2025-05-12 13:57:51,348：正在关闭残留的浏览器进程: chrome (PID: 39924)
+2025-05-12 13:57:51,394：正在关闭残留的浏览器进程: chrome (PID: 24860)
+2025-05-12 13:57:51,439：正在关闭残留的浏览器进程: chrome (PID: 45752)
+2025-05-12 13:57:51,485：正在关闭残留的浏览器进程: chrome (PID: 42092)
+2025-05-12 13:57:51,530：正在关闭残留的浏览器进程: chrome (PID: 28772)
+2025-05-12 13:57:51,574：正在关闭残留的浏览器进程: chrome (PID: 48560)
+2025-05-12 13:57:51,619：正在关闭残留的浏览器进程: chrome (PID: 41924)
+2025-05-12 13:57:51,666：正在关闭残留的浏览器进程: chrome (PID: 16128)
+2025-05-12 13:57:51,713：正在关闭残留的浏览器进程: chrome (PID: 15340)
+2025-05-12 13:57:51,759：正在关闭残留的浏览器进程: chrome (PID: 43700)
+2025-05-12 13:57:51,804：正在关闭残留的浏览器进程: chrome (PID: 24604)
+2025-05-12 13:57:51,848：正在关闭残留的浏览器进程: chrome (PID: 15000)
+2025-05-12 13:57:51,893：正在关闭残留的浏览器进程: chrome (PID: 43328)
+2025-05-12 13:57:51,938：正在关闭残留的浏览器进程: msedgewebview2 (PID: 7144)
+2025-05-12 13:57:52,305：正在关闭残留的浏览器进程: msedgewebview2 (PID: 16400)
+2025-05-12 13:57:59,337：正在关闭残留的浏览器进程: msedgewebview2 (PID: 10288)
+2025-05-12 13:57:59,381：正在关闭残留的浏览器进程: msedgewebview2 (PID: 32068)
+2025-05-12 13:57:59,426：正在关闭残留的浏览器进程: msedgewebview2 (PID: 33040)
+2025-05-12 13:57:59,473：正在关闭残留的浏览器进程: msedgewebview2 (PID: 22036)
+2025-05-12 13:57:59,508：正在关闭残留的浏览器进程: msedgewebview2 (PID: 14360)
+2025-05-12 13:58:06,482：内存回收完成
+2025-05-12 13:58:06,499：内存回收完成
+2025-05-12 13:58:06,512：内存回收完成
+2025-05-12 13:58:06,538：SpiderPolingWorker starting at: 05/12/2025 13:58:06 +08:00
+2025-05-12 13:58:06,542：SpiderPolingWorker execute at: 05/12/2025 13:58:06 +08:00
+2025-05-12 13:58:06,556：内存回收完成
+2025-05-12 13:58:27,789：Application started. Press Ctrl+C to shut down.
+2025-05-12 13:58:27,792：Hosting environment: Production
+2025-05-12 13:58:27,794：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 13:58:30,550：SpiderHotelUrl Task execution completed
+2025-05-12 13:58:33,296：达到次数:19,切换代理节点
+2025-05-12 13:58:33,322：达到次数:19,切换代理节点
+2025-05-12 14:00:31,183：达到次数:14,切换代理节点
+2025-05-12 15:45:08,675：SpiderPolingWorker starting at: 05/12/2025 15:45:08 +08:00
+2025-05-12 15:45:08,725：SpiderPolingWorker execute at: 05/12/2025 15:45:08 +08:00
+2025-05-12 15:45:08,742：正在关闭残留的浏览器进程: chrome (PID: 39000)
+2025-05-12 15:45:09,979：正在关闭残留的浏览器进程: chrome (PID: 43888)
+2025-05-12 15:45:15,281：正在关闭残留的浏览器进程: chrome (PID: 38420)
+2025-05-12 15:45:15,340：正在关闭残留的浏览器进程: chrome (PID: 48964)
+2025-05-12 15:45:15,394：正在关闭残留的浏览器进程: chrome (PID: 26796)
+2025-05-12 15:45:15,446：正在关闭残留的浏览器进程: chrome (PID: 50284)
+2025-05-12 15:45:15,498：正在关闭残留的浏览器进程: chrome (PID: 2984)
+2025-05-12 15:45:15,553：正在关闭残留的浏览器进程: chrome (PID: 31540)
+2025-05-12 15:45:15,606：正在关闭残留的浏览器进程: chrome (PID: 22616)
+2025-05-12 15:45:15,659：正在关闭残留的浏览器进程: chrome (PID: 40148)
+2025-05-12 15:45:15,710：正在关闭残留的浏览器进程: chrome (PID: 14760)
+2025-05-12 15:45:15,767：正在关闭残留的浏览器进程: chrome (PID: 20704)
+2025-05-12 15:45:15,817：正在关闭残留的浏览器进程: chrome (PID: 18928)
+2025-05-12 15:45:15,871：正在关闭残留的浏览器进程: chrome (PID: 43756)
+2025-05-12 15:45:15,923：正在关闭残留的浏览器进程: chrome (PID: 32036)
+2025-05-12 15:45:15,977：正在关闭残留的浏览器进程: chrome (PID: 16164)
+2025-05-12 15:45:16,028：正在关闭残留的浏览器进程: chrome (PID: 10620)
+2025-05-12 15:45:16,080：正在关闭残留的浏览器进程: chrome (PID: 20936)
+2025-05-12 15:45:16,132：正在关闭残留的浏览器进程: chrome (PID: 26688)
+2025-05-12 15:45:16,189：正在关闭残留的浏览器进程: chrome (PID: 1192)
+2025-05-12 15:45:16,241：正在关闭残留的浏览器进程: chrome (PID: 5916)
+2025-05-12 15:45:16,291：正在关闭残留的浏览器进程: chrome (PID: 48456)
+2025-05-12 15:45:16,347：正在关闭残留的浏览器进程: msedge (PID: 51124)
+2025-05-12 15:45:16,782：正在关闭残留的浏览器进程: msedge (PID: 29872)
+2025-05-12 15:45:21,939：正在关闭残留的浏览器进程: msedge (PID: 40768)
+2025-05-12 15:45:21,992：正在关闭残留的浏览器进程: msedge (PID: 41576)
+2025-05-12 15:45:22,044：正在关闭残留的浏览器进程: msedge (PID: 22104)
+2025-05-12 15:45:22,098：正在关闭残留的浏览器进程: msedge (PID: 31436)
+2025-05-12 15:45:22,152：正在关闭残留的浏览器进程: msedge (PID: 14752)
+2025-05-12 15:45:22,203：正在关闭残留的浏览器进程: msedge (PID: 48000)
+2025-05-12 15:45:22,258：正在关闭残留的浏览器进程: msedgewebview2 (PID: 41368)
+2025-05-12 15:45:22,687：正在关闭残留的浏览器进程: msedgewebview2 (PID: 41384)
+2025-05-12 15:45:27,634：正在关闭残留的浏览器进程: msedgewebview2 (PID: 36748)
+2025-05-12 15:45:27,680：正在关闭残留的浏览器进程: msedgewebview2 (PID: 29428)
+2025-05-12 15:45:27,728：正在关闭残留的浏览器进程: msedgewebview2 (PID: 39236)
+2025-05-12 15:45:27,778：正在关闭残留的浏览器进程: msedgewebview2 (PID: 3712)
+2025-05-12 15:45:27,827：正在关闭残留的浏览器进程: chrome (PID: 8820)
+2025-05-12 15:45:32,664：正在关闭残留的浏览器进程: msedgewebview2 (PID: 45736)
+2025-05-12 15:45:32,714：正在关闭残留的浏览器进程: msedgewebview2 (PID: 47804)
+2025-05-12 15:45:32,766：正在关闭残留的浏览器进程: chrome (PID: 26732)
+2025-05-12 15:45:32,817：正在关闭残留的浏览器进程: chrome (PID: 6268)
+2025-05-12 15:45:32,868：正在关闭残留的浏览器进程: msedgewebview2 (PID: 10136)
+2025-05-12 15:45:33,244：正在关闭残留的浏览器进程: msedgewebview2 (PID: 26260)
+2025-05-12 15:45:37,947：正在关闭残留的浏览器进程: msedgewebview2 (PID: 6184)
+2025-05-12 15:45:37,995：正在关闭残留的浏览器进程: msedgewebview2 (PID: 42184)
+2025-05-12 15:45:38,045：正在关闭残留的浏览器进程: msedgewebview2 (PID: 51044)
+2025-05-12 15:45:38,095：正在关闭残留的浏览器进程: msedgewebview2 (PID: 47848)
+2025-05-12 15:45:38,152：正在关闭残留的浏览器进程: msedgewebview2 (PID: 28932)
+2025-05-12 15:45:42,778：内存回收完成
+2025-05-12 15:46:04,223：Application started. Press Ctrl+C to shut down.
+2025-05-12 15:46:04,225：Hosting environment: Production
+2025-05-12 15:46:04,227：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 15:46:34,065：SpiderPolingWorker starting at: 05/12/2025 15:46:34 +08:00
+2025-05-12 15:46:34,114：SpiderPolingWorker execute at: 05/12/2025 15:46:34 +08:00
+2025-05-12 15:46:34,134：正在关闭残留的浏览器进程: msedgewebview2 (PID: 40172)
+2025-05-12 15:46:34,353：正在关闭残留的浏览器进程: msedgewebview2 (PID: 40104)
+2025-05-12 15:46:38,940：正在关闭残留的浏览器进程: msedgewebview2 (PID: 25964)
+2025-05-12 15:46:43,603：正在关闭残留的浏览器进程: msedgewebview2 (PID: 36048)
+2025-05-12 15:46:43,640：正在关闭残留的浏览器进程: msedgewebview2 (PID: 22304)
+2025-05-12 15:46:48,313：正在关闭残留的浏览器进程: msedgewebview2 (PID: 11568)
+2025-05-12 15:46:52,993：正在关闭残留的浏览器进程: msedgewebview2 (PID: 10016)
+2025-05-12 15:46:57,581：内存回收完成
+2025-05-12 15:46:58,031：Application started. Press Ctrl+C to shut down.
+2025-05-12 15:46:58,034：Hosting environment: Production
+2025-05-12 15:46:58,036：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 15:47:02,379：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:47:02,396：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:47:04,913：Received HTTP response headers after 2507.6997ms - 200
+2025-05-12 15:47:04,916：End processing HTTP request after 2544.6247ms - 200
+2025-05-12 15:52:56,471：SpiderPolingWorker starting at: 05/12/2025 15:52:56 +08:00
+2025-05-12 15:52:56,516：SpiderPolingWorker execute at: 05/12/2025 15:52:56 +08:00
+2025-05-12 15:52:56,522：正在关闭残留的浏览器进程: chrome (PID: 8236)
+2025-05-12 15:52:57,269：正在关闭残留的浏览器进程: chrome (PID: 23484)
+2025-05-12 15:53:02,491：正在关闭残留的浏览器进程: chrome (PID: 19460)
+2025-05-12 15:53:02,524：正在关闭残留的浏览器进程: chrome (PID: 26676)
+2025-05-12 15:53:02,555：正在关闭残留的浏览器进程: chrome (PID: 15412)
+2025-05-12 15:53:02,587：正在关闭残留的浏览器进程: chrome (PID: 47396)
+2025-05-12 15:53:02,620：正在关闭残留的浏览器进程: chrome (PID: 9700)
+2025-05-12 15:53:02,659：正在关闭残留的浏览器进程: chrome (PID: 50516)
+2025-05-12 15:53:08,179：正在关闭残留的浏览器进程: chrome (PID: 24224)
+2025-05-12 15:53:08,212：正在关闭残留的浏览器进程: chrome (PID: 28172)
+2025-05-12 15:53:08,248：正在关闭残留的浏览器进程: chrome (PID: 2896)
+2025-05-12 15:53:08,280：正在关闭残留的浏览器进程: chrome (PID: 33664)
+2025-05-12 15:53:08,314：正在关闭残留的浏览器进程: chrome (PID: 49352)
+2025-05-12 15:53:08,351：正在关闭残留的浏览器进程: chrome (PID: 18384)
+2025-05-12 15:53:08,385：正在关闭残留的浏览器进程: chrome (PID: 28496)
+2025-05-12 15:53:08,417：正在关闭残留的浏览器进程: chrome (PID: 50912)
+2025-05-12 15:53:08,451：正在关闭残留的浏览器进程: chrome (PID: 32708)
+2025-05-12 15:53:08,485：正在关闭残留的浏览器进程: chrome (PID: 7992)
+2025-05-12 15:53:14,142：正在关闭残留的浏览器进程: msedgewebview2 (PID: 43592)
+2025-05-12 15:53:14,343：正在关闭残留的浏览器进程: msedgewebview2 (PID: 12232)
+2025-05-12 15:53:19,680：正在关闭残留的浏览器进程: msedgewebview2 (PID: 10676)
+2025-05-12 15:53:19,713：正在关闭残留的浏览器进程: msedgewebview2 (PID: 35484)
+2025-05-12 15:53:19,743：正在关闭残留的浏览器进程: msedgewebview2 (PID: 13440)
+2025-05-12 15:53:19,774：正在关闭残留的浏览器进程: msedgewebview2 (PID: 52912)
+2025-05-12 15:53:19,804：正在关闭残留的浏览器进程: chrome (PID: 47296)
+2025-05-12 15:53:19,835：正在关闭残留的浏览器进程: chrome (PID: 10764)
+2025-05-12 15:53:25,125：正在关闭残留的浏览器进程: msedgewebview2 (PID: 36148)
+2025-05-12 15:53:25,374：正在关闭残留的浏览器进程: msedgewebview2 (PID: 25964)
+2025-05-12 15:53:30,603：正在关闭残留的浏览器进程: msedgewebview2 (PID: 43796)
+2025-05-12 15:53:30,633：正在关闭残留的浏览器进程: msedgewebview2 (PID: 14624)
+2025-05-12 15:53:35,814：正在关闭残留的浏览器进程: msedgewebview2 (PID: 30928)
+2025-05-12 15:53:40,860：正在关闭残留的浏览器进程: msedgewebview2 (PID: 12444)
+2025-05-12 15:53:45,893：正在关闭残留的浏览器进程: msedgewebview2 (PID: 32328)
+2025-05-12 15:53:51,042：内存回收完成
+2025-05-12 15:53:51,466：Application started. Press Ctrl+C to shut down.
+2025-05-12 15:53:51,469：Hosting environment: Production
+2025-05-12 15:53:51,472：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 15:53:55,800：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:53:55,814：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:53:56,937：Received HTTP response headers after 1114.7319ms - 200
+2025-05-12 15:53:56,941：End processing HTTP request after 1149.144ms - 200
+2025-05-12 15:54:10,741：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:54:10,745：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:54:13,299：Received HTTP response headers after 2551.0301ms - 200
+2025-05-12 15:54:13,302：End processing HTTP request after 2561.2138ms - 200
+2025-05-12 15:54:16,629：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:54:16,633：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:00,592：SpiderPolingWorker starting at: 05/12/2025 15:56:00 +08:00
+2025-05-12 15:56:00,638：SpiderPolingWorker execute at: 05/12/2025 15:56:00 +08:00
+2025-05-12 15:56:00,644：正在关闭残留的浏览器进程: chrome (PID: 46360)
+2025-05-12 15:56:01,107：正在关闭残留的浏览器进程: chrome (PID: 34216)
+2025-05-12 15:56:05,972：正在关闭残留的浏览器进程: chrome (PID: 28712)
+2025-05-12 15:56:06,002：正在关闭残留的浏览器进程: chrome (PID: 19556)
+2025-05-12 15:56:06,032：正在关闭残留的浏览器进程: chrome (PID: 38416)
+2025-05-12 15:56:06,065：正在关闭残留的浏览器进程: chrome (PID: 31588)
+2025-05-12 15:56:06,098：正在关闭残留的浏览器进程: chrome (PID: 37544)
+2025-05-12 15:56:06,129：正在关闭残留的浏览器进程: chrome (PID: 37148)
+2025-05-12 15:56:06,161：正在关闭残留的浏览器进程: chrome (PID: 36516)
+2025-05-12 15:56:11,146：正在关闭残留的浏览器进程: chrome (PID: 12584)
+2025-05-12 15:56:11,187：正在关闭残留的浏览器进程: chrome (PID: 19780)
+2025-05-12 15:56:11,218：正在关闭残留的浏览器进程: chrome (PID: 51080)
+2025-05-12 15:56:11,249：正在关闭残留的浏览器进程: chrome (PID: 13332)
+2025-05-12 15:56:11,280：正在关闭残留的浏览器进程: msedgewebview2 (PID: 48068)
+2025-05-12 15:56:11,546：正在关闭残留的浏览器进程: msedgewebview2 (PID: 38092)
+2025-05-12 15:56:16,249：正在关闭残留的浏览器进程: msedgewebview2 (PID: 29016)
+2025-05-12 15:56:20,925：正在关闭残留的浏览器进程: msedgewebview2 (PID: 30420)
+2025-05-12 15:56:25,654：正在关闭残留的浏览器进程: msedgewebview2 (PID: 19360)
+2025-05-12 15:56:30,352：正在关闭残留的浏览器进程: msedgewebview2 (PID: 43132)
+2025-05-12 15:56:34,948：正在关闭残留的浏览器进程: msedgewebview2 (PID: 51368)
+2025-05-12 15:56:39,579：内存回收完成
+2025-05-12 15:56:40,007：Application started. Press Ctrl+C to shut down.
+2025-05-12 15:56:40,010：Hosting environment: Production
+2025-05-12 15:56:40,013：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 15:56:42,083：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:42,099：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:42,840：Received HTTP response headers after 732.956ms - 200
+2025-05-12 15:56:42,845：End processing HTTP request after 769.704ms - 200
+2025-05-12 15:56:46,454：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:46,458：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:46,912：Received HTTP response headers after 449.2165ms - 200
+2025-05-12 15:56:46,915：End processing HTTP request after 461.5364ms - 200
+2025-05-12 15:56:50,479：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:50,483：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:50,793：Received HTTP response headers after 306.2641ms - 200
+2025-05-12 15:56:50,797：End processing HTTP request after 318.2747ms - 200
+2025-05-12 15:56:54,842：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:54,848：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:55,173：Received HTTP response headers after 318.2755ms - 200
+2025-05-12 15:56:55,176：End processing HTTP request after 334.1778ms - 200
+2025-05-12 15:56:58,483：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:58,486：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:56:59,045：Received HTTP response headers after 553.7407ms - 200
+2025-05-12 15:56:59,054：End processing HTTP request after 567.7955ms - 200
+2025-05-12 15:57:02,314：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 15:57:02,317：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 15:57:02,926：Received HTTP response headers after 605.3835ms - 200
+2025-05-12 15:57:02,929：End processing HTTP request after 614.8832ms - 200
+2025-05-12 15:57:06,673：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 15:57:06,677：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 15:57:07,184：Received HTTP response headers after 503.1633ms - 200
+2025-05-12 15:57:07,187：End processing HTTP request after 513.9779ms - 200
+2025-05-12 15:57:10,510：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:10,516：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:11,058：Received HTTP response headers after 537.2279ms - 200
+2025-05-12 15:57:11,062：End processing HTTP request after 552.8402ms - 200
+2025-05-12 15:57:14,325：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:14,329：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:14,982：Received HTTP response headers after 647.2283ms - 200
+2025-05-12 15:57:14,985：End processing HTTP request after 660.5135ms - 200
+2025-05-12 15:57:18,332：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:18,337：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:18,690：Received HTTP response headers after 348.4688ms - 200
+2025-05-12 15:57:18,695：End processing HTTP request after 362.6085ms - 200
+2025-05-12 15:57:26,087：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:26,090：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:26,604：Received HTTP response headers after 510.8069ms - 200
+2025-05-12 15:57:26,610：End processing HTTP request after 522.0635ms - 200
+2025-05-12 15:57:29,848：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:29,854：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:30,253：Received HTTP response headers after 395.6996ms - 200
+2025-05-12 15:57:30,257：End processing HTTP request after 408.5737ms - 200
+2025-05-12 15:57:33,693：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:33,696：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:34,055：Received HTTP response headers after 355.3997ms - 200
+2025-05-12 15:57:34,061：End processing HTTP request after 367.2267ms - 200
+2025-05-12 15:57:37,318：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:37,321：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 15:57:37,679：Received HTTP response headers after 353.3239ms - 200
+2025-05-12 15:57:37,683：End processing HTTP request after 365.3564ms - 200
+2025-05-12 15:57:40,996：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:57:40,999：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:57:50,044：Received HTTP response headers after 9039.7427ms - 200
+2025-05-12 15:57:50,047：End processing HTTP request after 9051.2576ms - 200
+2025-05-12 15:57:53,766：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:57:53,769：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:58:14,076：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:58:14,082：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:58:14,557：Received HTTP response headers after 465.2981ms - 200
+2025-05-12 15:58:14,561：End processing HTTP request after 486.8987ms - 200
+2025-05-12 15:58:18,142：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:58:18,146：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:58:18,498：Received HTTP response headers after 347.1735ms - 200
+2025-05-12 15:58:18,501：End processing HTTP request after 359.3428ms - 200
+2025-05-12 15:58:22,016：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:58:22,021：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 15:58:22,673：Received HTTP response headers after 647.7706ms - 200
+2025-05-12 15:58:22,675：End processing HTTP request after 659.0693ms - 200
+2025-05-12 15:58:28,307：达到次数:17,当前第18次，执行切换代理节点
+2025-05-12 15:58:32,337：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:32,347：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:33,134：Received HTTP response headers after 769.6881ms - 200
+2025-05-12 15:58:33,138：End processing HTTP request after 802.0631ms - 200
+2025-05-12 15:58:33,748：达到次数:17,当前第19次，执行切换代理节点
+2025-05-12 15:58:36,425：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:36,429：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:37,200：Received HTTP response headers after 767.7703ms - 200
+2025-05-12 15:58:37,202：End processing HTTP request after 777.45ms - 200
+2025-05-12 15:58:37,820：达到次数:17,当前第20次，执行切换代理节点
+2025-05-12 15:58:40,644：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:40,647：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:41,401：Received HTTP response headers after 749.7461ms - 200
+2025-05-12 15:58:41,405：End processing HTTP request after 761.5684ms - 200
+2025-05-12 15:58:42,021：达到次数:17,当前第21次，执行切换代理节点
+2025-05-12 15:58:44,692：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:44,695：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:45,698：Received HTTP response headers after 999.6955ms - 200
+2025-05-12 15:58:45,701：End processing HTTP request after 1008.6247ms - 200
+2025-05-12 15:58:46,305：达到次数:17,当前第22次，执行切换代理节点
+2025-05-12 15:58:48,935：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:48,941：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:49,871：Received HTTP response headers after 926.097ms - 200
+2025-05-12 15:58:49,874：End processing HTTP request after 938.819ms - 200
+2025-05-12 15:58:50,472：达到次数:17,当前第23次，执行切换代理节点
+2025-05-12 15:58:53,195：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:53,200：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:54,084：Received HTTP response headers after 880.4227ms - 200
+2025-05-12 15:58:54,087：End processing HTTP request after 893.185ms - 200
+2025-05-12 15:58:54,707：达到次数:17,当前第24次，执行切换代理节点
+2025-05-12 15:58:57,534：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:57,538：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:58:58,520：Received HTTP response headers after 979.043ms - 200
+2025-05-12 15:58:58,523：End processing HTTP request after 989.0553ms - 200
+2025-05-12 15:58:59,119：达到次数:17,当前第25次，执行切换代理节点
+2025-05-12 15:59:01,849：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:59:01,852：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:59:02,967：Received HTTP response headers after 1111.0617ms - 200
+2025-05-12 15:59:02,970：End processing HTTP request after 1120.2724ms - 200
+2025-05-12 15:59:03,576：达到次数:17,当前第26次，执行切换代理节点
+2025-05-12 15:59:06,281：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:06,286：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:06,608：Received HTTP response headers after 314.1028ms - 200
+2025-05-12 15:59:06,612：End processing HTTP request after 330.7445ms - 200
+2025-05-12 15:59:07,727：达到次数:17,当前第27次，执行切换代理节点
+2025-05-12 15:59:14,185：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:59:14,195：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 15:59:14,997：Received HTTP response headers after 796.3046ms - 200
+2025-05-12 15:59:15,000：End processing HTTP request after 814.8525ms - 200
+2025-05-12 15:59:16,106：达到次数:17,当前第28次，执行切换代理节点
+2025-05-12 15:59:22,384：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:22,387：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:22,711：Received HTTP response headers after 302.4892ms - 200
+2025-05-12 15:59:22,715：End processing HTTP request after 331.1687ms - 200
+2025-05-12 15:59:23,839：达到次数:17,当前第29次，执行切换代理节点
+2025-05-12 15:59:26,537：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:26,547：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:26,970：Received HTTP response headers after 413.6154ms - 200
+2025-05-12 15:59:26,973：End processing HTTP request after 436.1583ms - 200
+2025-05-12 15:59:27,578：达到次数:17,当前第30次，执行切换代理节点
+2025-05-12 15:59:30,262：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:30,266：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:30,727：Received HTTP response headers after 453.6519ms - 200
+2025-05-12 15:59:30,732：End processing HTTP request after 469.9822ms - 200
+2025-05-12 15:59:31,392：达到次数:17,当前第31次，执行切换代理节点
+2025-05-12 15:59:34,169：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:34,172：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:34,524：Received HTTP response headers after 347.1974ms - 200
+2025-05-12 15:59:34,528：End processing HTTP request after 359.3328ms - 200
+2025-05-12 15:59:35,135：达到次数:17,当前第32次，执行切换代理节点
+2025-05-12 15:59:38,388：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:38,396：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:58,674：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:58,677：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 15:59:59,035：Received HTTP response headers after 354.4781ms - 200
+2025-05-12 15:59:59,037：End processing HTTP request after 363.2309ms - 200
+2025-05-12 15:59:59,647：达到次数:17,当前第33次，执行切换代理节点
+2025-05-12 16:00:02,822：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:00:02,825：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:00:04,288：Received HTTP response headers after 1456.5944ms - 200
+2025-05-12 16:00:04,292：End processing HTTP request after 1469.4662ms - 200
+2025-05-12 16:00:04,882：达到次数:17,当前第34次，执行切换代理节点
+2025-05-12 16:00:07,649：SpiderHotelUrl Task execution completed
+2025-05-12 16:08:12,675：SpiderPolingWorker starting at: 05/12/2025 16:08:12 +08:00
+2025-05-12 16:08:12,734：SpiderPolingWorker execute at: 05/12/2025 16:08:12 +08:00
+2025-05-12 16:08:12,749：正在关闭残留的浏览器进程: chrome (PID: 27588)
+2025-05-12 16:08:13,888：正在关闭残留的浏览器进程: chrome (PID: 3152)
+2025-05-12 16:08:19,403：正在关闭残留的浏览器进程: chrome (PID: 42248)
+2025-05-12 16:08:19,472：正在关闭残留的浏览器进程: chrome (PID: 48512)
+2025-05-12 16:08:19,541：正在关闭残留的浏览器进程: chrome (PID: 3920)
+2025-05-12 16:08:19,619：正在关闭残留的浏览器进程: chrome (PID: 23672)
+2025-05-12 16:08:19,714：正在关闭残留的浏览器进程: chrome (PID: 45372)
+2025-05-12 16:08:19,784：正在关闭残留的浏览器进程: chrome (PID: 10972)
+2025-05-12 16:08:19,860：正在关闭残留的浏览器进程: chrome (PID: 25644)
+2025-05-12 16:08:19,940：正在关闭残留的浏览器进程: chrome (PID: 14568)
+2025-05-12 16:08:20,010：正在关闭残留的浏览器进程: chrome (PID: 37284)
+2025-05-12 16:08:20,082：正在关闭残留的浏览器进程: msedgewebview2 (PID: 22696)
+2025-05-12 16:08:20,534：正在关闭残留的浏览器进程: msedgewebview2 (PID: 15424)
+2025-05-12 16:08:25,917：正在关闭残留的浏览器进程: msedgewebview2 (PID: 6180)
+2025-05-12 16:08:25,988：正在关闭残留的浏览器进程: msedgewebview2 (PID: 15892)
+2025-05-12 16:08:26,057：正在关闭残留的浏览器进程: msedgewebview2 (PID: 37072)
+2025-05-12 16:08:26,124：正在关闭残留的浏览器进程: msedgewebview2 (PID: 46848)
+2025-05-12 16:08:26,193：正在关闭残留的浏览器进程: chrome (PID: 42152)
+2025-05-12 16:08:26,262：正在关闭残留的浏览器进程: chrome (PID: 31808)
+2025-05-12 16:08:31,502：正在关闭残留的浏览器进程: chrome (PID: 45324)
+2025-05-12 16:08:31,550：正在关闭残留的浏览器进程: chrome (PID: 40204)
+2025-05-12 16:08:31,601：正在关闭残留的浏览器进程: chrome (PID: 51480)
+2025-05-12 16:08:31,633：正在关闭残留的浏览器进程: msedgewebview2 (PID: 48848)
+2025-05-12 16:08:31,878：正在关闭残留的浏览器进程: msedgewebview2 (PID: 43292)
+2025-05-12 16:08:36,979：正在关闭残留的浏览器进程: msedgewebview2 (PID: 24580)
+2025-05-12 16:08:37,007：正在关闭残留的浏览器进程: msedgewebview2 (PID: 45312)
+2025-05-12 16:08:42,094：正在关闭残留的浏览器进程: msedgewebview2 (PID: 37568)
+2025-05-12 16:08:47,120：正在关闭残留的浏览器进程: msedgewebview2 (PID: 43488)
+2025-05-12 16:08:52,170：正在关闭残留的浏览器进程: msedgewebview2 (PID: 40296)
+2025-05-12 16:08:57,276：内存回收完成
+2025-05-12 16:08:57,690：Application started. Press Ctrl+C to shut down.
+2025-05-12 16:08:57,692：Hosting environment: Production
+2025-05-12 16:08:57,695：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 16:09:00,748：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:00,765：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:01,654：Received HTTP response headers after 881.0102ms - 200
+2025-05-12 16:09:01,658：End processing HTTP request after 923.5871ms - 200
+2025-05-12 16:09:05,596：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:05,599：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:07,111：Received HTTP response headers after 1504.5964ms - 200
+2025-05-12 16:09:07,115：End processing HTTP request after 1520.0993ms - 200
+2025-05-12 16:09:10,878：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:10,882：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:11,389：Received HTTP response headers after 503.519ms - 200
+2025-05-12 16:09:11,392：End processing HTTP request after 513.5572ms - 200
+2025-05-12 16:09:14,868：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:14,872：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:15,553：Received HTTP response headers after 676.4575ms - 200
+2025-05-12 16:09:15,555：End processing HTTP request after 687.6261ms - 200
+2025-05-12 16:09:19,117：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:19,123：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:19,742：Received HTTP response headers after 613.2124ms - 200
+2025-05-12 16:09:19,745：End processing HTTP request after 627.2546ms - 200
+2025-05-12 16:09:24,354：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:09:24,357：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:09:24,972：Received HTTP response headers after 610.6116ms - 200
+2025-05-12 16:09:24,976：End processing HTTP request after 621.3784ms - 200
+2025-05-12 16:09:28,833：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:09:28,837：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:09:29,571：Received HTTP response headers after 729.5214ms - 200
+2025-05-12 16:09:29,574：End processing HTTP request after 740.4519ms - 200
+2025-05-12 16:09:32,957：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:09:32,961：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:09:33,731：Received HTTP response headers after 767.2404ms - 200
+2025-05-12 16:09:33,734：End processing HTTP request after 777.3392ms - 200
+2025-05-12 16:09:37,191：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:09:37,195：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:09:38,395：Received HTTP response headers after 1196.9184ms - 200
+2025-05-12 16:09:38,399：End processing HTTP request after 1207.7171ms - 200
+2025-05-12 16:09:41,870：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:09:41,878：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:09:42,915：Received HTTP response headers after 1033.8852ms - 200
+2025-05-12 16:09:42,919：End processing HTTP request after 1048.9205ms - 200
+2025-05-12 16:09:46,160：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:46,163：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:09:46,760：Received HTTP response headers after 593.0577ms - 200
+2025-05-12 16:09:46,767：End processing HTTP request after 605.8731ms - 200
+2025-05-12 16:09:50,599：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:09:50,602：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:09:51,630：Received HTTP response headers after 1023.9028ms - 200
+2025-05-12 16:09:51,633：End processing HTTP request after 1034.7358ms - 200
+2025-05-12 16:09:57,310：达到次数:11,当前第12次，执行切换代理节点
+2025-05-12 16:10:03,378：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:10:03,384：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:10:04,419：Received HTTP response headers after 1026.5661ms - 200
+2025-05-12 16:10:04,422：End processing HTTP request after 1045.1012ms - 200
+2025-05-12 16:10:05,026：达到次数:11,当前第13次，执行切换代理节点
+2025-05-12 16:10:12,468：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:10:12,472：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:10:13,893：Received HTTP response headers after 1411.9178ms - 200
+2025-05-12 16:10:13,896：End processing HTTP request after 1427.937ms - 200
+2025-05-12 16:10:14,534：达到次数:11,当前第14次，执行切换代理节点
+2025-05-12 16:10:20,351：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:20,355：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:20,946：Received HTTP response headers after 588.3604ms - 200
+2025-05-12 16:10:20,951：End processing HTTP request after 599.7397ms - 200
+2025-05-12 16:10:21,569：达到次数:11,当前第15次，执行切换代理节点
+2025-05-12 16:10:28,098：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:28,105：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:28,809：Received HTTP response headers after 698.7827ms - 200
+2025-05-12 16:10:28,812：End processing HTTP request after 716.8268ms - 200
+2025-05-12 16:10:29,423：达到次数:11,当前第16次，执行切换代理节点
+2025-05-12 16:10:35,641：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:35,645：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:36,314：Received HTTP response headers after 665.2056ms - 200
+2025-05-12 16:10:36,319：End processing HTTP request after 677.5046ms - 200
+2025-05-12 16:10:36,935：达到次数:11,当前第17次，执行切换代理节点
+2025-05-12 16:10:43,184：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:43,188：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:43,808：Received HTTP response headers after 614.6863ms - 200
+2025-05-12 16:10:43,811：End processing HTTP request after 626.7201ms - 200
+2025-05-12 16:10:44,411：达到次数:11,当前第18次，执行切换代理节点
+2025-05-12 16:10:47,265：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:47,269：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:47,900：Received HTTP response headers after 627.5929ms - 200
+2025-05-12 16:10:47,904：End processing HTTP request after 639.2007ms - 200
+2025-05-12 16:10:48,506：达到次数:11,当前第19次，执行切换代理节点
+2025-05-12 16:10:51,313：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:51,317：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:10:51,963：Received HTTP response headers after 642.7193ms - 200
+2025-05-12 16:10:51,966：End processing HTTP request after 653.0805ms - 200
+2025-05-12 16:10:52,627：达到次数:11,当前第20次，执行切换代理节点
+2025-05-12 16:10:55,923：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:10:55,928：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:10:56,498：Received HTTP response headers after 565.619ms - 200
+2025-05-12 16:10:56,504：End processing HTTP request after 579.7636ms - 200
+2025-05-12 16:10:57,139：达到次数:11,当前第21次，执行切换代理节点
+2025-05-12 16:10:59,812：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:10:59,821：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:00,485：Received HTTP response headers after 657.5666ms - 200
+2025-05-12 16:11:00,490：End processing HTTP request after 677.0648ms - 200
+2025-05-12 16:11:01,162：达到次数:11,当前第22次，执行切换代理节点
+2025-05-12 16:11:04,015：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:04,018：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:04,662：Received HTTP response headers after 640.4407ms - 200
+2025-05-12 16:11:04,665：End processing HTTP request after 650.2613ms - 200
+2025-05-12 16:11:05,272：达到次数:11,当前第23次，执行切换代理节点
+2025-05-12 16:11:08,138：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:08,144：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:08,706：Received HTTP response headers after 557.922ms - 200
+2025-05-12 16:11:08,709：End processing HTTP request after 571.0129ms - 200
+2025-05-12 16:11:09,306：达到次数:11,当前第24次，执行切换代理节点
+2025-05-12 16:11:15,673：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:15,678：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:16,239：Received HTTP response headers after 556.3099ms - 200
+2025-05-12 16:11:16,242：End processing HTTP request after 568.9655ms - 200
+2025-05-12 16:11:16,837：达到次数:11,当前第25次，执行切换代理节点
+2025-05-12 16:11:24,338：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:24,366：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:25,162：Received HTTP response headers after 788.1827ms - 200
+2025-05-12 16:11:25,165：End processing HTTP request after 831.4858ms - 200
+2025-05-12 16:11:25,767：达到次数:11,当前第26次，执行切换代理节点
+2025-05-12 16:11:32,732：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:32,745：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:11:35,418：Received HTTP response headers after 2662.2231ms - 200
+2025-05-12 16:11:35,422：End processing HTTP request after 2690.7926ms - 200
+2025-05-12 16:11:36,022：达到次数:11,当前第27次，执行切换代理节点
+2025-05-12 16:11:38,980：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:11:38,985：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:11:52,178：Received HTTP response headers after 13186.5254ms - 200
+2025-05-12 16:11:52,181：End processing HTTP request after 13200.895ms - 200
+2025-05-12 16:11:52,798：达到次数:11,当前第28次，执行切换代理节点
+2025-05-12 16:11:56,176：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:11:56,179：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:11:56,712：Received HTTP response headers after 528.6702ms - 200
+2025-05-12 16:11:56,717：End processing HTTP request after 540.8016ms - 200
+2025-05-12 16:11:57,333：达到次数:11,当前第29次，执行切换代理节点
+2025-05-12 16:12:00,599：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:12:00,604：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:12:01,355：Received HTTP response headers after 746.5695ms - 200
+2025-05-12 16:12:01,359：End processing HTTP request after 759.4265ms - 200
+2025-05-12 16:12:01,971：达到次数:11,当前第30次，执行切换代理节点
+2025-05-12 16:12:05,616：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:12:05,625：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:12:06,191：Received HTTP response headers after 563.5325ms - 200
+2025-05-12 16:12:06,195：End processing HTTP request after 578.7155ms - 200
+2025-05-12 16:12:06,796：达到次数:11,当前第31次，执行切换代理节点
+2025-05-12 16:12:09,626：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:12:09,629：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:12:10,175：Received HTTP response headers after 542.3881ms - 200
+2025-05-12 16:12:10,178：End processing HTTP request after 552.3298ms - 200
+2025-05-12 16:12:10,772：达到次数:11,当前第32次，执行切换代理节点
+2025-05-12 16:12:14,530：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:12:14,534：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:12:15,962：Received HTTP response headers after 1424.4577ms - 200
+2025-05-12 16:12:15,965：End processing HTTP request after 1434.996ms - 200
+2025-05-12 16:12:16,586：达到次数:11,当前第33次，执行切换代理节点
+2025-05-12 16:12:19,648：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:12:19,652：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:12:20,983：Received HTTP response headers after 1327.1843ms - 200
+2025-05-12 16:12:20,988：End processing HTTP request after 1340.1686ms - 200
+2025-05-12 16:12:21,589：达到次数:11,当前第34次，执行切换代理节点
+2025-05-12 16:12:24,334：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:12:24,337：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:12:25,348：Received HTTP response headers after 1007.7477ms - 200
+2025-05-12 16:12:25,352：End processing HTTP request after 1017.8288ms - 200
+2025-05-12 16:12:25,965：达到次数:11,当前第35次，执行切换代理节点
+2025-05-12 16:12:29,141：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:12:29,145：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:12:30,379：Received HTTP response headers after 1231.6234ms - 200
+2025-05-12 16:12:30,383：End processing HTTP request after 1241.7268ms - 200
+2025-05-12 16:12:30,993：达到次数:11,当前第36次，执行切换代理节点
+2025-05-12 16:12:33,691：SpiderHotelUrl Task execution completed
+2025-05-12 16:17:00,558：SpiderPolingWorker starting at: 05/12/2025 16:17:00 +08:00
+2025-05-12 16:17:00,605：SpiderPolingWorker execute at: 05/12/2025 16:17:00 +08:00
+2025-05-12 16:17:00,621：正在关闭残留的浏览器进程: chrome (PID: 13704)
+2025-05-12 16:17:01,131：正在关闭残留的浏览器进程: chrome (PID: 46980)
+2025-05-12 16:17:05,806：正在关闭残留的浏览器进程: chrome (PID: 45292)
+2025-05-12 16:17:05,837：正在关闭残留的浏览器进程: chrome (PID: 14268)
+2025-05-12 16:17:05,871：正在关闭残留的浏览器进程: chrome (PID: 28152)
+2025-05-12 16:17:05,903：正在关闭残留的浏览器进程: chrome (PID: 48624)
+2025-05-12 16:17:05,935：正在关闭残留的浏览器进程: chrome (PID: 49504)
+2025-05-12 16:17:05,968：正在关闭残留的浏览器进程: chrome (PID: 41232)
+2025-05-12 16:17:05,998：正在关闭残留的浏览器进程: chrome (PID: 40404)
+2025-05-12 16:17:10,649：正在关闭残留的浏览器进程: chrome (PID: 2956)
+2025-05-12 16:17:10,678：正在关闭残留的浏览器进程: chrome (PID: 20504)
+2025-05-12 16:17:10,709：正在关闭残留的浏览器进程: chrome (PID: 20360)
+2025-05-12 16:17:10,739：正在关闭残留的浏览器进程: chrome (PID: 46236)
+2025-05-12 16:17:10,769：正在关闭残留的浏览器进程: chrome (PID: 41592)
+2025-05-12 16:17:10,800：正在关闭残留的浏览器进程: msedgewebview2 (PID: 28516)
+2025-05-12 16:17:11,014：正在关闭残留的浏览器进程: msedgewebview2 (PID: 3036)
+2025-05-12 16:17:15,527：正在关闭残留的浏览器进程: msedgewebview2 (PID: 38876)
+2025-05-12 16:17:20,049：正在关闭残留的浏览器进程: msedgewebview2 (PID: 20020)
+2025-05-12 16:17:24,550：正在关闭残留的浏览器进程: msedgewebview2 (PID: 26620)
+2025-05-12 16:17:29,069：正在关闭残留的浏览器进程: msedgewebview2 (PID: 45112)
+2025-05-12 16:17:33,598：正在关闭残留的浏览器进程: msedgewebview2 (PID: 39556)
+2025-05-12 16:17:38,106：内存回收完成
+2025-05-12 16:17:38,514：Application started. Press Ctrl+C to shut down.
+2025-05-12 16:17:38,517：Hosting environment: Production
+2025-05-12 16:17:38,520：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 16:17:44,375：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:17:44,381：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:17:45,398：Received HTTP response headers after 1006.3285ms - 200
+2025-05-12 16:17:45,405：End processing HTTP request after 1036.7952ms - 200
+2025-05-12 16:19:02,885：SpiderPolingWorker starting at: 05/12/2025 16:19:02 +08:00
+2025-05-12 16:19:02,929：SpiderPolingWorker execute at: 05/12/2025 16:19:02 +08:00
+2025-05-12 16:19:02,939：正在关闭残留的浏览器进程: chromedriver (PID: 44068)
+2025-05-12 16:19:03,428：正在关闭残留的浏览器进程: chrome (PID: 16256)
+2025-05-12 16:19:09,568：正在关闭残留的浏览器进程: chrome (PID: 14880)
+2025-05-12 16:19:15,333：正在关闭残留的浏览器进程: chrome (PID: 50108)
+2025-05-12 16:19:21,008：正在关闭残留的浏览器进程: chrome (PID: 26436)
+2025-05-12 16:19:26,654：正在关闭残留的浏览器进程: chrome (PID: 6224)
+2025-05-12 16:19:32,301：正在关闭残留的浏览器进程: chrome (PID: 14788)
+2025-05-12 16:19:37,899：正在关闭残留的浏览器进程: chrome (PID: 45436)
+2025-05-12 16:19:43,468：正在关闭残留的浏览器进程: chrome (PID: 44004)
+2025-05-12 16:19:49,031：正在关闭残留的浏览器进程: chromedriver (PID: 53064)
+2025-05-12 16:19:49,088：正在关闭残留的浏览器进程: chrome (PID: 35800)
+2025-05-12 16:19:54,674：正在关闭残留的浏览器进程: chrome (PID: 45596)
+2025-05-12 16:20:00,204：正在关闭残留的浏览器进程: chrome (PID: 13944)
+2025-05-12 16:20:05,751：正在关闭残留的浏览器进程: chrome (PID: 49896)
+2025-05-12 16:20:11,404：正在关闭残留的浏览器进程: chrome (PID: 16904)
+2025-05-12 16:20:16,939：正在关闭残留的浏览器进程: chrome (PID: 42784)
+2025-05-12 16:20:22,428：正在关闭残留的浏览器进程: chrome (PID: 23720)
+2025-05-12 16:20:27,820：正在关闭残留的浏览器进程: chrome (PID: 29076)
+2025-05-12 16:20:33,171：正在关闭残留的浏览器进程: msedgewebview2 (PID: 11388)
+2025-05-12 16:20:33,474：正在关闭残留的浏览器进程: msedgewebview2 (PID: 41820)
+2025-05-12 16:20:38,656：正在关闭残留的浏览器进程: msedgewebview2 (PID: 16312)
+2025-05-12 16:20:38,705：正在关闭残留的浏览器进程: msedgewebview2 (PID: 30916)
+2025-05-12 16:20:38,755：正在关闭残留的浏览器进程: msedgewebview2 (PID: 35048)
+2025-05-12 16:20:38,805：正在关闭残留的浏览器进程: msedgewebview2 (PID: 42204)
+2025-05-12 16:20:38,856：正在关闭残留的浏览器进程: chrome (PID: 50520)
+2025-05-12 16:20:43,719：正在关闭残留的浏览器进程: chrome (PID: 23012)
+2025-05-12 16:20:48,563：正在关闭残留的浏览器进程: chrome (PID: 36196)
+2025-05-12 16:20:53,414：正在关闭残留的浏览器进程: chrome (PID: 53076)
+2025-05-12 16:20:58,302：正在关闭残留的浏览器进程: chrome (PID: 13924)
+2025-05-12 16:21:03,276：正在关闭残留的浏览器进程: chrome (PID: 27852)
+2025-05-12 16:21:08,219：正在关闭残留的浏览器进程: chrome (PID: 40616)
+2025-05-12 16:21:13,050：正在关闭残留的浏览器进程: chrome (PID: 20100)
+2025-05-12 16:27:12,768：SpiderPolingWorker starting at: 05/12/2025 16:27:12 +08:00
+2025-05-12 16:27:12,823：SpiderPolingWorker execute at: 05/12/2025 16:27:12 +08:00
+2025-05-12 16:27:12,830：正在关闭残留的浏览器进程: chrome (PID: 36352)
+2025-05-12 16:27:13,344：正在关闭残留的浏览器进程: chrome (PID: 26856)
+2025-05-12 16:27:18,345：正在关闭残留的浏览器进程: chrome (PID: 1912)
+2025-05-12 16:27:18,375：正在关闭残留的浏览器进程: chrome (PID: 31960)
+2025-05-12 16:27:18,405：正在关闭残留的浏览器进程: chrome (PID: 32152)
+2025-05-12 16:27:18,438：正在关闭残留的浏览器进程: chrome (PID: 31760)
+2025-05-12 16:27:18,468：正在关闭残留的浏览器进程: chrome (PID: 48616)
+2025-05-12 16:27:18,498：正在关闭残留的浏览器进程: chrome (PID: 22860)
+2025-05-12 16:27:18,528：正在关闭残留的浏览器进程: chrome (PID: 49112)
+2025-05-12 16:27:18,569：正在关闭残留的浏览器进程: chrome (PID: 9000)
+2025-05-12 16:27:18,599：正在关闭残留的浏览器进程: chrome (PID: 25400)
+2025-05-12 16:27:23,597：正在关闭残留的浏览器进程: chrome (PID: 4376)
+2025-05-12 16:27:23,628：正在关闭残留的浏览器进程: chrome (PID: 26488)
+2025-05-12 16:27:23,661：正在关闭残留的浏览器进程: chrome (PID: 47964)
+2025-05-12 16:27:23,693：正在关闭残留的浏览器进程: chrome (PID: 14200)
+2025-05-12 16:27:23,724：正在关闭残留的浏览器进程: msedgewebview2 (PID: 1100)
+2025-05-12 16:27:23,955：正在关闭残留的浏览器进程: msedgewebview2 (PID: 35772)
+2025-05-12 16:27:28,701：正在关闭残留的浏览器进程: msedgewebview2 (PID: 8804)
+2025-05-12 16:27:28,732：正在关闭残留的浏览器进程: msedgewebview2 (PID: 17072)
+2025-05-12 16:27:28,764：正在关闭残留的浏览器进程: msedgewebview2 (PID: 43556)
+2025-05-12 16:27:28,793：正在关闭残留的浏览器进程: msedgewebview2 (PID: 19372)
+2025-05-12 16:27:28,831：正在关闭残留的浏览器进程: msedgewebview2 (PID: 10592)
+2025-05-12 16:27:33,599：内存回收完成
+2025-05-12 16:27:33,989：Application started. Press Ctrl+C to shut down.
+2025-05-12 16:27:33,991：Hosting environment: Production
+2025-05-12 16:27:33,993：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 16:27:41,979：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:27:41,985：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:27:45,704：Received HTTP response headers after 3711.2106ms - 200
+2025-05-12 16:27:45,708：End processing HTTP request after 3736.2779ms - 200
+2025-05-12 16:28:04,348：SpiderHotelUrl Task execution completed
+2025-05-12 16:28:31,703：SpiderPolingWorker starting at: 05/12/2025 16:28:31 +08:00
+2025-05-12 16:28:31,748：SpiderPolingWorker execute at: 05/12/2025 16:28:31 +08:00
+2025-05-12 16:28:31,754：正在关闭残留的浏览器进程: msedgewebview2 (PID: 35140)
+2025-05-12 16:28:31,989：正在关闭残留的浏览器进程: msedgewebview2 (PID: 47840)
+2025-05-12 16:28:36,734：正在关闭残留的浏览器进程: msedgewebview2 (PID: 32864)
+2025-05-12 16:28:41,672：正在关闭残留的浏览器进程: msedgewebview2 (PID: 8368)
+2025-05-12 16:28:41,731：正在关闭残留的浏览器进程: msedgewebview2 (PID: 40328)
+2025-05-12 16:28:46,677：正在关闭残留的浏览器进程: msedgewebview2 (PID: 25540)
+2025-05-12 16:28:51,559：正在关闭残留的浏览器进程: msedgewebview2 (PID: 38372)
+2025-05-12 16:28:56,519：内存回收完成
+2025-05-12 16:28:56,933：Application started. Press Ctrl+C to shut down.
+2025-05-12 16:28:56,936：Hosting environment: Production
+2025-05-12 16:28:56,939：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-05-12 16:29:06,398：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:06,404：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:06,875：Received HTTP response headers after 462.9706ms - 200
+2025-05-12 16:29:06,879：End processing HTTP request after 489.2681ms - 200
+2025-05-12 16:29:10,838：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:10,845：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:11,162：Received HTTP response headers after 311.395ms - 200
+2025-05-12 16:29:11,164：End processing HTTP request after 326.3353ms - 200
+2025-05-12 16:29:14,874：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:14,887：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:15,193：Received HTTP response headers after 295.665ms - 200
+2025-05-12 16:29:15,196：End processing HTTP request after 323.8787ms - 200
+2025-05-12 16:29:18,649：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:18,653：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:18,921：Received HTTP response headers after 262.4784ms - 200
+2025-05-12 16:29:18,925：End processing HTTP request after 275.7259ms - 200
+2025-05-12 16:29:22,285：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:22,289：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:22,672：Received HTTP response headers after 372.4718ms - 200
+2025-05-12 16:29:22,676：End processing HTTP request after 391.2499ms - 200
+2025-05-12 16:29:26,275：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:29:26,283：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:29:26,583：Received HTTP response headers after 295.0695ms - 200
+2025-05-12 16:29:26,587：End processing HTTP request after 312.7117ms - 200
+2025-05-12 16:29:30,060：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:29:30,070：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:29:30,389：Received HTTP response headers after 312.6308ms - 200
+2025-05-12 16:29:30,394：End processing HTTP request after 334.1129ms - 200
+2025-05-12 16:29:33,574：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:29:33,578：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:29:33,888：Received HTTP response headers after 305.4006ms - 200
+2025-05-12 16:29:33,894：End processing HTTP request after 319.04ms - 200
+2025-05-12 16:29:37,216：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:29:37,219：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:29:39,206：Received HTTP response headers after 1982.7274ms - 200
+2025-05-12 16:29:39,211：End processing HTTP request after 1995.5008ms - 200
+2025-05-12 16:29:42,444：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:29:42,447：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:29:43,383：Received HTTP response headers after 933.0671ms - 200
+2025-05-12 16:29:43,387：End processing HTTP request after 943.004ms - 200
+2025-05-12 16:29:46,503：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:46,509：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:29:47,011：Received HTTP response headers after 491.8287ms - 200
+2025-05-12 16:29:47,016：End processing HTTP request after 512.6154ms - 200
+2025-05-12 16:29:50,392：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:29:50,413：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:29:50,972：Received HTTP response headers after 555.5143ms - 200
+2025-05-12 16:29:50,976：End processing HTTP request after 588.9121ms - 200
+2025-05-12 16:29:54,145：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:29:54,154：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:29:54,759：Received HTTP response headers after 602.0953ms - 200
+2025-05-12 16:29:54,762：End processing HTTP request after 618.4087ms - 200
+2025-05-12 16:29:58,009：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:29:58,013：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:29:58,594：Received HTTP response headers after 577.5718ms - 200
+2025-05-12 16:29:58,601：End processing HTTP request after 590.7819ms - 200
+2025-05-12 16:30:12,469：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:12,479：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:13,000：Received HTTP response headers after 510.5394ms - 200
+2025-05-12 16:30:13,004：End processing HTTP request after 535.6816ms - 200
+2025-05-12 16:30:16,697：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:16,708：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:17,082：Received HTTP response headers after 361.1456ms - 200
+2025-05-12 16:30:17,086：End processing HTTP request after 390.1769ms - 200
+2025-05-12 16:30:20,611：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:20,617：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:20,977：Received HTTP response headers after 352.7601ms - 200
+2025-05-12 16:30:20,980：End processing HTTP request after 373.7076ms - 200
+2025-05-12 16:30:24,451：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:24,460：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:25,021：Received HTTP response headers after 553.3889ms - 200
+2025-05-12 16:30:25,026：End processing HTTP request after 575.1295ms - 200
+2025-05-12 16:30:28,495：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:28,499：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=936623&feed_id=19&olanguage_id=8
+2025-05-12 16:30:28,832：Received HTTP response headers after 326.2043ms - 200
+2025-05-12 16:30:28,835：End processing HTTP request after 340.1455ms - 200
+2025-05-12 16:30:34,478：达到次数:18,当前第19次，执行切换代理节点
+2025-05-12 16:30:37,577：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:30:37,582：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:30:37,871：Received HTTP response headers after 282.9608ms - 200
+2025-05-12 16:30:37,878：End processing HTTP request after 300.3401ms - 200
+2025-05-12 16:30:41,321：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:30:41,331：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:30:41,646：Received HTTP response headers after 305.2537ms - 200
+2025-05-12 16:30:41,656：End processing HTTP request after 333.9804ms - 200
+2025-05-12 16:30:45,169：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:30:45,172：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=55268476&feed_id=19&olanguage_id=8
+2025-05-12 16:30:45,674：Received HTTP response headers after 498.868ms - 200
+2025-05-12 16:30:45,678：End processing HTTP request after 508.6383ms - 200
+2025-05-12 16:30:49,011：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:30:49,029：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:30:49,340：Received HTTP response headers after 304.8743ms - 200
+2025-05-12 16:30:49,345：End processing HTTP request after 333.7304ms - 200
+2025-05-12 16:30:52,647：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:30:52,652：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:30:53,184：Received HTTP response headers after 529.4875ms - 200
+2025-05-12 16:30:53,187：End processing HTTP request after 540.2453ms - 200
+2025-05-12 16:30:56,429：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:30:56,438：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:30:57,108：Received HTTP response headers after 661.3412ms - 200
+2025-05-12 16:30:57,112：End processing HTTP request after 683.0505ms - 200
+2025-05-12 16:31:00,332：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:31:00,348：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:31:00,744：Received HTTP response headers after 389.4629ms - 200
+2025-05-12 16:31:00,749：End processing HTTP request after 417.9988ms - 200
+2025-05-12 16:31:04,146：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:31:04,161：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=169036&feed_id=19&olanguage_id=8
+2025-05-12 16:31:04,660：Received HTTP response headers after 494.6828ms - 200
+2025-05-12 16:31:04,668：End processing HTTP request after 521.8573ms - 200
+2025-05-12 16:31:08,169：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:31:08,182：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=59025660&feed_id=19&olanguage_id=8
+2025-05-12 16:31:08,751：Received HTTP response headers after 565.1718ms - 200
+2025-05-12 16:31:08,754：End processing HTTP request after 585.934ms - 200
+2025-05-12 16:31:12,377：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:31:12,386：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:31:13,290：Received HTTP response headers after 899.0783ms - 200
+2025-05-12 16:31:13,294：End processing HTTP request after 919.0649ms - 200
+2025-05-12 16:31:16,619：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:31:16,629：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:31:17,762：Received HTTP response headers after 1125.0424ms - 200
+2025-05-12 16:31:17,766：End processing HTTP request after 1147.1017ms - 200
+2025-05-12 16:31:21,395：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:31:21,399：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:31:22,375：Received HTTP response headers after 972.4866ms - 200
+2025-05-12 16:31:22,378：End processing HTTP request after 983.0165ms - 200
+2025-05-12 16:31:25,721：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-12 16:31:25,727：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8

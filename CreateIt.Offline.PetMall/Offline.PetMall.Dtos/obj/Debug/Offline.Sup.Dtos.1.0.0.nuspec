@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Offline.Sup.Dtos</id>
+    <version>1.0.0</version>
+    <authors>Offline.Sup.Dtos</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="33b35d44933071f4200ed28c76a6028f756371bd" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\products\Offline.Host.Sup\Offline.Sup.Dtos\bin\Debug\net6.0\Offline.Sup.Dtos.dll" target="lib\net6.0\Offline.Sup.Dtos.dll" />
+  </files>
+</package>

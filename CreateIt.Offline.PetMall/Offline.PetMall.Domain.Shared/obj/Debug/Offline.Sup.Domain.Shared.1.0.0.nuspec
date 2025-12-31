@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Offline.Sup.Domain.Shared</id>
+    <version>1.0.0</version>
+    <authors>Feiju</authors>
+    <description>Offline.Host.Domain.Shared</description>
+    <repository type="git" commit="33b35d44933071f4200ed28c76a6028f756371bd" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Offline.Sup.Dtos" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="EasyFrame.Common" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="EasyFrame.SqlSugar" version="1.1.12" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\products\Offline.Host.Sup\Offline.Sup.Domain.Shared\bin\Debug\net6.0\Offline.Sup.Domain.Shared.dll" target="lib\net6.0\Offline.Sup.Domain.Shared.dll" />
+    <file src="D:\products\Offline.Host.Sup\Offline.Sup.Domain.Shared\bin\Debug\net6.0\Offline.Sup.Domain.Shared.xml" target="lib\net6.0\Offline.Sup.Domain.Shared.xml" />
+  </files>
+</package>

@@ -1,0 +1,10 @@
+2025-04-22 10:28:41,395：Now listening on: http://localhost:5700
+2025-04-22 10:28:41,553：Application started. Press Ctrl+C to shut down.
+2025-04-22 10:28:41,557：Hosting environment: Development
+2025-04-22 10:28:41,559：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-04-22 18:29:29,151：Now listening on: http://localhost:5700
+2025-04-22 18:29:29,237：Application started. Press Ctrl+C to shut down.
+2025-04-22 18:29:29,241：Hosting environment: Development
+2025-04-22 18:29:29,243：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-04-22 18:30:15,246：Bearer was not authenticated. Failure message: 401 Token Expired
+2025-04-22 18:30:15,263：AuthenticationScheme: Bearer was challenged.

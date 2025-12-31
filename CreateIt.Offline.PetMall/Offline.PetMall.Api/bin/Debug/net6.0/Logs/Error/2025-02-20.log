@@ -1,0 +1,52 @@
+2025-02-20 10:06:43,497：中文提示 : Join SupHotelEntity 错误, 请把 (taskHotel,hotel)=> 改成 (taskHotel,match,SupHotelEntity )=> 
+English Message : Join SupHotelEntity error , Please change (taskHotel,hotel)=> to (taskHotel,match,SupHotelEntity )=>.
+System.Exception: 中文提示 : Join SupHotelEntity 错误, 请把 (taskHotel,hotel)=> 改成 (taskHotel,match,SupHotelEntity )=> 
+English Message : Join SupHotelEntity error , Please change (taskHotel,hotel)=> to (taskHotel,match,SupHotelEntity )=>.
+   at SqlSugar.QueryBuilder.CheckExpressionNew(Expression expression, String methodName)
+   at SqlSugar.QueryableProvider`1.GetJoinInfo(Expression joinExpression, JoinType joinType)
+   at SqlSugar.QueryableProvider`1.InnerJoin[T2](Expression`1 joinExpression)
+   at Offline.Sup.Application.Agg.AggTaskSupHotelService.GetNextAggTaskSupHotelIdAsync(Int64 id, String hotelCodeOrName, String countryName, String cityName) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelService.cs:line 179
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.GetHotelInfo(Int64 taskSupHotelId, String hotelCodeOrName, String countryName, String cityName) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 787
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetHotelInfo(Int64 taskSupHotelId, String hotelCodeOrName, String countryName, String cityName) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 116
+   at lambda_method931(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-20 17:48:07,152：中文提示 : 使用single查询结果集不能大于1，适合主键查询，如果大于1你可以使用Queryable.First
+English Message : .Single()  result must not exceed one . You can use.First()
+SqlSugar.SqlSugarException: 中文提示 : 使用single查询结果集不能大于1，适合主键查询，如果大于1你可以使用Queryable.First
+English Message : .Single()  result must not exceed one . You can use.First()
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.QueryableProvider`1.SingleAsync()
+   at SqlSugar.QueryableProvider`1.SingleAsync(Expression`1 expression)
+   at Offline.Sup.Application.Agg.AggTaskPageRecordService.QueryRecord(Int64 taskId, String url) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskPageRecordService.cs:line 75
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.QueryPrePageRecord(QueryPrePageRequestDto model) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 127
+   at lambda_method1297(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-20 17:48:20,569：中文提示 : 使用single查询结果集不能大于1，适合主键查询，如果大于1你可以使用Queryable.First
+English Message : .Single()  result must not exceed one . You can use.First()
+SqlSugar.SqlSugarException: 中文提示 : 使用single查询结果集不能大于1，适合主键查询，如果大于1你可以使用Queryable.First
+English Message : .Single()  result must not exceed one . You can use.First()
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.QueryableProvider`1.SingleAsync()
+   at SqlSugar.QueryableProvider`1.SingleAsync(Expression`1 expression)
+   at Offline.Sup.Application.Agg.AggTaskPageRecordService.QueryRecord(Int64 taskId, String url) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskPageRecordService.cs:line 75
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.QueryPrePageRecord(QueryPrePageRequestDto model) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 127
+   at lambda_method1297(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

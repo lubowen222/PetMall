@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <BaseOutputPath></BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>1.0.0</Version>
+    <Authors>Feiju</Authors>
+    <Company>Feiju</Company>
+    <Description>Offline.Sup.Application</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyFrame.AutoMapper" Version="1.0.8" />
+    <PackageReference Include="EasyFrame.Common" Version="2.4.32" />
+    <PackageReference Include="EasyFrame.CurrentUser" Version="1.0.10" />
+    <PackageReference Include="EasyFrame.ElasticSearch" Version="1.0.7" />
+    <PackageReference Include="EasyFrame.Extensions" Version="1.1.5" />
+    <PackageReference Include="EasyFrame.Jwt" Version="1.0.7" />
+    <PackageReference Include="EasyFrame.Lucenes" Version="1.0.7" />
+    <PackageReference Include="EasyFrame.Redis" Version="1.2.1" />
+    <PackageReference Include="EasyFrame.Rest" Version="1.0.10" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
+    <PackageReference Include="NPOI" Version="2.7.2" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.15.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="136.0.7103.4900" />
+    <PackageReference Include="Selenium.WebDriverBackedSelenium" Version="4.1.0" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="5.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Offline.PetMall.Application.Contracts\Offline.PetMall.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Offline.PetMall.Domain\Offline.PetMall.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyFrame.Common" Version="2.4.32" />
+    <PackageReference Include="EasyFrame.ConfigCenter" Version="1.2.0" />
+    <PackageReference Include="EasyFrame.CurrentUser" Version="1.0.10" />
+    <PackageReference Include="EasyFrame.ElasticSearch" Version="1.0.7" />
+    <PackageReference Include="EasyFrame.Rest" Version="1.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="6.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Volo.Abp.AspNetCore" Version="5.1.4" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="5.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Offline.PetMall.Application.Contracts\Offline.PetMall.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Offline.PetMall.Application\Offline.PetMall.Application.csproj" />
+    <ProjectReference Include="..\Offline.PetMall.Domain.Shared\Offline.PetMall.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Offline.PetMall.Domain\Offline.PetMall.Domain.csproj" />
+    <ProjectReference Include="..\Offline.PetMall.Dtos\Offline.PetMall.Dto.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="chromedriver.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Install\InstallService.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Install\UninstallService.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

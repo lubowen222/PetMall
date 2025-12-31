@@ -1,0 +1,20 @@
+2025-02-17 16:23:48,286：Now listening on: http://localhost:5700
+2025-02-17 16:23:48,374：Application started. Press Ctrl+C to shut down.
+2025-02-17 16:23:48,378：Hosting environment: Development
+2025-02-17 16:23:48,381：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-02-17 16:26:09,326：Now listening on: http://localhost:5700
+2025-02-17 16:26:09,436：Application started. Press Ctrl+C to shut down.
+2025-02-17 16:26:09,441：Hosting environment: Development
+2025-02-17 16:26:09,444：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-02-17 17:33:00,918：Now listening on: http://localhost:5700
+2025-02-17 17:33:01,001：Application started. Press Ctrl+C to shut down.
+2025-02-17 17:33:01,005：Hosting environment: Development
+2025-02-17 17:33:01,007：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-02-17 17:33:01,342：Bearer was not authenticated. Failure message: 401 Token Expired
+2025-02-17 17:33:01,342：Bearer was not authenticated. Failure message: 401 Token Expired
+2025-02-17 17:33:01,367：AuthenticationScheme: Bearer was challenged.
+2025-02-17 17:33:01,366：AuthenticationScheme: Bearer was challenged.
+2025-02-17 17:45:27,667：AuthenticationScheme: Bearer was challenged.
+2025-02-17 17:45:44,761：AuthenticationScheme: Bearer was challenged.
+2025-02-17 17:46:36,329：AuthenticationScheme: Bearer was challenged.
+2025-02-17 17:48:25,916：AuthenticationScheme: Bearer was challenged.

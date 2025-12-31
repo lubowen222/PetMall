@@ -1,0 +1,4 @@
+E:\PetMall\CreateIt.Offline.PetMall\Offline.PetMall.Console\obj\Debug\net6.0\Offline.PetMall.Console.GeneratedMSBuildEditorConfig.editorconfig
+E:\PetMall\CreateIt.Offline.PetMall\Offline.PetMall.Console\obj\Debug\net6.0\Offline.PetMall.Console.AssemblyInfoInputs.cache
+E:\PetMall\CreateIt.Offline.PetMall\Offline.PetMall.Console\obj\Debug\net6.0\Offline.PetMall.Console.AssemblyInfo.cs
+E:\PetMall\CreateIt.Offline.PetMall\Offline.PetMall.Console\obj\Debug\net6.0\Offline.PetMall.Console.csproj.CoreCompileInputs.cache

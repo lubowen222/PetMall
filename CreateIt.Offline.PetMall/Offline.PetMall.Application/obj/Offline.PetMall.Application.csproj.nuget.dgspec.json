@@ -1,0 +1,459 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application\\Offline.PetMall.Application.csproj": {}
+  },
+  "projects": {
+    "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application.Contracts\\Offline.PetMall.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application.Contracts\\Offline.PetMall.Application.Contracts.csproj",
+        "projectName": "Offline.PetMall.Application.Contracts",
+        "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application.Contracts\\Offline.PetMall.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\lubowen\\.nuget\\packages\\",
+        "outputPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lubowen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://116.62.196.56:5001/nuget/FeijuNuGet/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj": {
+                "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj"
+              },
+              "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Dtos\\Offline.PetMall.Dto.csproj": {
+                "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Dtos\\Offline.PetMall.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyFrame.Common": {
+              "target": "Package",
+              "version": "[2.4.27, )"
+            },
+            "EasyFrame.Mongo": {
+              "target": "Package",
+              "version": "[1.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application\\Offline.PetMall.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application\\Offline.PetMall.Application.csproj",
+        "projectName": "Offline.PetMall.Application",
+        "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application\\Offline.PetMall.Application.csproj",
+        "packagesPath": "C:\\Users\\lubowen\\.nuget\\packages\\",
+        "outputPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lubowen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://116.62.196.56:5001/nuget/FeijuNuGet/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application.Contracts\\Offline.PetMall.Application.Contracts.csproj": {
+                "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application.Contracts\\Offline.PetMall.Application.Contracts.csproj"
+              },
+              "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj": {
+                "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyFrame.AutoMapper": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "EasyFrame.Common": {
+              "target": "Package",
+              "version": "[2.4.32, )"
+            },
+            "EasyFrame.CurrentUser": {
+              "target": "Package",
+              "version": "[1.0.10, )"
+            },
+            "EasyFrame.ElasticSearch": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "EasyFrame.Extensions": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            },
+            "EasyFrame.Jwt": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "EasyFrame.Lucenes": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "EasyFrame.Redis": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "EasyFrame.Rest": {
+              "target": "Package",
+              "version": "[1.0.10, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.54, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.2, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[136.0.7103.4900, )"
+            },
+            "Selenium.WebDriverBackedSelenium": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj",
+        "projectName": "Offline.PetMall.Domain.Shared",
+        "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\lubowen\\.nuget\\packages\\",
+        "outputPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lubowen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://116.62.196.56:5001/nuget/FeijuNuGet/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Dtos\\Offline.PetMall.Dto.csproj": {
+                "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Dtos\\Offline.PetMall.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyFrame.SqlSugar": {
+              "target": "Package",
+              "version": "[1.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj",
+        "projectName": "Offline.PetMall.Domain",
+        "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj",
+        "packagesPath": "C:\\Users\\lubowen\\.nuget\\packages\\",
+        "outputPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lubowen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://116.62.196.56:5001/nuget/FeijuNuGet/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application.Contracts\\Offline.PetMall.Application.Contracts.csproj": {
+                "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application.Contracts\\Offline.PetMall.Application.Contracts.csproj"
+              },
+              "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj": {
+                "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyFrame.CurrentUser": {
+              "target": "Package",
+              "version": "[1.0.10, )"
+            },
+            "EasyFrame.Extensions": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "EasyFrame.SqlSugar": {
+              "target": "Package",
+              "version": "[1.1.12, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Dtos\\Offline.PetMall.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Dtos\\Offline.PetMall.Dto.csproj",
+        "projectName": "Offline.PetMall.Dto",
+        "projectPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Dtos\\Offline.PetMall.Dto.csproj",
+        "packagesPath": "C:\\Users\\lubowen\\.nuget\\packages\\",
+        "outputPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lubowen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://116.62.196.56:5001/nuget/FeijuNuGet/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

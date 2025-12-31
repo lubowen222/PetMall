@@ -1,0 +1,2646 @@
+[
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "CreateTask",
+    "RelativePath": "Sup/AutoMapping/CreateTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TaskType",
+        "Type": "Offline.Sup.Dtos.Agg.AggTaskTypeEnum",
+        "IsRequired": false
+      },
+      {
+        "Name": "SupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChannelName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Remark",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "CreateTaskFromApi",
+    "RelativePath": "Sup/AutoMapping/CreateTaskFromApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aggTaskDto",
+        "Type": "Offline.Sup.Dtos.Agg.CreateAggSupHotelTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "ExportAggTaskSupHotel",
+    "RelativePath": "Sup/AutoMapping/ExportAggTaskSupHotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "Offline.Sup.Dtos.Agg.ExportAggTaskSupHotelSearch",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "ExportAggTaskSupHotelAnalyze",
+    "RelativePath": "Sup/AutoMapping/ExportAggTaskSupHotelAnalyze",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "Offline.Sup.Dtos.Agg.ExportAggTaskSupHotelSearch",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "GetAggTaskChannelMatchDetailWithPage",
+    "RelativePath": "Sup/AutoMapping/GetAggTaskChannelMatchDetailWithPage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Agg.AggTaskChannelMatchDetailSearchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "GetAggTaskSupHotelAnalyzeWithPage",
+    "RelativePath": "Sup/AutoMapping/GetAggTaskSupHotelAnalyzeWithPage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Agg.AggTaskSupHotelSearchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "GetAggTaskSupHotelMatchDetailWithPage",
+    "RelativePath": "Sup/AutoMapping/GetAggTaskSupHotelMatchDetailWithPage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Agg.AggTaskSupHotelMatchDetailDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "GetAggTaskSupHotelWithPage",
+    "RelativePath": "Sup/AutoMapping/GetAggTaskSupHotelWithPage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Agg.AggTaskSupHotelSearchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "GetAggTaskWithPage",
+    "RelativePath": "Sup/AutoMapping/GetAggTaskWithPage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Agg.AggTaskDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "Match",
+    "RelativePath": "Sup/AutoMapping/Match",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Agg.MatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "MatchCancle",
+    "RelativePath": "Sup/AutoMapping/MatchCancle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Agg.MatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "MatchFinish",
+    "RelativePath": "Sup/AutoMapping/MatchFinish",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "NoMatch",
+    "RelativePath": "Sup/AutoMapping/NoMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Agg.NoMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "RecheckRejectedData",
+    "RelativePath": "Sup/AutoMapping/RecheckRejectedData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "RemoveNoMatch",
+    "RelativePath": "Sup/AutoMapping/RemoveNoMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Agg.NoMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.AutoMappingController",
+    "Method": "SetExecTaskStatus",
+    "RelativePath": "Sup/AutoMapping/SetExecTaskStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reqeust",
+        "Type": "Offline.Sup.Dtos.Agg.SetExecTaskStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ExpediaHotelController",
+    "Method": "GetB2CHotelMatchBasicHotel",
+    "RelativePath": "Sup/ExpediaHotel/GetB2CHotelMatchBasicHotel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Expedia.B2CHotelMatchBasicHotelDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ExpediaHotelController",
+    "Method": "Match",
+    "RelativePath": "Sup/ExpediaHotel/Match",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "matchValue",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ExpediaHotelController",
+    "Method": "PageListAsync",
+    "RelativePath": "Sup/ExpediaHotel/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Expedia.B2CHotelPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupAreaController",
+    "Method": "Detail",
+    "RelativePath": "Sup/SupArea/Detail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Area.SupAreaDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupAreaController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupArea/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Area.SupAreaPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupAreaMatchController",
+    "Method": "Create",
+    "RelativePath": "Sup/SupAreaMatch/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Area.CreateSupAreaMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupAreaMatchController",
+    "Method": "Delete",
+    "RelativePath": "Sup/SupAreaMatch/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Area.DeleteSupAreaMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupAreaMatchController",
+    "Method": "GetBasicAreaList",
+    "RelativePath": "Sup/SupAreaMatch/GetBasicAreaList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Area.QueryBasicAreaForSupDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelController",
+    "Method": "AddSupHotelDownloadQueue",
+    "RelativePath": "Sup/SupHotel/AddSupHotelDownloadQueue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "supHotelCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelController",
+    "Method": "Detail",
+    "RelativePath": "Sup/SupHotel/Detail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "supHotelCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Hotel.SupHotelDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotel/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelController",
+    "Method": "QuerySupHotelForHotelCode",
+    "RelativePath": "Sup/SupHotel/QuerySupHotelForHotelCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelForHotelRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Hotel.SupHotelForMatchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelController",
+    "Method": "QuerySupHotelForMatched",
+    "RelativePath": "Sup/SupHotel/QuerySupHotelForMatched",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelForMatchRequest, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelController",
+    "Method": "QuerySupHotelForRelation",
+    "RelativePath": "Sup/SupHotel/QuerySupHotelForRelation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelForRelationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Hotel.SupHotelForRelationDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelController",
+    "Method": "UpdateStatusAsync",
+    "RelativePath": "Sup/SupHotel/UpdateStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.UpdateSupHotelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelAutoMatchController",
+    "Method": "AgreeHotelMatch",
+    "RelativePath": "Sup/SupHotelAutoMatch/AgreeHotelMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelAutoMatchController",
+    "Method": "DetailPageList",
+    "RelativePath": "Sup/SupHotelAutoMatch/DetailPageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupAutoMatchDetailPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelAutoMatchController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotelAutoMatch/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupAutoMatchPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelAutoMatchController",
+    "Method": "RecoveryHotelMatch",
+    "RelativePath": "Sup/SupHotelAutoMatch/RecoveryHotelMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelAutoMatchController",
+    "Method": "RefuseAutoMatch",
+    "RelativePath": "Sup/SupHotelAutoMatch/RefuseAutoMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelDownloadBatchController",
+    "Method": "Create",
+    "RelativePath": "Sup/SupHotelDownloadBatch/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelDownloadBatchController",
+    "Method": "Detail",
+    "RelativePath": "Sup/SupHotelDownloadBatch/Detail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "batchNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Hotel.SupHotelDownloadBatchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelDownloadBatchController",
+    "Method": "DetailPageList",
+    "RelativePath": "Sup/SupHotelDownloadBatch/DetailPageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelDownloadBatchPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelDownloadBatchController",
+    "Method": "Export",
+    "RelativePath": "Sup/SupHotelDownloadBatch/Export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.HotelDownloadExportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelDownloadBatchController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotelDownloadBatch/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelDownloadBatchPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelDownloadBatchController",
+    "Method": "Revoke",
+    "RelativePath": "Sup/SupHotelDownloadBatch/Revoke",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "batchNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelExtendController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotelExtend/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelExtendPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelExtendController",
+    "Method": "UpdateHandle",
+    "RelativePath": "Sup/SupHotelExtend/UpdateHandle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelExtendHandleStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelLogController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotelLog/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelLogPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchController",
+    "Method": "AuditMatch",
+    "RelativePath": "Sup/SupHotelMatch/AuditMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CreateUpdateSupHotelMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchController",
+    "Method": "CancelAudit",
+    "RelativePath": "Sup/SupHotelMatch/CancelAudit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CancelAuditSupHotelMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchController",
+    "Method": "CancelMatch",
+    "RelativePath": "Sup/SupHotelMatch/CancelMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CreateUpdateSupHotelMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchController",
+    "Method": "CreateMatch",
+    "RelativePath": "Sup/SupHotelMatch/CreateMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CreateUpdateSupHotelMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchController",
+    "Method": "QueryBasicHotelList",
+    "RelativePath": "Sup/SupHotelMatch/QueryBasicHotelList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.BasicHotelPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchController",
+    "Method": "QueryMatchBasicHotel",
+    "RelativePath": "Sup/SupHotelMatch/QueryMatchBasicHotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Offline.Sup.Dtos.Agg.MatchBasicHotelQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Hotel.BasicHotelDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchController",
+    "Method": "RemoveMatch",
+    "RelativePath": "Sup/SupHotelMatch/RemoveMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CreateUpdateSupHotelMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchBasicHotelCheckController",
+    "Method": "PageListForCheck",
+    "RelativePath": "Sup/SupHotelMatchBasicHotelCheck/PageListForCheck",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelMatchBasicHotelPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelMatchBasicHotelCheckController",
+    "Method": "PageListForOnline",
+    "RelativePath": "Sup/SupHotelMatchBasicHotelCheck/PageListForOnline",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelMatchBasicHotelOnlinePageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotelRoom/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRoomPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomController",
+    "Method": "QuerySupHotelRoomForMatched",
+    "RelativePath": "Sup/SupHotelRoom/QuerySupHotelRoomForMatched",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelRoomForMatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRoomForMatchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomController",
+    "Method": "QuerySupHotelRoomForRelation",
+    "RelativePath": "Sup/SupHotelRoom/QuerySupHotelRoomForRelation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelRoomForRelationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRoomForRelationDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomController",
+    "Method": "QuerySupRoomForRoomCode",
+    "RelativePath": "Sup/SupHotelRoom/QuerySupRoomForRoomCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelRoomForRoomRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRoomDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomController",
+    "Method": "QuerySupRoomForSupHotelCode",
+    "RelativePath": "Sup/SupHotelRoom/QuerySupRoomForSupHotelCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelRoomQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRoomDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "BatchCreateMatch",
+    "RelativePath": "Sup/SupHotelRoomCluster/BatchCreateMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Offline.Sup.Dtos.Agg.BatchCreateTaskRoomMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "CancelMatch",
+    "RelativePath": "Sup/SupHotelRoomCluster/CancelMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Offline.Sup.Dtos.Agg.CancelTaskRoomMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "CreateMatch",
+    "RelativePath": "Sup/SupHotelRoomCluster/CreateMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Offline.Sup.Dtos.Agg.CreateTaskRoomMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "GetAggTaskSupHotelRoomMatchOtherWithPageAsync",
+    "RelativePath": "Sup/SupHotelRoomCluster/GetAggTaskSupHotelRoomMatchOtherWithPage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Agg.AggTaskSupHotelRoomMathcOtherSearchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "GetAggTaskSupHotelRoomWithPageAsync",
+    "RelativePath": "Sup/SupHotelRoomCluster/GetAggTaskSupHotelRoomWithPage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Agg.AggTaskSupHotelRoomSearchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "GetHotelInfo",
+    "RelativePath": "Sup/SupHotelRoomCluster/GetHotelInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskSupHotelId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "hotelCodeOrName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "countryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cityName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Agg.TaskHotelInfoDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "GetHotelRoomBestMatch",
+    "RelativePath": "Sup/SupHotelRoomCluster/GetHotelRoomBestMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskSupHotelId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "supRoomCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "QueryPrePageRecord",
+    "RelativePath": "Sup/SupHotelRoomCluster/QueryPrePageRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Offline.Sup.Dtos.Agg.QueryPrePageRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomClusterController",
+    "Method": "QueryRoomMatchAsync",
+    "RelativePath": "Sup/SupHotelRoomCluster/QueryRoomMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "Offline.Sup.Dtos.Agg.StandardRoomMatchQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Agg.StandardHotelRoomDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomExtendController",
+    "Method": "Export",
+    "RelativePath": "Sup/SupHotelRoomExtend/Export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelRoomExtendExportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomExtendController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotelRoomExtend/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRoomExtendPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomExtendController",
+    "Method": "UpdateHandle",
+    "RelativePath": "Sup/SupHotelRoomExtend/UpdateHandle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.SupHotelHandleStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRoomLogController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotelRoomLog/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRoomLogPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomMatchController",
+    "Method": "AuditMatch",
+    "RelativePath": "Sup/SupHotelRoomMatch/AuditMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CreateUpdateSupRoomMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomMatchController",
+    "Method": "CancelAudit",
+    "RelativePath": "Sup/SupHotelRoomMatch/CancelAudit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CancelAuditSupRoomMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomMatchController",
+    "Method": "CancelMatch",
+    "RelativePath": "Sup/SupHotelRoomMatch/CancelMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CreateUpdateSupRoomMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomMatchController",
+    "Method": "CancelOneAudit",
+    "RelativePath": "Sup/SupHotelRoomMatch/CancelOneAudit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CancelAuditOneSupRoomMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomMatchController",
+    "Method": "CreateMatch",
+    "RelativePath": "Sup/SupHotelRoomMatch/CreateMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dtoList",
+        "Type": "System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Hotel.CreateSupRoomMatchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupHotelRoomMatchController",
+    "Method": "RemoveMatch",
+    "RelativePath": "Sup/SupHotelRoomMatch/RemoveMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.CreateUpdateSupRoomMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController",
+    "Method": "Create",
+    "RelativePath": "Sup/SupHotelRunPriceBatch/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pricedays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Remark",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController",
+    "Method": "Detail",
+    "RelativePath": "Sup/SupHotelRunPriceBatch/Detail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "batchNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRunPriceBatchDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController",
+    "Method": "DetailPageList",
+    "RelativePath": "Sup/SupHotelRunPriceBatch/DetailPageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRunPriceBatchPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController",
+    "Method": "Export",
+    "RelativePath": "Sup/SupHotelRunPriceBatch/Export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Hotel.HotelRunPriceExportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupHotelRunPriceBatch/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupHotelRunPriceBatchPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController",
+    "Method": "Revoke",
+    "RelativePath": "Sup/SupHotelRunPriceBatch/Revoke",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "batchNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "Detail",
+    "RelativePath": "Sup/SupOrder/Detail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Order.SupOrderDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "DownOrderLogXml",
+    "RelativePath": "Sup/SupOrder/DownOrderLogXml",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "GetCheckPriceList",
+    "RelativePath": "Sup/SupOrder/GetCheckPriceList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Offline.Sup.Dtos.Order.QuerySupCheckPriceLogDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Order.SupCheckPriceLogDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "GetOrderLogs",
+    "RelativePath": "Sup/SupOrder/GetOrderLogs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Order.SupOrderLogDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "GetOrderMessageList",
+    "RelativePath": "Sup/SupOrder/GetOrderMessageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Order.SupOrderMessageQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Order.SupOrderMessageDetailDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "GetOrderPassengers",
+    "RelativePath": "Sup/SupOrder/GetOrderPassengers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Order.SupOrderPassengerDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "GetSupPriceDailys",
+    "RelativePath": "Sup/SupOrder/GetSupPriceDailys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Order.SupPriceDailyDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "PageList",
+    "RelativePath": "Sup/SupOrder/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Order.SupOrderPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupOrderController",
+    "Method": "QueryOrderDataTotal",
+    "RelativePath": "Sup/SupOrder/QueryOrderDataTotal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Order.SupOrderPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupplierConfigController",
+    "Method": "Create",
+    "RelativePath": "sup/SupplierConfig/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Config.CreateSupConfigDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupplierConfigController",
+    "Method": "Detail",
+    "RelativePath": "sup/SupplierConfig/Detail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[Offline.Sup.Dtos.Config.SupConfigDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupplierConfigController",
+    "Method": "GetList",
+    "RelativePath": "sup/SupplierConfig/GetList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Collections.Generic.List\u00601[[Offline.Sup.Dtos.Config.SupInfoDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupplierConfigController",
+    "Method": "PageList",
+    "RelativePath": "sup/SupplierConfig/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Config.SupConfigPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupplierConfigController",
+    "Method": "Update",
+    "RelativePath": "sup/SupplierConfig/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Config.UpdateSupConfigDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.SupplierConfigController",
+    "Method": "UpdateStatus",
+    "RelativePath": "sup/SupplierConfig/UpdateStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Offline.Sup.Dtos.Config.UpdateSupConfigStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "DeleteHotelAsync",
+    "RelativePath": "Sup/SupSpiderHotel/DeleteHotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "DeleteHotelDateAsync",
+    "RelativePath": "Sup/SupSpiderHotel/DeleteHotelDate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "DisableAsync",
+    "RelativePath": "Sup/SupSpiderHotel/Disable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "EnableAsync",
+    "RelativePath": "Sup/SupSpiderHotel/Enable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "GetSpiderHotelDateByIdAsync",
+    "RelativePath": "Sup/SupSpiderHotel/GetSpiderHotelDateById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "PageListHotelAsync",
+    "RelativePath": "Sup/SupSpiderHotel/PageListHotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Spider.SpiderHotelModel, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "PageListHotelDateAsync",
+    "RelativePath": "Sup/SupSpiderHotel/PageListHotelDate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Spider.SpiderHotelPageQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "SaveSpiderHotelAsync",
+    "RelativePath": "Sup/SupSpiderHotel/SaveSpiderHotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Offline.Sup.Dtos.Spider.SpiderHotelModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.SupSpiderHotelController",
+    "Method": "SaveSpiderHotelDateAsync",
+    "RelativePath": "Sup/SupSpiderHotel/SaveSpiderHotelDate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Offline.Sup.Dtos.Spider.SpiderHotelDateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ThirdHotelMatchController",
+    "Method": "BatchHotelMatch",
+    "RelativePath": "Sup/ThirdHotelMatch/BatchHotelMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ThirdHotelMatchController",
+    "Method": "CheckMatch",
+    "RelativePath": "Sup/ThirdHotelMatch/CheckMatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ThirdHotelMatchController",
+    "Method": "Create",
+    "RelativePath": "Sup/ThirdHotelMatch/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "BatchNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ThirdSupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Remark",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreateBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreateTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ThirdHotelMatchController",
+    "Method": "DetailPageListAsync",
+    "RelativePath": "Sup/ThirdHotelMatch/DetailPageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ThirdHotelMatchController",
+    "Method": "Export",
+    "RelativePath": "Sup/ThirdHotelMatch/Export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "Offline.Sup.Dtos.Hotel.ExportSupThirdHotelMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EasyFrame.Common.OperateResult\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ThirdHotelMatchController",
+    "Method": "PageListAsync",
+    "RelativePath": "Sup/ThirdHotelMatch/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupThirdHotelBatchQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Offline.Sup.Api.Controllers.ThirdHotelMatchRecordController",
+    "Method": "PageListAsync",
+    "RelativePath": "Sup/ThirdHotelMatchRecord/PageList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageQuery",
+        "Type": "EasyFrame.Common.PageQueryDto\u00601[[Offline.Sup.Dtos.Hotel.SupThirdHotelMatchRecordQueryDto, Offline.Sup.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

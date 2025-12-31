@@ -1,0 +1,3399 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Offline.Sup.Domain.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.AggHotelFeatureEntity">
+            <summary>
+            所有的酒店特征
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggHotelFeatureEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggHotelFeatureEntity.SupCode">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggHotelFeatureEntity.HotelCode">
+            <summary>
+            基础酒店id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggHotelFeatureEntity.Feature">
+            <summary>
+            酒店特征维度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggHotelFeatureEntity.FeatureValue">
+            <summary>
+            酒店特征维度值
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.Id">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.TaskSupHotelId">
+            <summary>
+            任务供应商酒店ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.HotelCode">
+            <summary>
+            酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.TaskId">
+            <summary>
+            任务ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.SupHotelInfo">
+            <summary>
+            供应商酒店信息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.HotelInfo">
+            <summary>
+            酒店信息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.CountryName">
+            <summary>
+            国家名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.CountryNameEn">
+            <summary>
+            国家英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.CityName">
+            <summary>
+            城市名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.Name">
+            <summary>
+            酒店中文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.EnName">
+            <summary>
+            酒店英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.Telphone">
+            <summary>
+            酒店电话
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.Address">
+            <summary>
+            酒店地址
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.Longitude">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.Latitude">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.Stars">
+            <summary>
+            星级
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.HotelId">
+            <summary>
+            酒店ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.MatchScore">
+            <summary>
+            匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.HotelNameScore">
+            <summary>
+            酒店名称匹配度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.HotelTelphoneScore">
+            <summary>
+            电话匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.HotelAddressScore">
+            <summary>
+            地址匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.LongLatScore">
+            <summary>
+            经纬度匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskChannelMatchEntity.StarsScore">
+            <summary>
+            星级匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.TaskType">
+            <summary>
+            任务类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.BatchNo">
+            <summary>
+             批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.Status">
+            <summary>
+            任务状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.FilePath">
+            <summary>
+            文件地址
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.RequestJson">
+            <summary>
+            请求参数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.FailMessage">
+            <summary>
+            失败信息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.FailEx">
+            <summary>
+            失败堆
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.ModifiedTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.Remark">
+            <summary>
+            备注信息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.MatchFinishBy">
+            <summary>
+            匹配完成确认人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskEntity.MatchFinishTime">
+            <summary>
+            匹配完成时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.AggTaskPageRecordEntity">
+            <summary>
+            任务页面记录实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskPageRecordEntity.Id">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskPageRecordEntity.TaskId">
+            <summary>
+            任务id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskPageRecordEntity.ApiUrl">
+            <summary>
+            API接口地址
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskPageRecordEntity.Params">
+            <summary>
+            请求参数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskPageRecordEntity.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskPageRecordEntity.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskPageRecordEntity.ModifiedTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity">
+            <summary>
+            待匹配的酒店
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.TaskId">
+            <summary>
+            任务Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.SupId">
+            <summary>
+            供应商id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.SupHotelCode">
+            <summary>
+            供应商酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.IsMatch">
+            <summary>
+            是否已开始匹配
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.IsMatchStatus">
+            <summary>
+            匹配结果
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.MatchNum">
+            <summary>
+            匹配数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.Remark">
+            <summary>
+            备注信息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.CodeOrName">
+            <summary>
+            表格主键数据
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.ImportContent">
+            <summary>
+            表格Json对象
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.MatchUser">
+            <summary>
+            匹配操作用户名
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.MatchUserId">
+            <summary>
+            匹配操作用户id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelEntity.MatchTime">
+            <summary>
+            匹配时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity">
+            <summary>
+            匹配的基础酒店信息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.TaskSupHotelId">
+            <summary>
+            任务供应商酒店Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.SupHotelCode">
+            <summary>
+            供应商酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.HotelCode">
+            <summary>
+            基础酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.MatchType">
+            <summary>
+            匹配类型 1:人工匹配 2：系统匹配
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.MatchUser">
+            <summary>
+            匹配用户
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.MatchScore">
+            <summary>
+            匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.HotelNameScore">
+            <summary>
+            酒店名称匹配度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.HotelTelphoneScore">
+            <summary>
+            电话匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.HotelAddressScore">
+            <summary>
+            地址匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.LongLatScore">
+            <summary>
+            经纬度匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.MatchStatus">
+            <summary>
+            匹配状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.IsValid">
+            <summary>
+            是否有效(0否 1是)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.Distance">
+            <summary>
+            经纬度距离
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.StarsScore">
+            <summary>
+            星级匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.SupHotelInfo">
+            <summary>
+            供应商待匹配酒店信息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelMatchEntity.HotelInfo">
+            <summary>
+            匹配到的基础酒店信息
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity">
+            <summary>
+            供应商酒店房型任务聚合
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.Id">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.TaskId">
+            <summary>
+            任务ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.TaskSupHotelId">
+            <summary>
+            供应商酒店任务ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.SupId">
+            <summary>
+            供应商ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.SupHotelCode">
+            <summary>
+            供应商酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.SupRoomCode">
+            <summary>
+            供应商房型编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.SupRoomInfo">
+            <summary>
+            供应商房型信息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.AnalyzeRoom">
+            <summary>
+            房型分析结果
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.AnalyzeBed">
+            <summary>
+            床型分析结果
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.AnalyzeView">
+            <summary>
+            景观分析结果
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.AnalyzeResult">
+            <summary>
+            分析总结果
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.IsAnalyze">
+            <summary>
+            是否已分析
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.IsAnalyzeSuccess">
+            <summary>
+            分析是否成功
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.IsMatch">
+            <summary>
+            是否有推荐智能匹配数据
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.IsMatchSuccess">
+            <summary>
+            匹配是否成功
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomEntity.IsConsistent">
+            <summary>
+            是否一致
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity">
+            <summary>
+            供应商酒店房型匹配结果
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.Id">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.TaskId">
+            <summary>
+            任务ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.TaskSupHotelRoomId">
+            <summary>
+            任务房型ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.HotelCode">
+            <summary>
+            酒店代码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.RoomCode">
+            <summary>
+            房型代码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.Score">
+            <summary>
+            匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.AnalyzeResult">
+            <summary>
+            分析结果
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.MatchType">
+            <summary>
+            匹配类型1:人工匹配   2：系统匹配
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.MatchStatus">
+            <summary>
+            匹配状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.MatchTime">
+            <summary>
+            匹配时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.MatchUser">
+            <summary>
+            匹配用户
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.AggTaskSupHotelRoomMatchEntity.MatchUserId">
+            <summary>
+            匹配用户ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.CountryCode">
+            <summary>
+            所属国家编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.Code">
+            <summary>
+            区域编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.Name">
+            <summary>
+            区域名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.EnName">
+            <summary>
+            区域英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.SimpleName">
+            <summary>
+            区域简称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.SimpleEnName">
+            <summary>
+            区域英文简称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.AreaType">
+            <summary>
+            区域类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.MatchStatus">
+            <summary>
+            匹配状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.ModifyById">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.ModifyBy">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaEntity.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.SupAreaId">
+            <summary>
+            供应商区域id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.SupAreaCode">
+            <summary>
+            供应商区域code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.BasicAreaId">
+            <summary>
+            基础区域Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.BasicAreaCode">
+            <summary>
+            基础区域编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.AreaType">
+            <summary>
+            区域类型 字典AreaEnum
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.SortIndex">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.CreateById">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupAreaMatchEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.MasterHotelCode">
+            <summary>
+            基础酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.MasterRoomCode">
+            <summary>
+            基础房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.SupHotelName">
+            <summary>
+            供应商酒店名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.SupRoomCode">
+            <summary>
+            供应商房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.SupRoomName">
+            <summary>
+            供应商房型名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.SearchCode">
+            <summary>
+            报价唯一标记
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.CheckInDate">
+            <summary>
+            入住日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.CheckOutDate">
+            <summary>
+            离店日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.RoomNum">
+            <summary>
+            房间数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.AdultNum">
+            <summary>
+            成人数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.ChildNum">
+            <summary>
+            儿童数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.SalePrice">
+            <summary>
+            原来的房型报价
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.NewSalePice">
+            <summary>
+            新的房型报价
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.IsChange">
+            <summary>
+            是否变价
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.RequestJosn">
+            <summary>
+            api请求报文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.ResponseJosn">
+            <summary>
+            api返回报文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupCheckPriceLogEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupConfigEntity">
+            <summary>
+            Sup_Configs表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.SupId">
+            <summary>
+            供应商id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.SupName">
+            <summary>
+            供应商名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.ConfigJson">
+            <summary>
+            供应商配置
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.SortIndex">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.Status">
+            <summary>
+            启停状态 字典EnableStatusEnum
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.IsDeleted">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupConfigEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.AutoMatchId">
+            <summary>
+            匹配Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.HotelCode">
+            <summary>
+            基础酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.MatchType">
+            <summary>
+            匹配方式
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.MatchUser">
+            <summary>
+            匹配人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.MatchDegree">
+            <summary>
+            总的匹配度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.DegreeHotelName">
+            <summary>
+            酒店名称匹配分值
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.DegreeTelphone">
+            <summary>
+            电话号码匹配分值
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.DegreeAddress">
+            <summary>
+            地址匹配分值
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.DegreeLongLat">
+            <summary>
+            经纬度偏差值
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.Remark">
+            <summary>
+            聚合备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.Status">
+            <summary>
+            状态(0=未审核 1=同意 2=不同意)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.IsValid">
+            <summary>
+            是否有效(0=无效 1=有效)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.ModifyBy">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.ModifyById">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchDetailEntity.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.IsMatchStatus">
+            <summary>
+            是否建立匹配(0=否 1=是)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.MatchNum">
+            <summary>
+            匹配数量
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelAutoMatchEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchDetailEntity">
+            <summary>
+            Sup_HotelDownloadBatchDetail表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchDetailEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchDetailEntity.BatchNo">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchDetailEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchDetailEntity.SupHotelCode">
+            <summary>
+            供应商酒店
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchDetailEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchDetailEntity.IsDeleted">
+            <summary>
+            是否删除 EnumDeleteStatus
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity">
+            <summary>
+            Sup_HotelDownloadBatch表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity.BatchNo">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity.SupHotelNum">
+            <summary>
+            供应商酒店数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity.ExecuteTime">
+            <summary>
+            执行时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity.Status">
+            <summary>
+            状态 0待执行;1执行中;2已完成 默认待执行
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadBatchEntity.IsDeleted">
+            <summary>
+            是否删除 EnumDeleteStatus
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity">
+            <summary>
+            Sup_HotelDownloadRecords表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.SupHotelCode">
+            <summary>
+            供应商酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.Type">
+            <summary>
+            下载类型 1:酒店;2:房型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.BatchNo">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.Request">
+            <summary>
+            入参
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.Response">
+            <summary>
+            出参
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.Status">
+            <summary>
+            状态 0失败;1成功 
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.Result">
+            <summary>
+            下载返回结果
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.IsDeleted">
+            <summary>
+            删除状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelDownloadRecordsEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelEntity">
+            <summary>
+            Sup_Hotels表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.SupId">
+            <summary>
+            供应商id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Code">
+            <summary>
+            Sup酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Name">
+            <summary>
+            Sup酒店名称中文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.EnName">
+            <summary>
+            Sup酒店名称英文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.GroupName">
+            <summary>
+            酒店集团
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.CountryCode">
+            <summary>
+            所属国家code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.CountryName">
+            <summary>
+            所属国家名称中文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.CountryNameEn">
+            <summary>
+            所属国家名称英文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.ProvinceCode">
+            <summary>
+            所属省份cpde
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.ProvinceName">
+            <summary>
+            所属省份名称中文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.ProvinceNameEn">
+            <summary>
+            所属省份名称英文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.CityCode">
+            <summary>
+            所属城市code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.CityName">
+            <summary>
+            所属城市名称中文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.CityNameEn">
+            <summary>
+            所属城市名称英文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.EnAddress">
+            <summary>
+            地址英文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.GpsType">
+            <summary>
+            GPS类型 字典(GpsTypeEnum)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Longitude">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Latitude">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Telphone">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Stars">
+            <summary>
+            星级 字典(HotelStarsEnum)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Website">
+            <summary>
+            网址
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.FaxNo">
+            <summary>
+            传真
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.PostCode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Introduction">
+            <summary>
+            简介
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.HotLevel">
+            <summary>
+            热卖推荐
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.MatchStatus">
+            <summary>
+            匹配状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.AuditStatus">
+            <summary>
+            匹配审核状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.IsDeleted">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.DownTime">
+            <summary>
+            下载时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelEntity.UpdateRemark">
+            <summary>
+            更新备注
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity">
+            <summary>
+            Sup_HotelExtends表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.Code">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.Name">
+            <summary>
+            酒店名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.EnName">
+            <summary>
+            酒店英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.ChangeName">
+            <summary>
+            变更酒店名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.ChangeEnName">
+            <summary>
+            变更酒店英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.HandleStatus">
+            <summary>
+            处理状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelExtendEntity.IsDeleted">
+            <summary>
+            是否删除 EnumDeleteStatus
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity">
+            <summary>
+            Sup_HotelLogs实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.HotelCode">
+            <summary>
+            基础酒店code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.OperateType">
+            <summary>
+            操作类型 字典OperateTypeEnum
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.CreateById">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelLogEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelMatchEntity">
+            <summary>
+            Sup_HotelMatch表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelMatchEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelMatchEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelMatchEntity.SupCode">
+             <summary>
+            供应商code
+             </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelMatchEntity.SupHotelCode">
+            <summary>
+            供应商酒店code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelMatchEntity.HotelCode">
+            <summary>
+            基础酒店code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelMatchEntity.AuditStatus">
+            <summary>
+            审核状态 审核状态 AuditStatusEnum
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelMatchEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity">
+            <summary>
+            Sup_HotelRooms表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.RoomCode">
+            <summary>
+            供应商房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.RoomName">
+            <summary>
+            供应商房型名称中文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.RoomEnName">
+            <summary>
+            供应商房型名称英文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.RoomDesc">
+            <summary>
+            供应商房型说明
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.RoomPicUrl">
+            <summary>
+            供应商房型图片地址说明
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.BedDesc">
+            <summary>
+            供应商床型说明
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.MatchStatus">
+            <summary>
+            匹配状态 字典MatchStatusEnum
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.AuditStatus">
+            <summary>
+            审核状态 字典AuditStatusEnum
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.HistoryId">
+            <summary>
+            历史房型Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity">
+            <summary>
+            Sup_HotelRoomExtends表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.SupRoomCode">
+            <summary>
+            供应商房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.RoomName">
+            <summary>
+            房型名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.RoomEnName">
+            <summary>
+            房型英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.RoomDesc">
+            <summary>
+            房型描述
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.BedDesc">
+            <summary>
+            床型描述
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.ChangeRoomName">
+            <summary>
+            变更房型名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.ChangeRoomEnName">
+            <summary>
+            变更房型英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.ChangeRoomDesc">
+            <summary>
+            变更后房型描述
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.ChangeBedDesc">
+            <summary>
+            变更后床型描述
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.HandleStatus">
+            <summary>
+            处理状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomExtendEntity.IsDeleted">
+            <summary>
+            是否删除 EnumDeleteStatus
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity">
+            <summary>
+            Sup_HotelRoomLogs表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.SupRoomCode">
+            <summary>
+            供应商房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.HotelCode">
+            <summary>
+            基础酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.RoomCode">
+            <summary>
+            基础酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.OperateType">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.CreateById">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomLogEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity">
+            <summary>
+            Sup_HotelRoomMatch表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.SupId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.SupRoomCode">
+            <summary>
+            供应商房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.HotelCode">
+            <summary>
+            基础酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.RoomCode">
+            <summary>
+            基础房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.AuditStatus">
+            <summary>
+            审核状态 字典 AuditStatusEnum
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRoomMatchEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity">
+            <summary>
+            Sup_HotelRunPriceBatchDetail表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.BatchNo">
+            <summary>
+             批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.MinPriceRmb">
+            <summary>
+            最低价
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.MinCheckInDate">
+            <summary>
+            最小日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.Status">
+            <summary>
+            状态 0：待处理 1：已处理
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchDetailEntity.IsDeleted">
+            <summary>
+            是否删除 EnumDeleteStatus
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity">
+            <summary>
+            Sup_HotelRunPriceBatch表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.BatchNo">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.SupHotelNum">
+            <summary>
+            供应商酒店数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.Pricedays">
+            <summary>
+            跑价天数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.Status">
+            <summary>
+            状态 0待执行;1执行中;2已完成;3已取消 默认待执行
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.ExecuteTime">
+            <summary>
+            执行时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceBatchEntity.IsDeleted">
+            <summary>
+            是否删除 EnumDeleteStatus
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceDailyEntity">
+            <summary>
+            Sup_HotelRunPriceDetail表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceDailyEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceDailyEntity.BatchNo">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceDailyEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceDailyEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceDailyEntity.PriceRmb">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceDailyEntity.CheckInDate">
+            <summary>
+            入住日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupHotelRunPriceDailyEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupOrderEntity">
+            <summary>
+            Sup_Orders表实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.OrderNo">
+            <summary>
+            系统订单
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.ChannelId">
+            <summary>
+            渠道Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.ChannelName">
+            <summary>
+            渠道名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.MasterHotelCode">
+            <summary>
+            基础酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.MasterHotelName">
+            <summary>
+            基础酒店名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.MasterRoomCode">
+            <summary>
+            基础房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.MasterRoomName">
+            <summary>
+            基础房型名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.CheckInDate">
+            <summary>
+            入住日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.CheckOutDate">
+            <summary>
+            离店日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.RoomNum">
+            <summary>
+            房间数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.PersonNum">
+            <summary>
+            人数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.AdultNum">
+            <summary>
+            成人数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.ChildNum">
+            <summary>
+            儿童数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.Nationality">
+            <summary>
+            国籍
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupCode">
+            <summary>
+            供应商code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupHotelCode">
+            <summary>
+            供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupHotelName">
+            <summary>
+            供应商酒店名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupRoomCode">
+            <summary>
+            供应商房型编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupRoomName">
+            <summary>
+            供应商房型名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.OrderRemark">
+            <summary>
+            下单备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.VerOrderPrice">
+            <summary>
+            验价返回金额(供应商原币种)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.VerCurrencyCode">
+            <summary>
+            验价返回币种Code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.VerMealType">
+            <summary>
+            验价返回餐食类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.VerCancelType">
+            <summary>
+            验价返回取消类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.VerCancelTime">
+            <summary>
+            验价返回免费取消时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderNo">
+            <summary>
+            下单返回供应商单号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderPrice">
+            <summary>
+            下单返回金额(供应商原币种)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderGrossProfit">
+            <summary>
+            供应商原币种总返佣金额
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderMarketFee">
+            <summary>
+            供应商原币种返佣毛利金额
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderCurrencyCode">
+            <summary>
+            下单返回币种code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderMealType">
+            <summary>
+            下单返回餐食类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderCancelType">
+            <summary>
+            下单返回取消类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderCancelTime">
+            <summary>
+            下单返回取消时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderUrl">
+            <summary>
+            下单返回订单Url
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupConfirmNum">
+            <summary>
+            供应商酒店确认号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderRemark">
+            <summary>
+            供应商订单备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.SupOrderStatus">
+            <summary>
+            供应商订单状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.BookTime">
+            <summary>
+            向供应商下单完成时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.BookMsg">
+            <summary>
+            向供应商下单消息
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.ModifyBy">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderEntity.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity">
+            <summary>
+            Sup_OrderLogs实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.OrderNo">
+            <summary>
+            系统订单号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.SearchCode">
+            <summary>
+            查价唯一码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.OperateType">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.Step">
+            <summary>
+            步骤
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.RequestJson">
+            <summary>
+            请求报文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.ResponseJson">
+            <summary>
+            返回报文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderLogEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity">
+            <summary>
+            Sup_OrderMessageDetail实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.MsgId">
+            <summary>
+            消息ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.RequestId">
+            <summary>
+            请求ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.SupOrderNo">
+            <summary>
+            供应商订单号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.OrderNo">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.MessageId">
+            <summary>
+            消息ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.MessageType">
+            <summary>
+            消息类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.MessageTime">
+            <summary>
+            消息时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.MessageEmail">
+            <summary>
+            消息接收邮箱
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.MessageContent">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.MessageRoomConfirmNum">
+            <summary>
+            房型确认号    
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.MessageResponseJson">
+            <summary>
+            返回结果json
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageDetailEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity">
+            <summary>
+            Sup_OrderMessages实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.MessageType">
+            <summary>
+            消息类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.RequestId">
+            <summary>
+            请求ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.SupCode">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.SupOrderNo">
+            <summary>
+            供应商订单号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.OrderNo">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.RequestJson">
+            <summary>
+            请求报文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.ResponseJson">
+            <summary>
+            响应报文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderMessageEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity">
+            <summary>
+            Sup_OrderPassengers实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.OrderNo">
+            <summary>
+            系统订单号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.RoomIndex">
+            <summary>
+            房间号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.LastName">
+            <summary>
+            姓
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.FirstName">
+            <summary>
+            名
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.PersonType">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.BirthDate">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.Nationality">
+            <summary>
+            国籍
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.IdentityType">
+            <summary>
+            证件类型
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.IdentityNo">
+            <summary>
+            证件号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.PhoneNo">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.IsDeleted">
+            <summary>
+            删除
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupOrderPassengerEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity">
+            <summary>
+            爬虫请求数据表
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.Id">
+            <summary>
+            主键id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.SupId">
+            <summary>
+            供应商ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.HotelCode">
+            <summary>
+            酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.HotelName">
+            <summary>
+            酒店名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.HotelUrl">
+            <summary>
+            官网酒店详情Url
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.CheckInDate">
+            <summary>
+            入住日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.CheckOutDate">
+            <summary>
+            离店日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.Days">
+            <summary>
+            入住天数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.RoomNum">
+            <summary>
+            房间数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.AdultNum">
+            <summary>
+            成人数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.ChildNum">
+            <summary>
+            儿童数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.NetworkNode">
+            <summary>
+            网络节点要求
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.HasPrice">
+            <summary>
+            是否有价格
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.HasPriceNumber">
+            <summary>
+            有价次数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.Status">
+            <summary>
+            状态 0：禁用 1：启用
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.LastSpiderTime">
+            <summary>
+            最新抓取时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.IsDeleted">
+            <summary>
+            是否已删除
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.CreateById">
+            <summary>
+            创建人ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.ModifiedById">
+            <summary>
+            修改人ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.ModifiedBy">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelDateEntity.ModifiedTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity">
+            <summary>
+            爬虫请求数据表
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.Id">
+            <summary>
+            主键id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.SupId">
+            <summary>
+            供应商ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.HotelCode">
+            <summary>
+            酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.HotelName">
+            <summary>
+            酒店名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.HotelUrl">
+            <summary>
+            官网酒店详情Url
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.Days">
+            <summary>
+            入住天数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.RoomNum">
+            <summary>
+            房间数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.AdultNum">
+            <summary>
+            成人数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.ChildNum">
+            <summary>
+            儿童数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.NetworkNode">
+            <summary>
+            网络节点要求
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.IsDeleted">
+            <summary>
+            是否已删除
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.HasPriceDays">
+            <summary>
+            有报价的天数
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.LastPolingDate">
+            <summary>
+            最新轮出日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.CreateById">
+            <summary>
+            创建人ID
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity">
+            <summary>
+            Sup_Hotel_ThirdMatch实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity.BatchNo">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity.SupCode">
+            <summary>
+            供应商Code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity.ThirdSupCode">
+            <summary>
+            第三方供应商Code
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity.CreateById">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelBatchEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity">
+            <summary>
+            Sup_Hotel_ThirdMatchBatch实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.BatchNo">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.SupHotelCode">
+            <summary>
+            供应商酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.ThirdSupCode">
+            <summary>
+            第三方供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.ThirdSupHotelCode">
+            <summary>
+            第三方供应商酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.MatchBasicHotelStatus">
+            <summary>
+            与匹基础酒店匹配关系
+            1：供应商酒店已匹配基础酒店
+            2：第三方酒店已匹配基础酒店
+            3：供应商酒店和第三方酒店匹配同一基础酒店
+            4：供应商酒店和第三方酒店匹配不同基础酒店
+            5：都未与基础酒店进行匹配
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.ModifyById">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.ModifyBy">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchEntity.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity">
+            <summary>
+            Sup_Hotel_ThirdMatchRecord实体
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity.BatchNo">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity.SupCode">
+            <summary>
+            供应商编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity.SupHotelCode">
+            <summary>
+            供应商酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity.HotelCode">
+            <summary>
+            基础酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity.CreateById">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity.CreateBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.SupThirdHotelMatchRecordEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.HotelCode">
+            <summary>
+            酒店编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.HotelName">
+            <summary>
+            酒店名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.HotelNameEn">
+            <summary>
+            酒店英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.CountryCode">
+            <summary>
+            国家编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.CountryName">
+            <summary>
+            国家名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.CountryNameEn">
+            <summary>
+            国家英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.ProvinceCode">
+            <summary>
+            省编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.ProvinceName">
+            <summary>
+            省名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.ProvinceNameEn">
+            <summary>
+            省英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.TranslateProvinceId">
+            <summary>
+            Translate 省 Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.TranslateProvinceName">
+            <summary>
+            Translate 省名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.TranslateProvinceNameEn">
+            <summary>
+            Translate 省英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.CityName">
+            <summary>
+            城市名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.CityNameEn">
+            <summary>
+            城市英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.TranslateCityId">
+            <summary>
+            Translate 城市 Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.TranslateCityName">
+            <summary>
+            Translate 城市名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.TranslateCityNameEn">
+            <summary>
+            Translate 城市英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.AddressEn">
+            <summary>
+            英文地址
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Star">
+            <summary>
+            星级
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Longitude">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Latitude">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Ranks">
+            <summary>
+            热卖程度
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Phone">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.TranslatePhone">
+            <summary>
+            Translate 电话
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.PostalCode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Fax">
+            <summary>
+            传真
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Isvaild">
+            <summary>
+            是否有效 DataValidStatusEnum
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.CreateTime">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.ModifyTime">
+            <summary>
+            更新日期
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Chain">
+            <summary>
+            连锁名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Brand">
+            <summary>
+            品牌名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Category">
+            <summary>
+            酒店类别
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.Amenities">
+            <summary>
+            酒店为所有客人提供的所有设施
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelEntity.AmenitiesEn">
+            <summary>
+            酒店为所有客人提供的所有设施英文
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.B2CHotelCode">
+            <summary>
+            Expedia酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.HotelCode">
+            <summary>
+            基础酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.CountryId">
+            <summary>
+            Expedia国家Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.CountryCode">
+            <summary>
+            Expedia国家编码
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.CountryName">
+            <summary>
+            Expedia国家名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.CountryNameEn">
+            <summary>
+            Expedia国家英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.TranslateCountryId">
+            <summary>
+            基础酒店国家id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.TranslateCountryName">
+            <summary>
+            基础酒店国家名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.ProvinceId">
+            <summary>
+            Expedia省份Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.ProvinceName">
+            <summary>
+            Expedia省名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.ProvinceNameEn">
+            <summary>
+            Expedia省英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.TranslateProvinceId">
+            <summary>
+            基础酒店省份id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.TranslateProvinceName">
+            <summary>
+            基础酒店省份名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.TranslateProvinceNameEn">
+            <summary>
+            基础酒店省份名称(英文)
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.CityId">
+            <summary>
+            Expedia城市Id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.CityName">
+            <summary>
+            Expedia城市名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.CityNameEn">
+            <summary>
+            Expedia城市英文名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.TranslateCityId">
+            <summary>
+            基础酒店城市id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.TranslateCityName">
+            <summary>
+            基础酒店城市名称
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.TranslateCityNameEn">
+            <summary>
+            基础酒店城市名称（英文）
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.SupCode">
+            <summary>
+            匹配来源供应商
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.SupHotelCode">
+            <summary>
+            匹配来源的供应商酒店编号
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.NameScore">
+            <summary>
+            名称匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.PhoneScore">
+            <summary>
+            电话匹配得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.Distance">
+            <summary>
+            距离
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.AddressScore">
+            <summary>
+            地址得分
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.MatchStatus">
+            <summary>
+            匹配状态
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.MatchUserId">
+            <summary>
+            匹配用户id
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.MatchUser">
+            <summary>
+            匹配用户
+            </summary>
+        </member>
+        <member name="P:Offline.Sup.Domain.Shared.Entities.WHB2CHotelMatchEntity.MatchTime">
+            <summary>
+            匹配时间
+            </summary>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IAggTaskChannelMatchRepository.GetAggTaskChannelMatchDetailWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskChannelMatchDetailSearchDto})">
+            <summary>
+            分页获取渠道匹配数据
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IAggTaskSupHotelMatchRepository.GetDataHotelsByHotelCodes(System.Collections.Generic.List{System.String})">
+            <summary>
+            根据酒店编码集合获取酒店信息集合
+            </summary>
+            <param name="hotelCodes">酒店编码集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IAggTaskSupHotelMatchRepository.GetDataHotelByHotelCode(System.String)">
+            <summary>
+            根据酒店编码获取酒店信息
+            </summary>
+            <param name="hotelCode">酒店编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IAggTaskSupHotelRepository.GetAggTaskHotelInfoWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelMatchDetailDto})">
+            <summary>
+            分页获取待匹配酒店数据信息
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IAggTaskSupHotelRoomMatchRepository.GetAggTaskSupHotelRoomWithPageAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelRoomSearchDto})">
+            <summary>
+            获取酒店房间匹配推荐结果
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelExtendRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelExtendPageQueryDto})">
+            <summary>
+            查询供应商酒店变化分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelExtendRepository.GetListAsync(Offline.Sup.Dtos.Hotel.SupHotelExtendPageQueryDto)">
+            <summary>
+            查询供应商酒店变化列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelMatchRepository.SearchSupHotelMatch(System.String,System.String,System.String)">
+            <summary>
+            查询已建立匹配关系的 供应商酒店+基础酒店
+            </summary>
+            <param name="supCode"></param>
+            <param name="supHotelCode"></param>
+            <param name="auditStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelMatchRepository.SearchSupHotelMatchs(System.String,System.String,System.String)">
+            <summary>
+            查询已建立匹配关系的 供应商酒店+基础酒店
+            </summary>
+            <param name="supCode"></param>
+            <param name="hotelCode">基础酒店编码</param>
+            <param name="auditStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelRepository.SearchSupHotel(System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32)">
+            <summary>
+            查询未匹配的，推荐供应商的酒店
+            <para>1 排除已匹配的</para>
+            </summary>
+            <param name="supCode">供应商编号</param>
+            <param name="supHotelCode">供应商酒店编号</param>
+            <param name="matchStatus">匹配状态(此处需要传待匹配的)</param>
+            <param name="keywordType">关键字类型(1=中文 2=英文)</param>
+            <param name="keyword">关键字</param>
+            <param name="segments">关键字的分词(逗号隔开)</param>
+            <param name="resultNum">返回条数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelPageQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelRoomExtendRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelRoomExtendPageQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelRoomExtendRepository.GetListAsync(Offline.Sup.Dtos.Hotel.SupHotelRoomExtendPageQueryDto)">
+            <summary>
+            查询供应商酒店列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelRoomRepository.QuerySupHotelRoomForMatchedAsync(Offline.Sup.Dtos.Hotel.SupHotelRoomForMatchRequest)">
+            <summary>
+            查询基础酒店已匹配已审核的供应商酒店下的 所有供应商房型
+             <para>场景：基础房型匹配供应商房型 页面</para>
+            <para>条件1：酒店匹配=已匹配+已审核</para>
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelRoomRepository.QuerySupHotelRoomForRelationAsync(Offline.Sup.Dtos.Hotel.SupHotelRoomForRelationRequest)">
+            <summary>
+            查询基础房型匹配供应商房型数据
+            <para>场景：基础房型点击匹配或审核数量，弹出房型匹配关系图</para>
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupHotelRunPriceDailyRepository.GetHotelRunPriceDailyListAsync(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            获取酒店跑价明细列表
+            </summary>
+            <param name="supHotelCodes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.IRepositories.ISupSpiderHotelDateRepository">
+            <summary>
+            爬虫请求数据表
+            </summary>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupSpiderHotelDateRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Spider.SpiderHotelPageQueryDto})">
+            <summary>
+            分页查询爬虫请求数据
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupSpiderHotelDateRepository.SetNameAndUrlAsync(System.Int64,System.String,System.String)">
+            <summary>
+            设置酒店名称和Url
+            </summary>
+            <param name="id"></param>
+            <param name="name">酒店名称</param>
+            <param name="url">酒店url</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupSpiderHotelDateRepository.SetHasPriceAsync(System.Int64,System.Boolean)">
+            <summary>
+            设置是否有价
+            </summary>
+            <param name="id">酒店任务id</param>
+            <param name="hasPrice">是否有价</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupSpiderHotelDateRepository.SetHasPriceNumberAsync(System.Int64,System.Int64,System.Boolean)">
+            <summary>
+            设置有价次数
+            </summary>
+            <param name="id"></param>
+            <param name="hasPriceNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupSpiderHotelRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Spider.SpiderHotelModel})">
+            <summary>
+            分页查询爬虫请求数据
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupThirdHotelBatchRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelBatchQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupThirdHotelMatchRecordRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelMatchRecordQueryDto})">
+            <summary>
+            分页获取供应商酒店与第三方酒店匹配记录列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupThirdHotelMatchRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.ISupThirdHotelMatchRepository.GetListAsync(Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto)">
+            <summary>
+            根据批次号获取匹配数据列表
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.IRepositories.IWHB2CHotelMatchRepository">
+            <summary>
+            Expedia酒店匹配数据仓储接口
+            </summary>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IWHB2CHotelMatchRepository.GetB2CHotelMatchBasicHotel(System.Int64)">
+            <summary>
+            获取基础酒店与Expedia酒店匹配信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IWHB2CHotelMatchRepository.Match(System.Int64,Offline.Sup.Dtos.Agg.MatchAuditStatusEnum,System.Int64,System.String)">
+            <summary>
+            酒店关系匹配
+            </summary>
+            <param name="id">主键</param>
+            <param name="status">匹配状态</param>
+            <param name="matchUserId">匹配用户id</param>
+            <param name="matchUserName">匹配用户名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IWHB2CHotelMatchRepository.UnMatch(System.Int64,System.Int64,System.String)">
+            <summary>
+            解除酒店关系匹配
+            </summary>
+            <param name="id">主键</param>
+            <param name="matchUserId">匹配用户id</param>
+            <param name="matchUserName">匹配用户名</param>
+            <returns></returns>
+        </member>
+        <member name="T:Offline.Sup.Domain.Shared.IRepositories.IWHB2CHotelRepository">
+            <summary>
+            Expedia酒店数据仓储接口
+            </summary>
+        </member>
+        <member name="M:Offline.Sup.Domain.Shared.IRepositories.IWHB2CHotelRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Expedia.B2CHotelPageQueryDto})">
+            <summary>
+            Expedia酒店分页查询
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

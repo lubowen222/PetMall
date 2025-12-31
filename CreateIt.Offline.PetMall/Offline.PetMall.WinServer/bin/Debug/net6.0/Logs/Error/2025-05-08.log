@@ -1,0 +1,67 @@
+2025-05-08 09:18:51,307：SpiderHotelUrl is not configured.
+2025-05-08 09:19:01,333：SpiderHotelUrl is not configured.
+2025-05-08 09:19:10,549：Error occurred: A task was canceled.
+2025-05-08 09:41:52,467：SpiderHotelUrl Task execution failed, Reason: Fail
+2025-05-08 09:43:23,958：SpiderPolingHotelPrice Task execution failed, Reason: Fail
+2025-05-08 09:43:23,958：SpiderHotelUrl Task execution failed, Reason: Fail
+2025-05-08 09:43:23,959：SpiderHotelCheckPrice Task execution failed, Reason: Fail
+2025-05-08 09:44:03,467：SpiderPolingHotelPrice Task execution failed, Reason: Fail
+2025-05-08 09:45:11,409：SpiderHotelCheckPrice Task execution failed, Reason: Fail
+2025-05-08 09:45:11,409：SpiderHotelUrl Task execution failed, Reason: Fail
+2025-05-08 09:45:11,409：SpiderPolingHotelPrice Task execution failed, Reason: Fail
+2025-05-08 10:36:02,994：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="0".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="0"
+2025-05-08 10:36:02,994：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="0".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="0"
+2025-05-08 10:36:03,589：Error occurred: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+2025-05-08 10:36:18,705：Error occurred: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+2025-05-08 10:36:58,990：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 10:36:58,990：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 10:36:59,307：Error occurred: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+2025-05-08 10:37:14,274：Error occurred: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+2025-05-08 10:37:29,383：Error occurred: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+2025-05-08 10:38:13,258：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 10:38:13,258：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 10:38:13,478：SpiderHotelUrl Task execution failed, Reason: 当前没有待执行的任务
+2025-05-08 10:38:49,023：Error occurred: Sequence contains more than one matching element
+2025-05-08 10:39:44,558：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 10:39:44,558：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 10:39:44,782：SpiderHotelUrl Task execution failed, Reason: 当前没有待执行的任务
+2025-05-08 10:40:51,125：SpiderHotelUrl Task execution failed, Reason: 当前没有待执行的任务
+2025-05-08 10:42:41,832：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 10:42:41,832：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 10:42:42,146：Error occurred: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+2025-05-08 10:43:17,032：Error occurred: Sequence contains more than one matching element
+2025-05-08 10:49:07,437：Error occurred: Sequence contains more than one matching element
+2025-05-08 10:50:07,168：Error occurred: Sequence contains more than one matching element
+2025-05-08 11:12:35,685：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 11:12:35,685：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 11:12:36,012：Error occurred: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+2025-05-08 11:24:44,675：Error occurred: Sequence contains more than one matching element
+2025-05-08 11:31:17,874：Error occurred: Sequence contains more than one matching element
+2025-05-08 11:33:22,435：Error occurred: Sequence contains more than one matching element
+2025-05-08 11:46:18,222：Error occurred: Sequence contains more than one matching element
+2025-05-08 11:47:28,225：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：The connection was not closed. The connection's current state is connecting.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . The connection was not closed. The connection's current state is connecting.DbType="SqlServer";ConfigId="1"
+2025-05-08 11:48:37,851：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 11:48:38,281：Error occurred: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+2025-05-08 11:50:41,512：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：The connection was not closed. The connection's current state is connecting.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . The connection was not closed. The connection's current state is connecting.DbType="SqlServer";ConfigId="1"
+2025-05-08 12:00:44,603：Error occurred: Sequence contains more than one matching element
+2025-05-08 12:18:17,710：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 12:18:17,710：Error occurred: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . Unable to cast object of type 'Microsoft.Data.ProviderBase.DbConnectionClosedConnecting' to type 'Microsoft.Data.SqlClient.SqlInternalConnectionTds'.DbType="SqlServer";ConfigId="1"
+2025-05-08 12:18:18,071：Error occurred: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+2025-05-08 15:22:04,855：SpiderPolingWorker Executing Error: A task was canceled.

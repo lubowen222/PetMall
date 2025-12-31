@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Offline.PetMall.Application</name>
+    </assembly>
+    <members>
+        <member name="T:Offline.PetMall.Application.StaticDownload.JDDownloadHelper">
+            <summary>
+            京东静态数据下载
+            </summary>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.#ctor(System.Net.Http.HttpClient,System.Boolean)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="httpClient">HttpClient实例（可选，如果不提供则创建新的）</param>
+            <param name="useSelenium">是否使用Selenium获取动态内容（默认false）</param>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.CreateHttpClient">
+            <summary>
+            创建配置好的HttpClient
+            </summary>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.InitializeSelenium">
+            <summary>
+            初始化Selenium WebDriver
+            </summary>
+        </member>
+        <member name="T:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadResult">
+            <summary>
+            下载结果
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadResult.Success">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadResult.Message">
+            <summary>
+            状态消息
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadResult.ProductId">
+            <summary>
+            商品编号
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadResult.ThumbnailResult">
+            <summary>
+            缩略图下载结果
+            </summary>
+        </member>
+        <member name="P:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadResult.DetailResult">
+            <summary>
+            详情图下载结果
+            </summary>
+        </member>
+        <member name="T:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.ThumbnailResult">
+            <summary>
+            缩略图下载结果
+            </summary>
+        </member>
+        <member name="T:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DetailResult">
+            <summary>
+            详情图下载结果
+            </summary>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadProductImagesAsync(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            根据京东商品页URL下载商品图片
+            </summary>
+            <param name="url">京东商品页URL</param>
+            <param name="saveDir">保存目录</param>
+            <param name="areaId1">缩略图区域ID</param>
+            <param name="areaId2">详情图区域ID</param>
+            <param name="maxRetries">最大重试次数（默认3次）</param>
+            <returns>下载结果</returns>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.GetHtmlWithHttpClientAsync(System.String)">
+            <summary>
+            使用HttpClient获取HTML内容
+            </summary>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.GetHtmlWithSeleniumAsync(System.String)">
+            <summary>
+            使用Selenium获取HTML内容
+            </summary>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadThumbnailsAsync(HtmlAgilityPack.HtmlDocument,System.String,System.String)">
+            <summary>
+            下载缩略图
+            </summary>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadDetailsAsync(HtmlAgilityPack.HtmlDocument,System.String,System.String)">
+            <summary>
+            下载详情图
+            </summary>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.DownloadImageWithRetryAsync(System.String,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            下载图片到指定目录（带重试）
+            </summary>
+        </member>
+        <member name="M:Offline.PetMall.Application.StaticDownload.JDDownloadHelper.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+    </members>
+</doc>

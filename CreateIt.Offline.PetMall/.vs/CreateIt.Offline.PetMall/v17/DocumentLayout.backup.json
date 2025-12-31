@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PetMall\\CreateIt.Offline.PetMall\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45230954-EACB-4821-B2DE-0002D3F3F67D}|Offline.PetMall.Application\\Offline.PetMall.Application.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.application\\staticdownload\\jddownloadhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45230954-EACB-4821-B2DE-0002D3F3F67D}|Offline.PetMall.Application\\Offline.PetMall.Application.csproj|solutionrelative:offline.petmall.application\\staticdownload\\jddownloadhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062B4BEE-F399-433C-A7C7-94CFE004EDEA}|Offline.PetMall.Console\\Offline.PetMall.Console.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{062B4BEE-F399-433C-A7C7-94CFE004EDEA}|Offline.PetMall.Console\\Offline.PetMall.Console.csproj|solutionrelative:offline.petmall.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE07960-5DD4-4BE0-AE73-71B6F1D6CFE1}|Offline.PetMall.WinServer\\Offline.PetMall.WinServer.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.winserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE07960-5DD4-4BE0-AE73-71B6F1D6CFE1}|Offline.PetMall.WinServer\\Offline.PetMall.WinServer.csproj|solutionrelative:offline.petmall.winserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE07960-5DD4-4BE0-AE73-71B6F1D6CFE1}|Offline.PetMall.WinServer\\Offline.PetMall.WinServer.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.winserver\\spiderpolingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE07960-5DD4-4BE0-AE73-71B6F1D6CFE1}|Offline.PetMall.WinServer\\Offline.PetMall.WinServer.csproj|solutionrelative:offline.petmall.winserver\\spiderpolingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79BF290-DCAF-4126-A3CE-C132C4D1C0AA}|Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain\\jdproductimgrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E79BF290-DCAF-4126-A3CE-C132C4D1C0AA}|Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj|solutionrelative:offline.petmall.domain\\jdproductimgrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79BF290-DCAF-4126-A3CE-C132C4D1C0AA}|Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain\\jdproductrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E79BF290-DCAF-4126-A3CE-C132C4D1C0AA}|Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj|solutionrelative:offline.petmall.domain\\jdproductrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79BF290-DCAF-4126-A3CE-C132C4D1C0AA}|Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain\\jdproductskurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E79BF290-DCAF-4126-A3CE-C132C4D1C0AA}|Offline.PetMall.Domain\\Offline.PetMall.Domain.csproj|solutionrelative:offline.petmall.domain\\jdproductskurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain.shared\\irepositories\\ijdproductskurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|solutionrelative:offline.petmall.domain.shared\\irepositories\\ijdproductskurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain.shared\\irepositories\\ijdproductimgrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|solutionrelative:offline.petmall.domain.shared\\irepositories\\ijdproductimgrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain.shared\\irepositories\\ijdproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|solutionrelative:offline.petmall.domain.shared\\irepositories\\ijdproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain.shared\\entities\\jdproductskuentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|solutionrelative:offline.petmall.domain.shared\\entities\\jdproductskuentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain.shared\\entities\\jdproductimgentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|solutionrelative:offline.petmall.domain.shared\\entities\\jdproductimgentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain.shared\\entities\\jdproductentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|solutionrelative:offline.petmall.domain.shared\\entities\\jdproductentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|e:\\petmall\\createit.offline.petmall\\offline.petmall.domain.shared\\entities\\dataproductskuentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65ACC46-2ED1-45DF-88C2-6068C007FF4E}|Offline.PetMall.Domain.Shared\\Offline.PetMall.Domain.Shared.csproj|solutionrelative:offline.petmall.domain.shared\\entities\\dataproductskuentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 261,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Console\\Program.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Console\\Program.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Console\\Program.cs",
+              "RelativeToolTip": "Offline.PetMall.Console\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:22:05.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.WinServer\\Program.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.WinServer\\Program.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.WinServer\\Program.cs",
+              "RelativeToolTip": "Offline.PetMall.WinServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:21:08.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpiderPolingWorker.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.WinServer\\SpiderPolingWorker.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.WinServer\\SpiderPolingWorker.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.WinServer\\SpiderPolingWorker.cs",
+              "RelativeToolTip": "Offline.PetMall.WinServer\\SpiderPolingWorker.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvzkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:19:31.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JDDownloadHelper.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application\\StaticDownload\\JDDownloadHelper.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Application\\StaticDownload\\JDDownloadHelper.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Application\\StaticDownload\\JDDownloadHelper.cs*",
+              "RelativeToolTip": "Offline.PetMall.Application\\StaticDownload\\JDDownloadHelper.cs*",
+              "ViewState": "AgIAALkBAAAAAAAAAAAawOIBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:59:34.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JDProductSkuRepository.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\JDProductSkuRepository.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain\\JDProductSkuRepository.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\JDProductSkuRepository.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain\\JDProductSkuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:49:32.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JDProductImgRepository.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\JDProductImgRepository.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain\\JDProductImgRepository.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\JDProductImgRepository.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain\\JDProductImgRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:49:16.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JDProductRepository .cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\JDProductRepository .cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain\\JDProductRepository .cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain\\JDProductRepository .cs",
+              "RelativeToolTip": "Offline.PetMall.Domain\\JDProductRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:49:00.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IJDProductImgRepository.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductImgRepository.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductImgRepository.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductImgRepository.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductImgRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:39:39.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IJDProductSkuRepository.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductSkuRepository.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductSkuRepository.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductSkuRepository.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductSkuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:39:25.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IJDProductRepository.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductRepository.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductRepository.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductRepository.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain.Shared\\IRepositories\\IJDProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:38:55.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JDProductSkuEntity.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Entities\\JDProductSkuEntity.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain.Shared\\Entities\\JDProductSkuEntity.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Entities\\JDProductSkuEntity.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain.Shared\\Entities\\JDProductSkuEntity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:36:00.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JDProductImgEntity.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Entities\\JDProductImgEntity.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain.Shared\\Entities\\JDProductImgEntity.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Entities\\JDProductImgEntity.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain.Shared\\Entities\\JDProductImgEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:34:02.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DataProductSkuEntity.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Entities\\DataProductSkuEntity.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain.Shared\\Entities\\DataProductSkuEntity.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Entities\\DataProductSkuEntity.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain.Shared\\Entities\\DataProductSkuEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:33:51.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JDProductEntity.cs",
+              "DocumentMoniker": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Entities\\JDProductEntity.cs",
+              "RelativeDocumentMoniker": "Offline.PetMall.Domain.Shared\\Entities\\JDProductEntity.cs",
+              "ToolTip": "E:\\PetMall\\CreateIt.Offline.PetMall\\Offline.PetMall.Domain.Shared\\Entities\\JDProductEntity.cs",
+              "RelativeToolTip": "Offline.PetMall.Domain.Shared\\Entities\\JDProductEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T10:15:27.742Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rbNHgjrtCVThvrGW0dWquBzUZP+dLL/6vKqjZxVx8m8=",
+  "Source": "Offline.Sup.Api",
+  "BasePath": "_content/Offline.Sup.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

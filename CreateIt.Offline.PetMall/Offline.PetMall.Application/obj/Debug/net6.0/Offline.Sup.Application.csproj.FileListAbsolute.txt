@@ -1,0 +1,11 @@
+D:\Feiju\Release\Packages\Debug\net6.0\Dict\ChsDoubleName1.txt
+D:\Feiju\Release\Packages\Debug\net6.0\Dict\ChsDoubleName2.txt
+D:\Feiju\Release\Packages\Debug\net6.0\Dict\ChsSingleName.txt
+D:\Feiju\Release\Packages\Debug\net6.0\Dict\Dict.dct
+D:\Feiju\Release\Packages\Debug\net6.0\Dict\Stopword.txt
+D:\Feiju\Release\Packages\Debug\net6.0\Dict\Synonym.txt
+D:\Feiju\Release\Packages\Debug\net6.0\Dict\Wildcard.txt
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Application.deps.json
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Application.dll
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Application.pdb
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Application.xml

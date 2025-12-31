@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <BaseOutputPath></BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>1.0.0</Version>
+    <Authors>Feiju</Authors>
+    <Company>Feiju</Company>
+    <Description>Offline.Sup.Application.Contracts</Description>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="EasyFrame.Common" Version="2.4.27" />
+    <PackageReference Include="EasyFrame.Mongo" Version="1.2.5" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Offline.PetMall.Domain.Shared\Offline.PetMall.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Offline.PetMall.Dtos\Offline.PetMall.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

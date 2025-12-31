@@ -1,0 +1,4 @@
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Application.Contracts.deps.json
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Application.Contracts.dll
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Application.Contracts.pdb
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Application.Contracts.xml

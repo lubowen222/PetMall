@@ -1,0 +1,751 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Offline.Sup.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.CreateTask(Offline.Sup.Dtos.Agg.CreateAggTaskDto)">
+            <summary>
+            创建聚合任务
+            </summary>
+            <param name="aggTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.CreateTaskFromApi(Offline.Sup.Dtos.Agg.CreateAggSupHotelTaskDto)">
+            <summary>
+            调用api创建酒店导入任务
+            </summary>
+            <param name="aggTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.SetExecTaskStatus(Offline.Sup.Dtos.Agg.SetExecTaskStatusDto)">
+            <summary>
+            设置任务状态为待执行
+            </summary>
+            <param name="reqeust">任务id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.RecheckRejectedData(System.Int64)">
+            <summary>
+            针对不合格数据进行重新核验
+            </summary>
+            <param name="taskId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.GetAggTaskWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskDto})">
+            <summary>
+            分页获取匹配任务
+            </summary>
+            <param name="pageQuery">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.GetAggTaskSupHotelWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelSearchDto})">
+            <summary>
+            根据任务id分页获取酒店匹配情况
+            </summary>
+            <param name="search">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.ExportAggTaskSupHotel(Offline.Sup.Dtos.Agg.ExportAggTaskSupHotelSearch)">
+            <summary>
+            导出酒店任务执行情况
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.GetAggTaskSupHotelAnalyzeWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelSearchDto})">
+            <summary>
+            根据任务id分页获取酒店房间解析情况
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.ExportAggTaskSupHotelAnalyze(Offline.Sup.Dtos.Agg.ExportAggTaskSupHotelSearch)">
+            <summary>
+            导出酒店房型任务解析执行情况
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.GetAggTaskSupHotelMatchDetailWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelMatchDetailDto})">
+            <summary>
+            根据任务id分页获取酒店匹配明细情况
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.GetAggTaskChannelMatchDetailWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskChannelMatchDetailSearchDto})">
+            <summary>
+            根据任务id分页获取渠道匹配明细情况
+            </summary>
+            <param name="search">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.Match(Offline.Sup.Dtos.Agg.MatchDto)">
+            <summary>
+            执行酒店匹配操作
+            </summary>
+            <param name="request">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.MatchCancle(Offline.Sup.Dtos.Agg.MatchDto)">
+            <summary>
+            执行酒店匹配撤销操作
+            </summary>
+            <param name="request">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.NoMatch(Offline.Sup.Dtos.Agg.NoMatchDto)">
+            <summary>
+            执行酒店不匹操作
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.RemoveNoMatch(Offline.Sup.Dtos.Agg.NoMatchDto)">
+            <summary>
+            执行酒店解匹操作
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.AutoMappingController.MatchFinish(System.Int64)">
+            <summary>
+            执行酒店匹配完成操作
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ExpediaHotelController.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Expedia.B2CHotelPageQueryDto})">
+            <summary>
+            Expedia酒店分页查询
+            </summary>
+            <param name="pageQuery">分页查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ExpediaHotelController.GetB2CHotelMatchBasicHotel(System.Int64)">
+            <summary>
+            获取基础酒店与Expedia酒店匹配信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ExpediaHotelController.Match(System.Int64,System.String)">
+            <summary>
+            酒店匹配
+            </summary>
+            <param name="id">主键</param>
+            <param name="matchValue">匹配状态</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelDownloadBatchController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelDownloadBatchPageQueryDto})">
+            <summary>
+            查询供应商下载批次分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelDownloadBatchController.DetailPageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelDownloadBatchPageQueryDto})">
+            <summary>
+            获取供应商下载批次明细分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelDownloadBatchController.Detail(System.String)">
+            <summary>
+            查询供应商下载批次详情
+            </summary>
+            <param name="batchNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelDownloadBatchController.Create(Offline.Sup.Dtos.Hotel.CreateSupHotelDownloadBatchPostDto)">
+            <summary>
+            创建下载批次酒店
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelDownloadBatchController.Export(Offline.Sup.Dtos.Hotel.HotelDownloadExportDto)">
+            <summary>
+            导出下载批次数据
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelDownloadBatchController.Revoke(System.String)">
+            <summary>
+            撤销供应商下载批次
+            </summary>
+            <param name="batchNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelExtendController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelExtendPageQueryDto})">
+            <summary>
+            查询供应商酒店变更记录分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelExtendController.UpdateHandle(Offline.Sup.Dtos.Hotel.SupHotelExtendHandleStatusDto)">
+            <summary>
+            操作处理
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.#ctor(Offline.Sup.Application.Contracts.Agg.IAggTaskSupHotelRoomService,Offline.Sup.Application.Contracts.Agg.IAggTaskPageRecordService,Offline.Sup.Application.Contracts.Agg.IAggTaskStandardRoomMatchService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="aggTaskSupHotelRoomClient"></param>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelRoomSearchDto})">
+            <summary>
+            分页获取供应商房型匹配信息
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetHotelRoomBestMatch(System.Int64,System.String)">
+            <summary>
+            获取供应商房型推荐匹配信息
+            </summary>
+            <param name="taskSupHotelId">匹配酒店任务项id</param>
+            <param name="supRoomCode">供应商房型code</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomMatchOtherWithPageAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelRoomMathcOtherSearchDto})">
+            <summary>
+            分页获取供应商房型可匹配的其他房型信息
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.CreateMatch(Offline.Sup.Dtos.Agg.CreateTaskRoomMatchDto)">
+            <summary>
+            创建房型聚合匹配
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.BatchCreateMatch(Offline.Sup.Dtos.Agg.BatchCreateTaskRoomMatchDto)">
+            <summary>
+            批量创建房型聚合匹配
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.CancelMatch(Offline.Sup.Dtos.Agg.CancelTaskRoomMatchDto)">
+            <summary>
+            取消房型聚合匹配
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetHotelInfo(System.Int64,System.String,System.String,System.String)">
+            <summary>
+            获取供应商和匹配的基础酒店信息
+            </summary>
+            <param name="taskSupHotelId">供应商酒店任务id</param>
+            <param name="hotelCodeOrName">酒店名称</param>
+            <param name="countryName">国家</param>
+            <param name="cityName">城市</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.QueryPrePageRecord(Offline.Sup.Dtos.Agg.QueryPrePageRequestDto)">
+            <summary>
+            获取页面上一次请求的记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.QueryRoomMatchAsync(Offline.Sup.Dtos.Agg.StandardRoomMatchQueryDto)">
+            <summary>
+            王子云房型匹配分组结果
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.CreateAuditMatch(Offline.Sup.Dtos.Agg.CreateAuditMatchDto)">
+            <summary>
+            基于王子云房型匹配结果直接创建匹配审核关系
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomClusterController.SetFinish(System.Int64)">
+            <summary>
+            设置任务匹配完成
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomExtendController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelRoomExtendPageQueryDto})">
+            <summary>
+            查询供应商房型变更记录分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomExtendController.UpdateHandle(Offline.Sup.Dtos.Hotel.SupHotelHandleStatusDto)">
+            <summary>
+            操作处理
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomExtendController.Export(Offline.Sup.Dtos.Hotel.SupHotelRoomExtendExportDto)">
+            <summary>
+            导出供应商房型变更记录数据
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRoomLogController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelRoomLogPageQueryDto})">
+            <summary>
+            查询房型匹配日志
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelRunPriceBatchPageQueryDto})">
+            <summary>
+            查询供应商跑价批次分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController.DetailPageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelRunPriceBatchPageQueryDto})">
+            <summary>
+            获取供应商跑价批次明细分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController.Detail(System.String)">
+            <summary>
+            查询供应商跑价批次详情
+            </summary>
+            <param name="batchNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController.Create(Offline.Sup.Dtos.Hotel.CreateSupHotelRunPriceBatchPostDto)">
+            <summary>
+            创建跑价批次酒店
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController.Export(Offline.Sup.Dtos.Hotel.HotelRunPriceExportDto)">
+            <summary>
+            导出跑价批次数据
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupHotelRunPriceBatchController.Revoke(System.String)">
+            <summary>
+            撤销供应商跑价批次
+            </summary>
+            <param name="batchNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Order.SupOrderPageQueryDto})">
+            <summary>
+            查询Ota分页列表数据
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.QueryOrderDataTotal(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Order.SupOrderPageQueryDto})">
+            <summary>
+            查询供应商订单统计
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.Detail(System.String)">
+            <summary>
+            获取Sup订单详情数据
+            </summary>
+            <param name="orderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.GetOrderPassengers(System.String)">
+            <summary>
+            获取Sup订单入住人数据
+            </summary>
+            <param name="orderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.GetOrderLogs(System.String)">
+            <summary>
+            获取Sup订单操作日志数据
+            </summary>
+            <param name="orderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.GetCheckPriceList(Offline.Sup.Dtos.Order.QuerySupCheckPriceLogDto)">
+            <summary>
+            获取Sup订单验价日志数据
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.DownOrderLogXml(System.Int32)">
+            <summary>
+            下载订单日志xml
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.GetOrderMessageList(Offline.Sup.Dtos.Order.SupOrderMessageQueryDto)">
+            <summary>
+            根据供应商订单编号获取订单消息
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupOrderController.GetSupPriceDailys(System.String)">
+            <summary>
+            获取供应商每日报价
+            </summary>
+            <param name="orderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.SaveSpiderHotelAsync(Offline.Sup.Dtos.Spider.SpiderHotelModel)">
+            <summary>
+            保存爬虫请求数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.PageListHotelAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Spider.SpiderHotelModel})">
+            <summary>
+            分页查询爬虫请求数据
+            </summary>
+            <param name="search">分页查询对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.DeleteHotelAsync(System.Int64)">
+            <summary>
+            删除爬虫数据
+            </summary>
+            <param name="id">主键id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.SaveSpiderHotelDateAsync(Offline.Sup.Dtos.Spider.SpiderHotelDateModel)">
+            <summary>
+            保存爬虫请求数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.PageListHotelDateAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Spider.SpiderHotelPageQueryDto})">
+            <summary>
+            分页查询爬虫请求数据
+            </summary>
+            <param name="search">分页查询对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.GetSpiderHotelDateByIdAsync(System.Int64)">
+            <summary>
+            查询爬虫请求数据
+            </summary>
+            <param name="id">主键id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.EnableAsync(System.Int64)">
+            <summary>
+            启用爬虫数据
+            </summary>
+            <param name="id">主键id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.DisableAsync(System.Int64)">
+            <summary>
+            禁用爬虫数据
+            </summary>
+            <param name="id">主键id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.SupSpiderHotelController.DeleteHotelDateAsync(System.Int64)">
+            <summary>
+            删除爬虫数据
+            </summary>
+            <param name="id">主键id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ThirdHotelMatchController.Create(Offline.Sup.Dtos.Hotel.SupThirdHotelBatchDto)">
+            <summary>
+            导入三方酒店匹配批次数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ThirdHotelMatchController.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelBatchQueryDto})">
+            <summary>
+            分页获取三方酒店匹配批次数据
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ThirdHotelMatchController.DetailPageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto})">
+            <summary>
+            分页获取供应商酒店与第三方酒店匹配列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ThirdHotelMatchController.CheckMatch(Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto)">
+            <summary>
+            检查批次匹配情况
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ThirdHotelMatchController.BatchHotelMatch(Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto)">
+            <summary>
+            批次匹配
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.Controllers.ThirdHotelMatchRecordController.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelMatchRecordQueryDto})">
+            <summary>
+            分页获取供应商酒店与第三方酒店匹配记录列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelPageQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelController.Detail(System.String,System.String)">
+            <summary>
+            获取单个供应商酒店信息
+            </summary>
+            <param name="supCode"></param>
+            <param name="supHotelCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelController.QuerySupHotelForMatched(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelForMatchRequest})">
+            <summary>
+            查询已匹配+推荐未匹配的供应商酒店分页列表
+            <para>场景：基础系统匹配供应商酒店，加载已匹配，推荐匹配的供应商酒店列表</para>
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelController.QuerySupHotelForRelation(Offline.Sup.Dtos.Hotel.SupHotelForRelationRequest)">
+            <summary>
+            查询基础酒店匹配供应商酒店数据
+            <para>场景：基础系统酒店列表，点击匹配审核数量，弹出酒店匹配关系图</para>
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelController.QuerySupHotelForHotelCode(Offline.Sup.Dtos.Hotel.SupHotelForHotelRequest)">
+            <summary>
+            查询基础酒店匹配供应商酒店数据
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelLogController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelLogPageQueryDto})">
+            <summary>
+            查询供应商酒店匹配日志
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchBasicHotelCheckController.PageListForCheck(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelMatchBasicHotelPageQueryDto})">
+            <summary>
+            查询已建立匹配关系的 供应商酒店+基础酒店
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchBasicHotelCheckController.PageListForOnline(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelMatchBasicHotelOnlinePageQueryDto})">
+            <summary>
+            查询已建立匹配关系的 基础酒店
+            <para>统计</para>
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchController.CreateMatch(Offline.Sup.Dtos.Hotel.CreateUpdateSupHotelMatchDto)">
+            <summary>
+            创建酒店匹配关系
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchController.CancelMatch(Offline.Sup.Dtos.Hotel.CreateUpdateSupHotelMatchDto)">
+            <summary>
+            解除酒店匹配关系
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchController.AuditMatch(Offline.Sup.Dtos.Hotel.CreateUpdateSupHotelMatchDto)">
+            <summary>
+            审核酒店匹配关系
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchController.RemoveMatch(Offline.Sup.Dtos.Hotel.CreateUpdateSupHotelMatchDto)">
+            <summary>
+            撤销酒店匹配关系
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchController.CancelAudit(Offline.Sup.Dtos.Hotel.CancelAuditSupHotelMatchDto)">
+            <summary>
+            撤销酒店匹配已审核为待审核
+            <para>场景：基础系统，撤销基础酒店审核状态，调用</para>
+            <para>功能：将基础酒店所有已匹供应商酒店，已审核状态改成待审核</para>
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchController.QueryBasicHotelList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.BasicHotelPageQueryDto})">
+            <summary>
+            查询基础库酒店分页列表信息
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelMatchController.QueryMatchBasicHotel(Offline.Sup.Dtos.Agg.MatchBasicHotelQueryDto)">
+            <summary>
+            根据供应商酒店编码获取匹配的基础酒店
+            </summary>
+            <param name="query">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelRoomPageQueryDto})">
+            <summary>
+            查询供应商房型分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomController.QuerySupRoomForRoomCode(Offline.Sup.Dtos.Hotel.SupHotelRoomForRoomRequest)">
+            <summary>
+            查询基础房型匹配供应商房型数据
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomController.QuerySupHotelRoomForMatched(Offline.Sup.Dtos.Hotel.SupHotelRoomForMatchRequest)">
+            <summary>
+            查询基础酒店已匹配已审核的供应商酒店下的 所有供应商房型
+            <para>场景：基础房型匹配供应商房型页面用</para>
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomController.QuerySupHotelRoomForRelation(Offline.Sup.Dtos.Hotel.SupHotelRoomForRelationRequest)">
+            <summary>
+            查询基础房型匹配供应商房型数据
+            <para>场景：基础房型点击匹配或审核数量，弹出房型匹配关系图</para>
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomMatchController.CreateMatch(System.Collections.Generic.List{Offline.Sup.Dtos.Hotel.CreateSupRoomMatchDto})">
+            <summary>
+            创建房型匹配关系
+            </summary>
+            <param name="dtoList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomMatchController.CancelMatch(Offline.Sup.Dtos.Hotel.CreateUpdateSupRoomMatchDto)">
+            <summary>
+            解除房型匹配关系
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomMatchController.AuditMatch(Offline.Sup.Dtos.Hotel.CreateUpdateSupRoomMatchDto)">
+            <summary>
+            审核房型匹配关系
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomMatchController.CancelOneAudit(Offline.Sup.Dtos.Hotel.CancelAuditOneSupRoomMatchDto)">
+            <summary>
+            撤销单个房型匹配关系的审核状态
+            <para>场景：房型匹配，操作了撤销审核状态</para>
+            <para>功能：修改单个匹配关系的，审核状态</para>
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomMatchController.RemoveMatch(Offline.Sup.Dtos.Hotel.CreateUpdateSupRoomMatchDto)">
+            <summary>
+            撤销房型匹配关系
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupHotelRoomMatchController.CancelAudit(Offline.Sup.Dtos.Hotel.CancelAuditSupRoomMatchDto)">
+            <summary>
+            撤销所有已审核
+            <para>场景：基础房型撤销审核时候，</para>
+            <para>功能：将此基础房型下所有的已匹配供应商房型，修改为待审核</para>
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupplierConfigController.PageList(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Config.SupConfigPageQueryDto})">
+            <summary>
+            查询供应商配置分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupplierConfigController.Detail(System.Int64)">
+            <summary>
+            查询单个供应商配置信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupplierConfigController.Create(Offline.Sup.Dtos.Config.CreateSupConfigDto)">
+            <summary>
+            创建供应商配置信息
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupplierConfigController.Update(Offline.Sup.Dtos.Config.UpdateSupConfigDto)">
+            <summary>
+            修改供应商配置信息
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupplierConfigController.UpdateStatus(Offline.Sup.Dtos.Config.UpdateSupConfigStatusDto)">
+            <summary>
+            修改供应商配置信息
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Api.SupplierConfigController.GetList">
+            <summary>
+            获取直连供应商信息
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

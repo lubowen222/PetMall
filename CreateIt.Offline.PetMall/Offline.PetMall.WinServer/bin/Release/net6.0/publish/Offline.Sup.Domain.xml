@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Offline.Sup.Domain</name>
+    </assembly>
+    <members>
+        <member name="M:Offline.Sup.Domain.AggTaskChannelMatchRepository.GetAggTaskChannelMatchDetailWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskChannelMatchDetailSearchDto})">
+            <summary>
+            分页获取渠道匹配数据
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.AggTaskSupHotelRepository.GetAggTaskHotelInfoWithPage(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelMatchDetailDto})">
+            <summary>
+            分页获取待匹配酒店数据信息
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.AggTaskSupHotelRepository.TranslateHotelStar(System.String)">
+            <summary>
+            酒店星级转义
+            </summary>
+            <param name="hotelStar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.AggTaskSupHotelRoomMatchRepository.GetAggTaskSupHotelRoomWithPageAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Agg.AggTaskSupHotelRoomSearchDto})">
+            <summary>
+            获取酒店房间匹配推荐结果
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelAutoMatchDetailRepository.QueryOneAsync(System.Int32)">
+            <summary>
+            查询单个
+            </summary>
+            <param name="autoMatchDetailId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelAutoMatchDetailRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupAutoMatchDetailPageQueryDto})">
+            <summary>
+            查询自动聚合明细分页数据
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelExtendRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelExtendPageQueryDto})">
+            <summary>
+            查询供应商酒店变化分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelExtendRepository.GetListAsync(Offline.Sup.Dtos.Hotel.SupHotelExtendPageQueryDto)">
+            <summary>
+            查询供应商酒店变化列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelMatchRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelMatchBasicHotelPageQueryDto})">
+            <summary>
+            查询已建立匹配关系的 供应商酒店+基础酒店
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelMatchRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelMatchBasicHotelOnlinePageQueryDto})">
+            <summary>
+            查询已建立匹配关系的 基础酒店
+            <para>统计</para>
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelMatchRepository.SearchSupHotelMatch(System.String,System.String,System.String)">
+            <summary>
+            查询已建立匹配关系的 供应商酒店+基础酒店
+            </summary>
+            <param name="supCode"></param>
+            <param name="supHotelCode"></param>
+            <param name="auditStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelMatchRepository.SearchSupHotelMatchs(System.String,System.String,System.String)">
+            <summary>
+            查询已建立匹配关系的 供应商酒店+基础酒店
+            </summary>
+            <param name="supCode"></param>
+            <param name="hotelCode">基础酒店编码</param>
+            <param name="auditStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelPageQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelRepository.SearchSupHotel(System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32)">
+            <summary>
+            查询未匹配的，推荐供应商的酒店
+            <para>1 排除已匹配的</para>
+            </summary>
+            <param name="supCode">供应商编号</param>
+            <param name="supHotelCode">供应商酒店编号</param>
+            <param name="matchStatus">匹配状态(此处需要传待匹配的)</param>
+            <param name="keywordType">关键字类型(1=中文 2=英文)</param>
+            <param name="keyword">关键字</param>
+            <param name="segments">关键字的分词(逗号隔开)</param>
+            <param name="resultNum">返回条数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelRoomExtendRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupHotelRoomExtendPageQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelRoomExtendRepository.GetListAsync(Offline.Sup.Dtos.Hotel.SupHotelRoomExtendPageQueryDto)">
+            <summary>
+            查询供应商酒店列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelRoomRepository.QuerySupHotelRoomForMatchedAsync(Offline.Sup.Dtos.Hotel.SupHotelRoomForMatchRequest)">
+            <summary>
+            查询基础酒店已匹配已审核的供应商酒店下的 所有供应商房型
+            <para>场景：基础房型匹配供应商房型 页面</para>
+            <para>条件1：酒店匹配=已匹配+已审核</para>
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelRoomRepository.QuerySupHotelRoomForRelationAsync(Offline.Sup.Dtos.Hotel.SupHotelRoomForRelationRequest)">
+            <summary>
+            查询基础房型匹配供应商房型数据
+            <para>场景：基础房型点击匹配或审核数量，弹出房型匹配关系图</para>
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelRunPriceBatchDetailRepository.GetHotelRunPriceDailyListAsync(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            获取酒店跑价明细列表
+            </summary>
+            <param name="supHotelCodes"></param>
+            <param name="supCodes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupHotelRunPriceDailyRepository.GetHotelRunPriceDailyListAsync(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            获取酒店跑价明细列表
+            </summary>
+            <param name="supHotelCodes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupSpiderHotelDateRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Spider.SpiderHotelPageQueryDto})">
+            <summary>
+            分页查询爬虫请求数据
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupSpiderHotelDateRepository.SetNameAndUrlAsync(System.Int64,System.String,System.String)">
+            <summary>
+            设置酒店名称和Url
+            </summary>
+            <param name="id"></param>
+            <param name="name">酒店名称</param>
+            <param name="url">酒店url</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupSpiderHotelDateRepository.SetHasPriceAsync(System.Int64,System.Boolean)">
+            <summary>
+            设置是否有价
+            </summary>
+            <param name="id">酒店任务id</param>
+            <param name="hasPrice">是否有价</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupSpiderHotelDateRepository.SetHasPriceNumberAsync(System.Int64,System.Int64,System.Boolean)">
+            <summary>
+            设置有价次数
+            </summary>
+            <param name="id"></param>
+            <param name="hasPriceNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupSpiderHotelRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Spider.SpiderHotelModel})">
+            <summary>
+            分页查询爬虫请求数据
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupThirdHotelBatchRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelBatchQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupThirdHotelMatchRecordRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelMatchRecordQueryDto})">
+            <summary>
+            分页获取供应商酒店与第三方酒店匹配记录列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupThirdHotelMatchRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto})">
+            <summary>
+            查询供应商酒店分页列表
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.SupThirdHotelMatchRepository.GetListAsync(Offline.Sup.Dtos.Hotel.SupThirdHotelMatchQueryDto)">
+            <summary>
+            根据批次号获取匹配数据列表
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.WHB2CHotelMatchRepository.GetB2CHotelMatchBasicHotel(System.Int64)">
+            <summary>
+            获取基础酒店与Expedia酒店匹配信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.WHB2CHotelMatchRepository.Match(System.Int64,Offline.Sup.Dtos.Agg.MatchAuditStatusEnum,System.Int64,System.String)">
+            <summary>
+            酒店关系匹配
+            </summary>
+            <param name="id">主键</param>
+            <param name="status">匹配状态</param>
+            <param name="matchUserId">匹配用户id</param>
+            <param name="matchUserName">匹配用户名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.WHB2CHotelMatchRepository.UnMatch(System.Int64,System.Int64,System.String)">
+            <summary>
+            解除酒店关系匹配
+            </summary>
+            <param name="id">主键</param>
+            <param name="matchUserId">匹配用户id</param>
+            <param name="matchUserName">匹配用户名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Offline.Sup.Domain.WHB2CHotelRepository.PageListAsync(EasyFrame.Common.PageQueryDto{Offline.Sup.Dtos.Expedia.B2CHotelPageQueryDto})">
+            <summary>
+            Expedia酒店分页查询
+            </summary>
+            <param name="pageQuery"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

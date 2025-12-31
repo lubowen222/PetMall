@@ -1,0 +1,33 @@
+2025-11-04 18:21:35,658：SpiderPolingWorker starting at: 11/04/2025 18:21:35 +08:00
+2025-11-04 18:21:35,712：SpiderPolingWorker execute at: 11/04/2025 18:21:35 +08:00
+2025-11-04 18:21:41,946：Application started. Press Ctrl+C to shut down.
+2025-11-04 18:21:41,949：Hosting environment: Production
+2025-11-04 18:21:41,951：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-11-04 18:21:44,283：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-04 18:21:44,302：切换代理节点-->新代理节点为空-->切换失败
+2025-11-04 18:22:38,169：SpiderPolingWorker starting at: 11/04/2025 18:22:38 +08:00
+2025-11-04 18:22:38,227：SpiderPolingWorker execute at: 11/04/2025 18:22:38 +08:00
+2025-11-04 18:22:46,143：Application started. Press Ctrl+C to shut down.
+2025-11-04 18:22:46,147：Hosting environment: Production
+2025-11-04 18:22:46,150：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Debug\net6.0
+2025-11-04 18:23:20,356：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-04 18:23:20,364：切换代理节点-->新代理节点为空-->切换失败
+2025-11-04 18:24:01,796：单酒店刷价报错supCode:Agoda,supHotelCode:1202485，异常信息如下:Object reference not set to an instance of an object.
+2025-11-04 18:24:17,290：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-04 18:24:17,293：切换代理节点-->新代理节点为空-->切换失败
+2025-11-04 18:25:01,024：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-04 18:25:01,028：切换代理节点-->新代理节点为空-->切换失败
+2025-11-04 18:25:02,996：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=32276090&feed_id=19&olanguage_id=8
+2025-11-04 18:25:03,006：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=32276090&feed_id=19&olanguage_id=8
+2025-11-04 18:25:03,544：Received HTTP response headers after 529.0545ms - 200
+2025-11-04 18:25:03,549：End processing HTTP request after 560.4785ms - 200
+2025-11-04 18:25:43,316：单酒店刷价报错supCode:Agoda,supHotelCode:32276090，异常信息如下:session not created: This version of ChromeDriver only supports Chrome version 136
+Current browser version is 141.0.7390.123 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+2025-11-04 18:25:50,365：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-04 18:25:50,369：切换代理节点-->新代理节点为空-->切换失败
+2025-11-04 18:25:55,051：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-04 18:25:55,055：切换代理节点-->新代理节点为空-->切换失败
+2025-11-04 18:25:56,012：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=52156&feed_id=19&olanguage_id=8
+2025-11-04 18:25:56,017：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=52156&feed_id=19&olanguage_id=8
+2025-11-04 18:25:58,985：Received HTTP response headers after 2963.7902ms - 200
+2025-11-04 18:25:58,990：End processing HTTP request after 2977.1882ms - 200

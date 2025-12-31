@@ -1,0 +1,23 @@
+2025-06-24 11:58:14,570：Now listening on: http://localhost:5700
+2025-06-24 11:58:14,687：Application started. Press Ctrl+C to shut down.
+2025-06-24 11:58:14,691：Hosting environment: Development
+2025-06-24 11:58:14,694：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-06-24 14:09:53,110：Now listening on: http://localhost:5700
+2025-06-24 14:09:53,208：Application started. Press Ctrl+C to shut down.
+2025-06-24 14:09:53,212：Hosting environment: Development
+2025-06-24 14:09:53,215：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-06-24 14:10:48,374：Bearer was not authenticated. Failure message: 401 Unauthorized
+2025-06-24 14:10:48,392：AuthenticationScheme: Bearer was challenged.
+2025-06-24 14:11:20,698：Bearer was not authenticated. Failure message: 401 Unauthorized
+2025-06-24 14:11:20,700：AuthenticationScheme: Bearer was challenged.
+2025-06-24 14:12:07,494：Now listening on: http://localhost:5700
+2025-06-24 14:12:07,588：Application started. Press Ctrl+C to shut down.
+2025-06-24 14:12:07,593：Hosting environment: Development
+2025-06-24 14:12:07,596：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-06-24 14:12:11,849：Bearer was not authenticated. Failure message: 401 Unauthorized
+2025-06-24 14:12:46,274：Now listening on: http://localhost:5700
+2025-06-24 14:12:46,361：Application started. Press Ctrl+C to shut down.
+2025-06-24 14:12:46,364：Hosting environment: Development
+2025-06-24 14:12:46,367：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-06-24 14:12:54,898：Bearer was not authenticated. Failure message: 401 Unauthorized
+2025-06-24 14:13:46,480：Bearer was not authenticated. Failure message: 401 Unauthorized

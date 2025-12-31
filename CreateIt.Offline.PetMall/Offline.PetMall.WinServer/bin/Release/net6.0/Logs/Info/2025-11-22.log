@@ -1,0 +1,7 @@
+2025-11-22 11:05:25,098：SpiderPolingWorker starting at: 11/22/2025 11:05:25 +08:00
+2025-11-22 11:05:25,160：SpiderPolingWorker execute at: 11/22/2025 11:05:25 +08:00
+2025-11-22 11:05:32,306：Application started. Press Ctrl+C to shut down.
+2025-11-22 11:05:32,309：Hosting environment: Production
+2025-11-22 11:05:32,312：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-11-22 11:05:34,636：-->异常,由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9097)
+2025-11-22 11:05:34,655：切换代理节点-->新代理节点为空-->切换失败

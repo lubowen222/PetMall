@@ -1,0 +1,6 @@
+2025-05-12 15:46:04,216：Error occurred in RunSpiderHotelUrl: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)DbType="SqlServer";ConfigId="1".
+English Message : Connection open error . A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)DbType="SqlServer";ConfigId="1"
+2025-05-12 15:54:36,942：SpiderHotelUrl Task execution failed, Reason: 未获取到酒店APA霍特尔 & 瑞索特大阪难波站前塔楼的搜索列表页url
+2025-05-12 16:17:38,755：Error occurred in RunSpiderHotelCheckPrice: Invalid operation. The connection is closed.
+2025-05-12 16:27:34,227：Error occurred in RunSpiderHotelCheckPrice: Invalid operation. The connection is closed.
+2025-05-12 16:28:57,182：Error occurred in RunSpiderHotelCheckPrice: Invalid operation. The connection is closed.

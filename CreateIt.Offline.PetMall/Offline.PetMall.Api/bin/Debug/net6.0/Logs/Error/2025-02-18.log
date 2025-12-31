@@ -1,0 +1,190 @@
+2025-02-18 10:21:22,786：Invalid operation. The connection is closed.
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlConnection.GetOpenTdsConnection()
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.ExecuteCommandAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.UpdateableProvider`1.ExecuteCommandAsync()
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.CreateMatch(CreateTaskRoomMatchDto model) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 349
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.CreateMatch(CreateTaskRoomMatchDto model) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 74
+   at lambda_method1081(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 10:24:10,926：Invalid operation. The connection is closed.
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlConnection.GetOpenTdsConnection()
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.ExecuteCommandAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.UpdateableProvider`1.ExecuteCommandAsync()
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.CreateMatch(CreateTaskRoomMatchDto model) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 347
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.CreateMatch(CreateTaskRoomMatchDto model) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 74
+   at lambda_method1024(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 10:26:26,173：Invalid operation. The connection is closed.
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.ExecuteCommandAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.UpdateableProvider`1.ExecuteCommandAsync()
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.CreateMatch(CreateTaskRoomMatchDto model) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 347
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.CreateMatch(CreateTaskRoomMatchDto model) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 74
+   at lambda_method1024(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 12:02:47,944：中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+SqlSugar.SqlSugarException: 中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.QueryBuilder.CheckExpression(Expression expression, String methodName)
+   at SqlSugar.QueryableProvider`1._OrderBy(Expression expression, OrderByType type)
+   at SqlSugar.QueryableProvider`2.OrderBy(Expression`1 expression, OrderByType type)
+   at Offline.Sup.Domain.AggTaskSupHotelRoomMatchRepository.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Domain\AggTaskSupHotelRoomMatchRepository.cs:line 31
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 71
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 36
+   at lambda_method887(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 12:02:53,803：中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+SqlSugar.SqlSugarException: 中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.QueryBuilder.CheckExpression(Expression expression, String methodName)
+   at SqlSugar.QueryableProvider`1._OrderBy(Expression expression, OrderByType type)
+   at SqlSugar.QueryableProvider`2.OrderBy(Expression`1 expression, OrderByType type)
+   at Offline.Sup.Domain.AggTaskSupHotelRoomMatchRepository.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Domain\AggTaskSupHotelRoomMatchRepository.cs:line 31
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 71
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 36
+   at lambda_method887(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 12:03:15,695：中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+SqlSugar.SqlSugarException: 中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.QueryBuilder.CheckExpression(Expression expression, String methodName)
+   at SqlSugar.QueryableProvider`1._OrderBy(Expression expression, OrderByType type)
+   at SqlSugar.QueryableProvider`2.OrderBy(Expression`1 expression, OrderByType type)
+   at Offline.Sup.Domain.AggTaskSupHotelRoomMatchRepository.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Domain\AggTaskSupHotelRoomMatchRepository.cs:line 31
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 71
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 36
+   at lambda_method887(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 13:55:51,632：中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+SqlSugar.SqlSugarException: 中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.QueryBuilder.CheckExpression(Expression expression, String methodName)
+   at SqlSugar.QueryableProvider`1._OrderBy(Expression expression, OrderByType type)
+   at SqlSugar.QueryableProvider`2.OrderBy(Expression`1 expression, OrderByType type)
+   at Offline.Sup.Domain.AggTaskSupHotelRoomMatchRepository.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Domain\AggTaskSupHotelRoomMatchRepository.cs:line 31
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 71
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 36
+   at lambda_method887(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 13:56:12,464：中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+SqlSugar.SqlSugarException: 中文提示 : 多表查询存在别名不一致,请把OrderBy中的s改成room就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join room needs to be the same as OrderBy s
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.QueryBuilder.CheckExpression(Expression expression, String methodName)
+   at SqlSugar.QueryableProvider`1._OrderBy(Expression expression, OrderByType type)
+   at SqlSugar.QueryableProvider`2.OrderBy(Expression`1 expression, OrderByType type)
+   at Offline.Sup.Domain.AggTaskSupHotelRoomMatchRepository.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Domain\AggTaskSupHotelRoomMatchRepository.cs:line 31
+   at Offline.Sup.Application.Agg.AggTaskSupHotelRoomService.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelRoomService.cs:line 71
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 36
+   at lambda_method887(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 18:09:58,721：Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 37
+   at lambda_method889(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 18:10:09,874：Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 37
+   at lambda_method889(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-18 18:10:55,870：Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Offline.Sup.Api.Controllers.SupHotelRoomClusterController.GetAggTaskSupHotelRoomWithPageAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupHotelRoomClusterController.cs:line 37
+   at lambda_method888(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

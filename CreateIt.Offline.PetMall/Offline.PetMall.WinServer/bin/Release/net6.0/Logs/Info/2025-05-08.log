@@ -1,0 +1,27 @@
+2025-05-08 14:33:38,635：SpiderPolingWorker starting at: 05/08/2025 14:33:38 +08:00
+2025-05-08 14:33:38,689：SpiderPolingWorker execute at: 05/08/2025 14:33:38 +08:00
+2025-05-08 14:33:39,155：Application started. Press Ctrl+C to shut down.
+2025-05-08 14:33:39,158：Hosting environment: Production
+2025-05-08 14:33:39,161：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-05-08 14:33:39,214：SpiderHotelUrl Task execution completed
+2025-05-08 14:33:39,241：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:33:49,280：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:33:49,791：SpiderHotelCheckPrice Task execution completed
+2025-05-08 14:33:59,324：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:34:09,360：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:34:19,391：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:34:29,434：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:34:39,476：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:34:49,510：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:35:05,751：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:35:15,796：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:35:25,840：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:35:35,890：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:35:45,939：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:35:55,970：SpiderPolingHotelPrice Task execution completed
+2025-05-08 14:36:17,187：SpiderPolingWorker starting at: 05/08/2025 14:36:17 +08:00
+2025-05-08 14:36:17,248：SpiderPolingWorker execute at: 05/08/2025 14:36:17 +08:00
+2025-05-08 14:36:20,863：Application started. Press Ctrl+C to shut down.
+2025-05-08 14:36:20,866：Hosting environment: Production
+2025-05-08 14:36:20,869：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Spider.WinServer\bin\Release\net6.0
+2025-05-08 14:36:22,805：SpiderHotelUrl Task execution completed

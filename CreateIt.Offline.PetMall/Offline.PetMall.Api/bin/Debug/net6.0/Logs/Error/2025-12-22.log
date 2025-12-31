@@ -1,0 +1,29 @@
+2025-12-22 15:11:22,361：“,”附近有语法错误。
+Microsoft.Data.SqlClient.SqlException (0x80131904): “,”附近有语法错误。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.SqlQueryAsync[T,T2,T3,T4,T5,T6,T7](String sql, Object parameters)
+   at SqlSugar.AdoProvider.SqlQueryAsync[T](String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.SqlQuerySingleAsync[T](String sql, Object parameters)
+   at EasyFrame.SqlSugar.Repository`1.GetRecordCountBySqlAsync(String tableName, String where)
+   at EasyFrame.SqlSugar.Repository`1.QuerySqlPageAsync[TResult](String tableName, String strWhere, String orderby, Int32 pageIndex, Int32 pageSize)
+   at Offline.Sup.Domain.AggTaskSupHotelRepository.GetPageListAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Domain\AggTaskSupHotelRepository.cs:line 177
+   at Offline.Sup.Application.Agg.AggTaskSupHotelService.GetAggTaskSupHotelAnalyzeWithPage(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Agg\AggTaskSupHotelService.cs:line 162
+   at Offline.Sup.Api.Controllers.AutoMappingController.GetAggTaskSupHotelAnalyzeWithPage(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\AutoMappingController.cs:line 156
+   at lambda_method914(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:12f30dc6-f2c4-4dd0-9c3a-e1bad64cb485
+Error Number:102,State:1,Class:15

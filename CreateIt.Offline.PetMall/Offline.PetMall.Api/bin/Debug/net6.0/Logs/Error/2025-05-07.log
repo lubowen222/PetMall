@@ -1,0 +1,177 @@
+2025-05-07 14:54:27,508：“)”附近有语法错误。
+Microsoft.Data.SqlClient.SqlException (0x80131904): “)”附近有语法错误。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.SqlQueryAsync[T,T2,T3,T4,T5,T6,T7](String sql, Object parameters)
+   at SqlSugar.AdoProvider.SqlQueryAsync[T](String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.SqlQuerySingleAsync[T](String sql, Object parameters)
+   at EasyFrame.SqlSugar.Repository`1.GetRecordCountBySqlAsync(String tableName, String where)
+   at EasyFrame.SqlSugar.Repository`1.QuerySqlPageAsync[TResult](String tableName, String strWhere, String orderby, Int32 pageIndex, Int32 pageSize)
+   at Offline.Sup.Domain.SupSpiderHotelRepository.PageListAsync(PageQueryDto`1 dto) in D:\products\Offline.Host.Sup\Offline.Sup.Domain\SupSpiderHotelRepository.cs:line 56
+   at Offline.Sup.Application.Spider.SupSpiderHotelService.PageListAsync(PageQueryDto`1 dto) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SupSpiderHotelService.cs:line 120
+   at Offline.Sup.Api.Controllers.SupSpiderHotelController.PageListAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupSpiderHotelController.cs:line 42
+   at lambda_method958(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:5358bedc-083b-4a90-80a7-88cb471aebc0
+Error Number:102,State:1,Class:15
+2025-05-07 14:54:37,193：“)”附近有语法错误。
+Microsoft.Data.SqlClient.SqlException (0x80131904): “)”附近有语法错误。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.SqlQueryAsync[T,T2,T3,T4,T5,T6,T7](String sql, Object parameters)
+   at SqlSugar.AdoProvider.SqlQueryAsync[T](String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.SqlQuerySingleAsync[T](String sql, Object parameters)
+   at EasyFrame.SqlSugar.Repository`1.GetRecordCountBySqlAsync(String tableName, String where)
+   at EasyFrame.SqlSugar.Repository`1.QuerySqlPageAsync[TResult](String tableName, String strWhere, String orderby, Int32 pageIndex, Int32 pageSize)
+   at Offline.Sup.Domain.SupSpiderHotelRepository.PageListAsync(PageQueryDto`1 dto) in D:\products\Offline.Host.Sup\Offline.Sup.Domain\SupSpiderHotelRepository.cs:line 56
+   at Offline.Sup.Application.Spider.SupSpiderHotelService.PageListAsync(PageQueryDto`1 dto) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SupSpiderHotelService.cs:line 120
+   at Offline.Sup.Api.Controllers.SupSpiderHotelController.PageListAsync(PageQueryDto`1 search) in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupSpiderHotelController.cs:line 42
+   at lambda_method958(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:5358bedc-083b-4a90-80a7-88cb471aebc0
+Error Number:102,State:1,Class:15
+2025-05-07 16:38:40,488：An exception was thrown while activating Offline.Sup.Application.Spider.SupSpiderHotelService -> Offline.Sup.Application.Spider.AgodaStaticService.
+Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Offline.Sup.Application.Spider.AgodaStaticService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'System.Net.Http.IHttpClientFactory httpClientFactory' of constructor 'Void .ctor(System.Net.Http.IHttpClientFactory)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+2025-05-07 16:43:18,540：An exception was thrown while activating Offline.Sup.Application.Spider.SupSpiderHotelService -> Offline.Sup.Application.Spider.AgodaStaticService.
+Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Offline.Sup.Application.Spider.AgodaStaticService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'System.Net.Http.IHttpClientFactory httpClientFactory' of constructor 'Void .ctor(System.Net.Http.IHttpClientFactory)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+2025-05-07 16:45:30,128：The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+OpenQA.Selenium.DriverServiceNotFoundException: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+   at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+   at Offline.Sup.Application.Spider.SpiderAgodaService.GetHotelDetailUrl(String hotelSearchUrl, String hotelCode) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SpiderAgodaService.cs:line 309
+   at Offline.Sup.Application.Spider.SupSpiderHotelService.ExecSpiderHotelUrlTaskAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SupSpiderHotelService.cs:line 221
+   at Offline.Sup.Api.Controllers.SupSpiderHotelController.ExecSpiderHotelUrlTaskAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupSpiderHotelController.cs:line 115
+   at lambda_method866(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-05-07 16:47:38,552：The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+OpenQA.Selenium.DriverServiceNotFoundException: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+   at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+   at Offline.Sup.Application.Spider.SpiderAgodaService.GetHotelDetailUrl(String hotelSearchUrl, String hotelCode) in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SpiderAgodaService.cs:line 309
+   at Offline.Sup.Application.Spider.SupSpiderHotelService.ExecSpiderHotelUrlTaskAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SupSpiderHotelService.cs:line 221
+   at Offline.Sup.Api.Controllers.SupSpiderHotelController.ExecSpiderHotelUrlTaskAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupSpiderHotelController.cs:line 115
+   at lambda_method866(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-05-07 17:34:38,712：Missing type map configuration or unsupported mapping.
+
+Mapping types:
+SupSpiderHotelEntity -> SpiderHotelModel
+Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity -> Offline.Sup.Dtos.Spider.SpiderHotelModel
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+SupSpiderHotelEntity -> SpiderHotelModel
+Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity -> Offline.Sup.Dtos.Spider.SpiderHotelModel
+   at lambda_method880(Closure , Object , SpiderHotelModel , ResolutionContext )
+   at Offline.Sup.Application.Spider.SupSpiderHotelService.ExecSpiderHotelCheckPriceAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SupSpiderHotelService.cs:line 270
+   at Offline.Sup.Api.Controllers.SupSpiderHotelController.ExecSpiderHotelCheckPriceAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupSpiderHotelController.cs:line 127
+   at lambda_method866(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-05-07 17:35:26,225：Missing type map configuration or unsupported mapping.
+
+Mapping types:
+SupSpiderHotelEntity -> SpiderHotelModel
+Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity -> Offline.Sup.Dtos.Spider.SpiderHotelModel
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+SupSpiderHotelEntity -> SpiderHotelModel
+Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity -> Offline.Sup.Dtos.Spider.SpiderHotelModel
+   at lambda_method880(Closure , Object , SpiderHotelModel , ResolutionContext )
+   at Offline.Sup.Application.Spider.SupSpiderHotelService.ExecSpiderHotelCheckPriceAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SupSpiderHotelService.cs:line 270
+   at Offline.Sup.Api.Controllers.SupSpiderHotelController.ExecSpiderHotelCheckPriceAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupSpiderHotelController.cs:line 127
+   at lambda_method866(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-05-07 17:36:50,495：Missing type map configuration or unsupported mapping.
+
+Mapping types:
+SupSpiderHotelEntity -> SpiderHotelModel
+Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity -> Offline.Sup.Dtos.Spider.SpiderHotelModel
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+SupSpiderHotelEntity -> SpiderHotelModel
+Offline.Sup.Domain.Shared.Entities.SupSpiderHotelEntity -> Offline.Sup.Dtos.Spider.SpiderHotelModel
+   at lambda_method880(Closure , Object , SpiderHotelModel , ResolutionContext )
+   at Offline.Sup.Application.Spider.SupSpiderHotelService.ExecSpiderHotelCheckPriceAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Application\Spider\SupSpiderHotelService.cs:line 270
+   at Offline.Sup.Api.Controllers.SupSpiderHotelController.ExecSpiderHotelCheckPriceAsync() in D:\products\Offline.Host.Sup\Offline.Sup.Api\Controllers\SupSpiderHotelController.cs:line 127
+   at lambda_method866(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

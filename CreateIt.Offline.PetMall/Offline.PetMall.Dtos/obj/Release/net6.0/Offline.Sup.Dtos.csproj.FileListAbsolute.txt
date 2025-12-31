@@ -1,0 +1,11 @@
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\bin\Release\net6.0\Offline.Sup.Dtos.deps.json
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\bin\Release\net6.0\Offline.Sup.Dtos.dll
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\bin\Release\net6.0\Offline.Sup.Dtos.pdb
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\obj\Release\net6.0\Offline.Sup.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\obj\Release\net6.0\Offline.Sup.Dtos.AssemblyInfoInputs.cache
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\obj\Release\net6.0\Offline.Sup.Dtos.AssemblyInfo.cs
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\obj\Release\net6.0\Offline.Sup.Dtos.csproj.CoreCompileInputs.cache
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\obj\Release\net6.0\Offline.Sup.Dtos.dll
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\obj\Release\net6.0\refint\Offline.Sup.Dtos.dll
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\obj\Release\net6.0\Offline.Sup.Dtos.pdb
+D:\products\Offline.Host.Sup\Offline.Sup.Dtos\obj\Release\net6.0\ref\Offline.Sup.Dtos.dll

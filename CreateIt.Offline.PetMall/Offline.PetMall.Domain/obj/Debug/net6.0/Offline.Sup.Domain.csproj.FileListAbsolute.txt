@@ -1,0 +1,4 @@
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Domain.deps.json
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Domain.dll
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Domain.pdb
+D:\Feiju\Release\Packages\Debug\net6.0\Offline.Sup.Domain.xml

@@ -1,0 +1,72 @@
+2025-05-08 09:36:28,832：Now listening on: http://localhost:5700
+2025-05-08 09:36:28,920：Application started. Press Ctrl+C to shut down.
+2025-05-08 09:36:28,924：Hosting environment: Development
+2025-05-08 09:36:28,926：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 09:36:50,333：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-08 09:36:50,350：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-08 09:36:51,058：Received HTTP response headers after 697.6402ms - 200
+2025-05-08 09:36:51,062：End processing HTTP request after 740.0386ms - 200
+2025-05-08 09:37:01,476：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-08 09:37:01,480：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-08 09:37:02,046：Received HTTP response headers after 561.5321ms - 200
+2025-05-08 09:37:02,050：End processing HTTP request after 573.059ms - 200
+2025-05-08 09:41:34,359：Now listening on: http://localhost:5700
+2025-05-08 09:41:34,442：Application started. Press Ctrl+C to shut down.
+2025-05-08 09:41:34,447：Hosting environment: Development
+2025-05-08 09:41:34,449：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 09:46:24,442：Now listening on: http://localhost:5700
+2025-05-08 09:46:24,527：Application started. Press Ctrl+C to shut down.
+2025-05-08 09:46:24,531：Hosting environment: Development
+2025-05-08 09:46:24,533：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 09:48:12,436：Now listening on: http://localhost:5700
+2025-05-08 09:48:12,523：Application started. Press Ctrl+C to shut down.
+2025-05-08 09:48:12,527：Hosting environment: Development
+2025-05-08 09:48:12,529：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 09:50:45,172：Now listening on: http://localhost:5700
+2025-05-08 09:50:45,260：Application started. Press Ctrl+C to shut down.
+2025-05-08 09:50:45,265：Hosting environment: Development
+2025-05-08 09:50:45,267：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 09:53:48,792：Now listening on: http://localhost:5700
+2025-05-08 09:53:48,880：Application started. Press Ctrl+C to shut down.
+2025-05-08 09:53:48,884：Hosting environment: Development
+2025-05-08 09:53:48,886：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 10:30:30,620：Now listening on: http://localhost:5700
+2025-05-08 10:30:30,708：Application started. Press Ctrl+C to shut down.
+2025-05-08 10:30:30,712：Hosting environment: Development
+2025-05-08 10:30:30,714：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 11:22:17,032：Now listening on: http://localhost:5700
+2025-05-08 11:22:17,123：Application started. Press Ctrl+C to shut down.
+2025-05-08 11:22:17,128：Hosting environment: Development
+2025-05-08 11:22:17,130：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 17:10:54,471：Now listening on: http://localhost:5700
+2025-05-08 17:10:54,564：Application started. Press Ctrl+C to shut down.
+2025-05-08 17:10:54,568：Hosting environment: Development
+2025-05-08 17:10:54,571：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 17:13:01,730：Now listening on: http://localhost:5700
+2025-05-08 17:13:01,816：Application started. Press Ctrl+C to shut down.
+2025-05-08 17:13:01,820：Hosting environment: Development
+2025-05-08 17:13:01,823：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 17:14:55,442：Now listening on: http://localhost:5700
+2025-05-08 17:14:55,534：Application started. Press Ctrl+C to shut down.
+2025-05-08 17:14:55,538：Hosting environment: Development
+2025-05-08 17:14:55,541：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 17:17:18,096：Now listening on: http://localhost:5700
+2025-05-08 17:17:18,190：Application started. Press Ctrl+C to shut down.
+2025-05-08 17:17:18,194：Hosting environment: Development
+2025-05-08 17:17:18,197：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 17:20:07,723：Now listening on: http://localhost:5700
+2025-05-08 17:20:07,814：Application started. Press Ctrl+C to shut down.
+2025-05-08 17:20:07,818：Hosting environment: Development
+2025-05-08 17:20:07,821：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 17:20:52,047：Now listening on: http://localhost:5700
+2025-05-08 17:20:52,142：Application started. Press Ctrl+C to shut down.
+2025-05-08 17:20:52,146：Hosting environment: Development
+2025-05-08 17:20:52,149：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 17:24:49,404：Now listening on: http://localhost:5700
+2025-05-08 17:24:49,499：Application started. Press Ctrl+C to shut down.
+2025-05-08 17:24:49,504：Hosting environment: Development
+2025-05-08 17:24:49,506：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-08 18:09:38,207：Now listening on: http://localhost:5700
+2025-05-08 18:09:38,302：Application started. Press Ctrl+C to shut down.
+2025-05-08 18:09:38,306：Hosting environment: Development
+2025-05-08 18:09:38,308：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api

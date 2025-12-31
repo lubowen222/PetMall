@@ -1,0 +1,220 @@
+2025-05-07 09:36:07,641：Now listening on: http://localhost:5700
+2025-05-07 09:36:07,729：Application started. Press Ctrl+C to shut down.
+2025-05-07 09:36:07,734：Hosting environment: Development
+2025-05-07 09:36:07,737：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 14:53:03,258：Now listening on: http://localhost:5700
+2025-05-07 14:53:03,360：Application started. Press Ctrl+C to shut down.
+2025-05-07 14:53:03,366：Hosting environment: Development
+2025-05-07 14:53:03,369：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 14:58:55,748：Now listening on: http://localhost:5700
+2025-05-07 14:58:55,836：Application started. Press Ctrl+C to shut down.
+2025-05-07 14:58:55,840：Hosting environment: Development
+2025-05-07 14:58:55,843：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 15:47:25,461：Now listening on: http://localhost:5700
+2025-05-07 15:47:25,554：Application started. Press Ctrl+C to shut down.
+2025-05-07 15:47:25,558：Hosting environment: Development
+2025-05-07 15:47:25,561：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 15:49:25,771：Now listening on: http://localhost:5700
+2025-05-07 15:49:25,870：Application started. Press Ctrl+C to shut down.
+2025-05-07 15:49:25,889：Hosting environment: Development
+2025-05-07 15:49:25,897：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 15:51:30,983：Now listening on: http://localhost:5700
+2025-05-07 15:51:31,064：Application started. Press Ctrl+C to shut down.
+2025-05-07 15:51:31,068：Hosting environment: Development
+2025-05-07 15:51:31,071：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:06:37,327：Now listening on: http://localhost:5700
+2025-05-07 16:06:37,453：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:06:37,457：Hosting environment: Development
+2025-05-07 16:06:37,460：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:28:24,893：Now listening on: http://localhost:5700
+2025-05-07 16:28:24,987：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:28:24,991：Hosting environment: Development
+2025-05-07 16:28:24,993：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:30:08,394：Now listening on: http://localhost:5700
+2025-05-07 16:30:08,481：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:30:08,485：Hosting environment: Development
+2025-05-07 16:30:08,488：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:32:50,467：Now listening on: http://localhost:5700
+2025-05-07 16:32:50,551：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:32:50,554：Hosting environment: Development
+2025-05-07 16:32:50,557：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:33:38,076：Now listening on: http://localhost:5700
+2025-05-07 16:33:38,163：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:33:38,167：Hosting environment: Development
+2025-05-07 16:33:38,170：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:38:32,959：Now listening on: http://localhost:5700
+2025-05-07 16:38:33,049：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:38:33,053：Hosting environment: Development
+2025-05-07 16:38:33,056：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:43:07,889：Now listening on: http://localhost:5700
+2025-05-07 16:43:07,975：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:43:07,979：Hosting environment: Development
+2025-05-07 16:43:07,982：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:45:16,378：Now listening on: http://localhost:5700
+2025-05-07 16:45:16,465：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:45:16,470：Hosting environment: Development
+2025-05-07 16:45:16,473：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:45:28,824：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:45:28,839：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:45:29,530：Received HTTP response headers after 681.3052ms - 200
+2025-05-07 16:45:29,535：End processing HTTP request after 718.0342ms - 200
+2025-05-07 16:45:54,842：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:45:54,846：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:45:55,525：Received HTTP response headers after 675.2246ms - 200
+2025-05-07 16:45:55,527：End processing HTTP request after 687.1827ms - 200
+2025-05-07 16:47:02,161：Now listening on: http://localhost:5700
+2025-05-07 16:47:02,248：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:47:02,252：Hosting environment: Development
+2025-05-07 16:47:02,255：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:47:18,750：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:47:18,765：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:47:19,416：Received HTTP response headers after 643.071ms - 200
+2025-05-07 16:47:19,420：End processing HTTP request after 677.126ms - 200
+2025-05-07 16:48:36,440：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:48:36,443：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:48:37,090：Received HTTP response headers after 642.628ms - 200
+2025-05-07 16:48:37,094：End processing HTTP request after 654.5024ms - 200
+2025-05-07 16:49:10,821：Now listening on: http://localhost:5700
+2025-05-07 16:49:10,916：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:49:10,920：Hosting environment: Development
+2025-05-07 16:49:10,925：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:49:20,559：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:49:20,568：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:49:20,974：Received HTTP response headers after 396.1762ms - 200
+2025-05-07 16:49:20,978：End processing HTTP request after 426.2035ms - 200
+2025-05-07 16:50:04,953：Now listening on: http://localhost:5700
+2025-05-07 16:50:05,046：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:50:05,050：Hosting environment: Development
+2025-05-07 16:50:05,053：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:50:17,568：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:50:17,585：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:50:18,144：Received HTTP response headers after 550.3529ms - 200
+2025-05-07 16:50:18,149：End processing HTTP request after 588.0236ms - 200
+2025-05-07 16:56:13,205：Now listening on: http://localhost:5700
+2025-05-07 16:56:13,290：Application started. Press Ctrl+C to shut down.
+2025-05-07 16:56:13,295：Hosting environment: Development
+2025-05-07 16:56:13,298：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 16:56:21,987：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:56:21,997：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 16:56:22,674：Received HTTP response headers after 668.1389ms - 200
+2025-05-07 16:56:22,678：End processing HTTP request after 699.1084ms - 200
+2025-05-07 17:02:15,780：Now listening on: http://localhost:5700
+2025-05-07 17:02:15,873：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:02:15,876：Hosting environment: Development
+2025-05-07 17:02:15,879：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:02:26,051：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:02:26,068：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:02:26,780：Received HTTP response headers after 703.2089ms - 200
+2025-05-07 17:02:26,785：End processing HTTP request after 742.1048ms - 200
+2025-05-07 17:03:17,626：Now listening on: http://localhost:5700
+2025-05-07 17:03:17,716：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:03:17,720：Hosting environment: Development
+2025-05-07 17:03:17,723：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:03:27,518：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:03:27,535：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:03:28,223：Received HTTP response headers after 678.4203ms - 200
+2025-05-07 17:03:28,227：End processing HTTP request after 716.8932ms - 200
+2025-05-07 17:04:21,014：Now listening on: http://localhost:5700
+2025-05-07 17:04:21,196：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:04:21,200：Hosting environment: Development
+2025-05-07 17:04:21,202：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:04:30,046：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:04:30,057：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:04:30,685：Received HTTP response headers after 619.7781ms - 200
+2025-05-07 17:04:30,689：End processing HTTP request after 650.5883ms - 200
+2025-05-07 17:05:17,879：Now listening on: http://localhost:5700
+2025-05-07 17:05:17,972：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:05:17,977：Hosting environment: Development
+2025-05-07 17:05:17,981：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:05:27,726：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:05:27,737：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:05:28,301：Received HTTP response headers after 554.5973ms - 200
+2025-05-07 17:05:28,305：End processing HTTP request after 586.3952ms - 200
+2025-05-07 17:08:04,698：Now listening on: http://localhost:5700
+2025-05-07 17:08:04,824：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:08:04,828：Hosting environment: Development
+2025-05-07 17:08:04,831：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:08:19,248：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:08:19,258：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:08:20,065：Received HTTP response headers after 798.9939ms - 200
+2025-05-07 17:08:20,069：End processing HTTP request after 829.326ms - 200
+2025-05-07 17:12:31,530：Now listening on: http://localhost:5700
+2025-05-07 17:12:31,642：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:12:31,647：Hosting environment: Development
+2025-05-07 17:12:31,650：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:12:46,931：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:12:46,942：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:12:47,336：Received HTTP response headers after 382.7292ms - 200
+2025-05-07 17:12:47,340：End processing HTTP request after 416.8148ms - 200
+2025-05-07 17:13:25,745：Now listening on: http://localhost:5700
+2025-05-07 17:13:25,833：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:13:25,837：Hosting environment: Development
+2025-05-07 17:13:25,840：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:13:35,908：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:13:35,918：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:13:36,335：Received HTTP response headers after 409.0704ms - 200
+2025-05-07 17:13:36,339：End processing HTTP request after 438.8798ms - 200
+2025-05-07 17:14:17,378：Now listening on: http://localhost:5700
+2025-05-07 17:14:17,467：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:14:17,472：Hosting environment: Development
+2025-05-07 17:14:17,475：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:14:25,973：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:14:25,983：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:14:26,501：Received HTTP response headers after 509.8876ms - 200
+2025-05-07 17:14:26,505：End processing HTTP request after 539.134ms - 200
+2025-05-07 17:15:24,460：Now listening on: http://localhost:5700
+2025-05-07 17:15:24,566：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:15:24,570：Hosting environment: Development
+2025-05-07 17:15:24,573：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:15:34,674：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:15:34,689：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:15:35,238：Received HTTP response headers after 540.6138ms - 200
+2025-05-07 17:15:35,243：End processing HTTP request after 575.8883ms - 200
+2025-05-07 17:22:00,580：Now listening on: http://localhost:5700
+2025-05-07 17:22:00,670：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:22:00,674：Hosting environment: Development
+2025-05-07 17:22:00,676：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:22:10,501：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:22:10,517：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=62269249&feed_id=19&olanguage_id=8
+2025-05-07 17:22:11,099：Received HTTP response headers after 573.2863ms - 200
+2025-05-07 17:22:11,103：End processing HTTP request after 609.7882ms - 200
+2025-05-07 17:34:27,408：Now listening on: http://localhost:5700
+2025-05-07 17:34:27,494：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:34:27,498：Hosting environment: Development
+2025-05-07 17:34:27,501：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:36:33,381：Now listening on: http://localhost:5700
+2025-05-07 17:36:33,466：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:36:33,470：Hosting environment: Development
+2025-05-07 17:36:33,473：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:38:20,178：Now listening on: http://localhost:5700
+2025-05-07 17:38:20,266：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:38:20,270：Hosting environment: Development
+2025-05-07 17:38:20,273：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:39:50,246：Now listening on: http://localhost:5700
+2025-05-07 17:39:50,351：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:39:50,356：Hosting environment: Development
+2025-05-07 17:39:50,359：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:52:30,127：Start processing HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-07 17:52:30,134：Sending HTTP request GET http://affiliatefeed.agoda.cn/datafeeds/feed/getfeed?apikey=B18FC62B-E6D0-45E1-926A-85E374F81966&mhotel_id=823479&feed_id=19&olanguage_id=8
+2025-05-07 17:52:31,033：Received HTTP response headers after 889.9616ms - 200
+2025-05-07 17:52:31,037：End processing HTTP request after 917.6872ms - 200
+2025-05-07 17:54:31,860：Now listening on: http://localhost:5700
+2025-05-07 17:54:31,954：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:54:31,958：Hosting environment: Development
+2025-05-07 17:54:31,960：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:56:19,120：Now listening on: http://localhost:5700
+2025-05-07 17:56:19,210：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:56:19,214：Hosting environment: Development
+2025-05-07 17:56:19,217：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 17:58:07,131：Now listening on: http://localhost:5700
+2025-05-07 17:58:07,220：Application started. Press Ctrl+C to shut down.
+2025-05-07 17:58:07,224：Hosting environment: Development
+2025-05-07 17:58:07,226：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 18:05:48,430：Now listening on: http://localhost:5700
+2025-05-07 18:05:48,518：Application started. Press Ctrl+C to shut down.
+2025-05-07 18:05:48,523：Hosting environment: Development
+2025-05-07 18:05:48,525：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api
+2025-05-07 18:22:47,092：Now listening on: http://localhost:5700
+2025-05-07 18:22:47,226：Application started. Press Ctrl+C to shut down.
+2025-05-07 18:22:47,232：Hosting environment: Development
+2025-05-07 18:22:47,238：Content root path: D:\products\Offline.Host.Sup\Offline.Sup.Api

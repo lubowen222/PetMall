@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Offline.Sup.Api.props" />
+</Project>

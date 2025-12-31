@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <BaseIntermediateOutputPath></BaseIntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyFrame.Common" Version="2.4.32" />
+    <PackageReference Include="EasyFrame.ConfigCenter" Version="1.2.0" />
+    <PackageReference Include="EasyFrame.CurrentUser" Version="1.0.10" />
+    <PackageReference Include="EasyFrame.Extensions" Version="1.1.5" />
+    <PackageReference Include="EasyFrame.Jwt" Version="1.0.7" />
+    <PackageReference Include="EasyFrame.Redis" Version="1.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+    <PackageReference Include="Volo.Abp.AspNetCore" Version="5.1.4" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="5.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Offline.PetMall.Application.Contracts\Offline.PetMall.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Offline.PetMall.Application\Offline.PetMall.Application.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

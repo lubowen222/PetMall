@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gFzok1mIjBpQMFqX3x1WLZy9Lk8AUwNUh32KbHK4Cn8=",
+  "Source": "Offline.Sup.Api",
+  "BasePath": "_content/Offline.Sup.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
